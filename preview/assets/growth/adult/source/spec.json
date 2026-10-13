@@ -1,0 +1,209 @@
+{
+  "reference": "../../../growth-concepts/adult-v1.png",
+  "size": 128,
+  "palette_colors": 32,
+  "actions": [
+    {
+      "id": "walk",
+      "cols": 4,
+      "rows": 2,
+      "count": 8,
+      "fps": 10,
+      "loop": true,
+      "file": "walk.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      }
+    },
+    {
+      "id": "eat",
+      "cols": 4,
+      "rows": 2,
+      "count": 8,
+      "fps": 6,
+      "loop": false,
+      "file": "eat.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "mouths": [
+        null,
+        null,
+        {
+          "x": 0.796875,
+          "y": 0.6015625
+        },
+        {
+          "x": 0.7890625,
+          "y": 0.5859375
+        },
+        {
+          "x": 0.8203125,
+          "y": 0.6015625
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "idle",
+      "cols": 3,
+      "rows": 2,
+      "count": 6,
+      "fps": 5,
+      "loop": true,
+      "file": "idle.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      }
+    },
+    {
+      "id": "happy",
+      "cols": 3,
+      "rows": 2,
+      "count": 6,
+      "fps": 10,
+      "loop": false,
+      "file": "happy.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      }
+    },
+    {
+      "id": "sleep",
+      "cols": 2,
+      "rows": 2,
+      "count": 4,
+      "fps": 1,
+      "loop": true,
+      "file": "sleep.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "registration": "nose_and_support"
+    },
+    {
+      "id": "blink",
+      "cols": 2,
+      "rows": 2,
+      "count": 4,
+      "fps": 10,
+      "loop": false,
+      "file": "blink.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      }
+    },
+    {
+      "id": "stretch",
+      "cols": 3,
+      "rows": 2,
+      "count": 6,
+      "fps": 6,
+      "loop": false,
+      "file": "stretch.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      }
+    },
+    {
+      "id": "wave",
+      "cols": 3,
+      "rows": 2,
+      "count": 6,
+      "fps": 8,
+      "loop": false,
+      "file": "wave.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      }
+    },
+    {
+      "id": "dizzy",
+      "cols": 3,
+      "rows": 2,
+      "count": 6,
+      "fps": 6,
+      "loop": true,
+      "file": "dizzy.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      }
+    },
+    {
+      "id": "angry",
+      "cols": 3,
+      "rows": 2,
+      "count": 6,
+      "fps": 6,
+      "loop": true,
+      "file": "angry.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      }
+    },
+    {
+      "id": "sick",
+      "cols": 2,
+      "rows": 2,
+      "count": 4,
+      "fps": 4,
+      "loop": true,
+      "file": "sick.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      }
+    },
+    {
+      "id": "bath",
+      "cols": 3,
+      "rows": 2,
+      "count": 6,
+      "fps": 8,
+      "loop": false,
+      "file": "bath.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      }
+    },
+    {
+      "id": "pet",
+      "cols": 3,
+      "rows": 2,
+      "count": 6,
+      "fps": 8,
+      "loop": false,
+      "file": "pet.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      }
+    },
+    {
+      "id": "shelter",
+      "cols": 3,
+      "rows": 2,
+      "count": 6,
+      "fps": 4,
+      "loop": true,
+      "file": "shelter.png",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      }
+    }
+  ]
+}

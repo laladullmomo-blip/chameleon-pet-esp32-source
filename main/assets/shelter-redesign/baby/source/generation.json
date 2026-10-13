@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "stage": "baby",
+  "generator": "built-in image_gen",
+  "use_case": "precise-object-edit",
+  "reference": {
+    "file": "preview/assets/growth-concepts/baby-v2.png",
+    "sha256": "de6e159e9a46302e5a8b9a1d5c3cbb5c4c6f35cfa1ea0fe7e9182cb116c76104"
+  },
+  "inputs": [
+    {
+      "file": "main/assets/shelter-redesign/baby/source/edit-input.png",
+      "sha256": "f07c3f4c629b17c8817aea6437d988808c419a16328fc8b435864a7b545c3fb6"
+    }
+  ],
+  "prompt": {
+    "file": "main/assets/shelter-redesign/baby/source/prompt.txt",
+    "sha256": "5345bff47412b8a46b956f9b873e26c482f4dcc9b32e965dbeb4b0f9d6874ed7"
+  },
+  "source": {
+    "file": "main/assets/shelter-redesign/baby/source/shelter-sheet.png",
+    "sha256": "ebbf2ea09f3a66058b2e9b6983485ea8dcba0dc7747855c9a52f3858200fe759"
+  },
+  "spec": {
+    "file": "main/assets/shelter-redesign/baby/source/spec.json",
+    "sha256": "30415779b7175fc7649669db8e9f6e37fd586d5743ddd5da7e51ad52c9a6617d"
+  },
+  "independently_drawn_poses": 6,
+  "grid": [
+    3,
+    2
+  ],
+  "changes": [
+    "Leaf shelter drawn at the approved original 128px character scale",
+    "Leaf canopy/stem corrected to stay within fixed cell",
+    "Original stage body shape, eye, tail direction and color clusters used as edit references",
+    "Fixed-grid actual PixelArtConverter conversion without smoothing or per-frame fitting"
+  ],
+  "pose_manufacture": false,
+  "transparent_background": true,
+  "density_reference": {
+    "native_size": [
+      128,
+      128
+    ],
+    "minimum_step_px": 1,
+    "source_cell_size": [
+      512,
+      512
+    ],
+    "source_integer_scale": 4,
+    "original_frames": [
+      {
+        "file": "preview/assets/growth/baby/frames/shelter/shelter_00.png",
+        "sha256": "50c55d590558e400ea6fb3d68c8272ffd77df12302d107ee1d61b8942311c8df"
+      },
+      {
+        "file": "preview/assets/growth/baby/frames/shelter/shelter_01.png",
+        "sha256": "2fca3fcc221a57d2855248cb84ad4bd4297ff26fb9806267695869b2bd1acbe4"
+      },
+      {
+        "file": "preview/assets/growth/baby/frames/shelter/shelter_02.png",
+        "sha256": "525ec2a8f1e200b93078a116a9329640f27637d927ad788a7a963ecb7713ddb8"
+      },
+      {
+        "file": "preview/assets/growth/baby/frames/shelter/shelter_03.png",
+        "sha256": "c2defe542377a364ac9004cf4392af2b19951b29be4bf4780ee5e8777ea50d36"
+      },
+      {
+        "file": "preview/assets/growth/baby/frames/shelter/shelter_04.png",
+        "sha256": "4baa460daa74c281710b7525b6a777630ed05fd0be5a0ab3ae7f0a1d2b91a828"
+      },
+      {
+        "file": "preview/assets/growth/baby/frames/shelter/shelter_05.png",
+        "sha256": "d88c47a1c919ff85d989a6048af4841c45fab83eeea42c34e8c068f8161912c9"
+      }
+    ],
+    "pixel_identical_body_claim": false
+  },
+  "edit_chain": [
+    {
+      "generator": "built-in image_gen",
+      "inputs": [
+        {
+          "file": "main/assets/shelter-redesign/baby/source/input-reference.png",
+          "sha256": "e24346318caddc3f7a88f8e5c980ea4aefac3b6835be100f2f1cefb5ff62c48a"
+        },
+        {
+          "file": "main/assets/shelter-redesign/baby/source/leaf-style-reference.png",
+          "sha256": "baa7f9d540296fdba4e806640f3e4d919604f4947e15538d19111d60c737aa53"
+        }
+      ],
+      "prompt": {
+        "file": "main/assets/shelter-redesign/baby/source/initial-prompt.txt",
+        "sha256": "8ef232ac57625077c4af68583f60c47a4ea7d010032c4decc20bd0e6fc03e36d"
+      },
+      "output": {
+        "file": "main/assets/shelter-redesign/baby/source/edit-input.png",
+        "sha256": "f07c3f4c629b17c8817aea6437d988808c419a16328fc8b435864a7b545c3fb6"
+      },
+      "transparent_background": true
+    },
+    {
+      "generator": "built-in image_gen",
+      "inputs": [
+        {
+          "file": "main/assets/shelter-redesign/baby/source/edit-input.png",
+          "sha256": "f07c3f4c629b17c8817aea6437d988808c419a16328fc8b435864a7b545c3fb6"
+        }
+      ],
+      "prompt": {
+        "file": "main/assets/shelter-redesign/baby/source/prompt.txt",
+        "sha256": "5345bff47412b8a46b956f9b873e26c482f4dcc9b32e965dbeb4b0f9d6874ed7"
+      },
+      "output": {
+        "file": "main/assets/shelter-redesign/baby/source/shelter-sheet.png",
+        "sha256": "ebbf2ea09f3a66058b2e9b6983485ea8dcba0dc7747855c9a52f3858200fe759"
+      },
+      "transparent_background": true
+    }
+  ]
+}

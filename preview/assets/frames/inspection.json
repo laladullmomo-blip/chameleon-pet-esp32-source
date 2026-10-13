@@ -1,0 +1,2104 @@
+{
+  "walk": {
+    "status": "inspected",
+    "source_dimensions": [
+      1774,
+      887
+    ],
+    "cols": 4,
+    "rows": 2,
+    "count": 8,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        533,
+        533
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 453.05,
+      "source_bounds": [
+        [
+          35,
+          119,
+          421,
+          403
+        ],
+        [
+          480,
+          119,
+          868,
+          403
+        ],
+        [
+          922,
+          119,
+          1302,
+          403
+        ],
+        [
+          1367,
+          119,
+          1746,
+          403
+        ],
+        [
+          36,
+          507,
+          428,
+          786
+        ],
+        [
+          478,
+          507,
+          869,
+          788
+        ],
+        [
+          922,
+          504,
+          1307,
+          788
+        ],
+        [
+          1366,
+          505,
+          1747,
+          789
+        ]
+      ],
+      "placements": [
+        [
+          80,
+          195
+        ],
+        [
+          81,
+          195
+        ],
+        [
+          80,
+          195
+        ],
+        [
+          81,
+          195
+        ],
+        [
+          81,
+          140
+        ],
+        [
+          79,
+          140
+        ],
+        [
+          80,
+          137
+        ],
+        [
+          80,
+          138
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 8,
+      "nominal_cell_dimensions": [
+        443,
+        443
+      ],
+      "nominal_cell_span": [
+        443.5,
+        443.5
+      ],
+      "cols": 4,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          35,
+          119,
+          421,
+          403
+        ],
+        [
+          480,
+          119,
+          868,
+          403
+        ],
+        [
+          922,
+          119,
+          1302,
+          403
+        ],
+        [
+          1367,
+          119,
+          1746,
+          403
+        ],
+        [
+          36,
+          507,
+          428,
+          786
+        ],
+        [
+          478,
+          507,
+          869,
+          788
+        ],
+        [
+          922,
+          504,
+          1307,
+          788
+        ],
+        [
+          1366,
+          505,
+          1747,
+          789
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 8
+  },
+  "eat": {
+    "status": "inspected",
+    "source_dimensions": [
+      1774,
+      887
+    ],
+    "cols": 4,
+    "rows": 2,
+    "count": 8,
+    "source_alpha_present": true,
+    "mouths": [
+      null,
+      null,
+      {
+        "x": 0.765625,
+        "y": 0.65625
+      },
+      {
+        "x": 0.7734375,
+        "y": 0.65625
+      },
+      {
+        "x": 0.828125,
+        "y": 0.578125
+      },
+      null,
+      null,
+      null
+    ],
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        533,
+        533
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 453.05,
+      "source_bounds": [
+        [
+          15,
+          93,
+          434,
+          411
+        ],
+        [
+          466,
+          106,
+          905,
+          411
+        ],
+        [
+          899,
+          89,
+          1320,
+          411
+        ],
+        [
+          1351,
+          89,
+          1767,
+          411
+        ],
+        [
+          15,
+          506,
+          457,
+          822
+        ],
+        [
+          461,
+          509,
+          883,
+          822
+        ],
+        [
+          899,
+          506,
+          1325,
+          822
+        ],
+        [
+          1343,
+          498,
+          1759,
+          822
+        ]
+      ],
+      "placements": [
+        [
+          60,
+          169
+        ],
+        [
+          67,
+          182
+        ],
+        [
+          57,
+          165
+        ],
+        [
+          65,
+          165
+        ],
+        [
+          60,
+          139
+        ],
+        [
+          62,
+          142
+        ],
+        [
+          57,
+          139
+        ],
+        [
+          57,
+          131
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 8,
+      "nominal_cell_dimensions": [
+        443,
+        443
+      ],
+      "nominal_cell_span": [
+        443.5,
+        443.5
+      ],
+      "cols": 4,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          15,
+          93,
+          434,
+          411
+        ],
+        [
+          466,
+          106,
+          905,
+          411
+        ],
+        [
+          899,
+          89,
+          1320,
+          411
+        ],
+        [
+          1351,
+          89,
+          1767,
+          411
+        ],
+        [
+          15,
+          506,
+          457,
+          822
+        ],
+        [
+          461,
+          509,
+          883,
+          822
+        ],
+        [
+          899,
+          506,
+          1325,
+          822
+        ],
+        [
+          1343,
+          498,
+          1759,
+          822
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 8
+  },
+  "idle": {
+    "status": "inspected",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "cols": 3,
+    "rows": 2,
+    "count": 6,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        615,
+        615
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 522.75,
+      "source_bounds": [
+        [
+          14,
+          105,
+          512,
+          468
+        ],
+        [
+          519,
+          82,
+          1016,
+          468
+        ],
+        [
+          1033,
+          82,
+          1519,
+          468
+        ],
+        [
+          15,
+          583,
+          515,
+          945
+        ],
+        [
+          520,
+          580,
+          1024,
+          937
+        ],
+        [
+          1034,
+          580,
+          1524,
+          949
+        ]
+      ],
+      "placements": [
+        [
+          66,
+          193
+        ],
+        [
+          58,
+          170
+        ],
+        [
+          60,
+          170
+        ],
+        [
+          66,
+          159
+        ],
+        [
+          60,
+          156
+        ],
+        [
+          62,
+          156
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 6,
+      "nominal_cell_dimensions": [
+        512,
+        512
+      ],
+      "nominal_cell_span": [
+        512.0,
+        512.0
+      ],
+      "cols": 3,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          14,
+          105,
+          512,
+          468
+        ],
+        [
+          519,
+          82,
+          1016,
+          468
+        ],
+        [
+          1033,
+          82,
+          1519,
+          468
+        ],
+        [
+          15,
+          583,
+          515,
+          945
+        ],
+        [
+          520,
+          580,
+          1024,
+          937
+        ],
+        [
+          1034,
+          580,
+          1524,
+          949
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 6
+  },
+  "happy": {
+    "status": "inspected",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "cols": 3,
+    "rows": 2,
+    "count": 6,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        615,
+        615
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 522.75,
+      "source_bounds": [
+        [
+          37,
+          110,
+          527,
+          484
+        ],
+        [
+          563,
+          80,
+          999,
+          484
+        ],
+        [
+          1042,
+          77,
+          1511,
+          478
+        ],
+        [
+          34,
+          569,
+          516,
+          947
+        ],
+        [
+          550,
+          606,
+          1022,
+          950
+        ],
+        [
+          1048,
+          574,
+          1518,
+          946
+        ]
+      ],
+      "placements": [
+        [
+          88,
+          198
+        ],
+        [
+          102,
+          168
+        ],
+        [
+          70,
+          165
+        ],
+        [
+          86,
+          145
+        ],
+        [
+          90,
+          182
+        ],
+        [
+          76,
+          150
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 6,
+      "nominal_cell_dimensions": [
+        512,
+        512
+      ],
+      "nominal_cell_span": [
+        512.0,
+        512.0
+      ],
+      "cols": 3,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          37,
+          110,
+          527,
+          484
+        ],
+        [
+          563,
+          80,
+          999,
+          484
+        ],
+        [
+          1042,
+          77,
+          1511,
+          478
+        ],
+        [
+          34,
+          569,
+          516,
+          947
+        ],
+        [
+          550,
+          606,
+          1022,
+          950
+        ],
+        [
+          1048,
+          574,
+          1518,
+          946
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 6
+  },
+  "sleep": {
+    "status": "inspected",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "cols": 2,
+    "rows": 2,
+    "count": 4,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        753,
+        753
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 640.05,
+      "source_bounds": [
+        [
+          63,
+          197,
+          630,
+          581
+        ],
+        [
+          658,
+          199,
+          1197,
+          577
+        ],
+        [
+          64,
+          697,
+          641,
+          1117
+        ],
+        [
+          658,
+          738,
+          1214,
+          1117
+        ]
+      ],
+      "placements": [
+        [
+          126,
+          304
+        ],
+        [
+          94,
+          306
+        ],
+        [
+          127,
+          177
+        ],
+        [
+          94,
+          218
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 4,
+      "nominal_cell_dimensions": [
+        627,
+        627
+      ],
+      "nominal_cell_span": [
+        627.0,
+        627.0
+      ],
+      "cols": 2,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          63,
+          197,
+          630,
+          581
+        ],
+        [
+          658,
+          199,
+          1197,
+          577
+        ],
+        [
+          64,
+          697,
+          641,
+          1117
+        ],
+        [
+          658,
+          738,
+          1214,
+          1117
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 4
+  },
+  "blink": {
+    "status": "inspected",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "cols": 2,
+    "rows": 2,
+    "count": 4,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        753,
+        753
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 640.05,
+      "source_bounds": [
+        [
+          10,
+          128,
+          637,
+          608
+        ],
+        [
+          627,
+          128,
+          1244,
+          608
+        ],
+        [
+          10,
+          676,
+          637,
+          1156
+        ],
+        [
+          627,
+          676,
+          1244,
+          1156
+        ]
+      ],
+      "placements": [
+        [
+          73,
+          235
+        ],
+        [
+          63,
+          235
+        ],
+        [
+          73,
+          156
+        ],
+        [
+          63,
+          156
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 4,
+      "nominal_cell_dimensions": [
+        627,
+        627
+      ],
+      "nominal_cell_span": [
+        627.0,
+        627.0
+      ],
+      "cols": 2,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          10,
+          128,
+          637,
+          608
+        ],
+        [
+          627,
+          128,
+          1244,
+          608
+        ],
+        [
+          10,
+          676,
+          637,
+          1156
+        ],
+        [
+          627,
+          676,
+          1244,
+          1156
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 4
+  },
+  "stretch": {
+    "status": "inspected",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "cols": 3,
+    "rows": 2,
+    "count": 6,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        615,
+        615
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 522.75,
+      "source_bounds": [
+        [
+          24,
+          122,
+          512,
+          464
+        ],
+        [
+          536,
+          118,
+          1025,
+          464
+        ],
+        [
+          1039,
+          98,
+          1523,
+          458
+        ],
+        [
+          30,
+          557,
+          539,
+          931
+        ],
+        [
+          542,
+          590,
+          1011,
+          939
+        ],
+        [
+          1044,
+          623,
+          1511,
+          951
+        ]
+      ],
+      "placements": [
+        [
+          76,
+          210
+        ],
+        [
+          76,
+          206
+        ],
+        [
+          66,
+          186
+        ],
+        [
+          82,
+          133
+        ],
+        [
+          82,
+          166
+        ],
+        [
+          72,
+          199
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 6,
+      "nominal_cell_dimensions": [
+        512,
+        512
+      ],
+      "nominal_cell_span": [
+        512.0,
+        512.0
+      ],
+      "cols": 3,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          24,
+          122,
+          512,
+          464
+        ],
+        [
+          536,
+          118,
+          1025,
+          464
+        ],
+        [
+          1039,
+          98,
+          1523,
+          458
+        ],
+        [
+          30,
+          557,
+          539,
+          931
+        ],
+        [
+          542,
+          590,
+          1011,
+          939
+        ],
+        [
+          1044,
+          623,
+          1511,
+          951
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 6
+  },
+  "wave": {
+    "status": "inspected",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "cols": 3,
+    "rows": 2,
+    "count": 6,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        615,
+        615
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 522.75,
+      "source_bounds": [
+        [
+          31,
+          121,
+          513,
+          477
+        ],
+        [
+          527,
+          121,
+          1009,
+          477
+        ],
+        [
+          1022,
+          121,
+          1503,
+          477
+        ],
+        [
+          31,
+          562,
+          514,
+          913
+        ],
+        [
+          527,
+          563,
+          1009,
+          916
+        ],
+        [
+          1022,
+          563,
+          1503,
+          917
+        ]
+      ],
+      "placements": [
+        [
+          82,
+          209
+        ],
+        [
+          66,
+          209
+        ],
+        [
+          50,
+          209
+        ],
+        [
+          82,
+          138
+        ],
+        [
+          66,
+          139
+        ],
+        [
+          50,
+          139
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 6,
+      "nominal_cell_dimensions": [
+        512,
+        512
+      ],
+      "nominal_cell_span": [
+        512.0,
+        512.0
+      ],
+      "cols": 3,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          31,
+          121,
+          513,
+          477
+        ],
+        [
+          527,
+          121,
+          1009,
+          477
+        ],
+        [
+          1022,
+          121,
+          1503,
+          477
+        ],
+        [
+          31,
+          562,
+          514,
+          913
+        ],
+        [
+          527,
+          563,
+          1009,
+          916
+        ],
+        [
+          1022,
+          563,
+          1503,
+          917
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 6
+  },
+  "dizzy": {
+    "status": "inspected",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "cols": 3,
+    "rows": 2,
+    "count": 6,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        615,
+        615
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 522.75,
+      "source_bounds": [
+        [
+          54,
+          111,
+          516,
+          452
+        ],
+        [
+          566,
+          87,
+          990,
+          452
+        ],
+        [
+          1055,
+          95,
+          1465,
+          450
+        ],
+        [
+          54,
+          533,
+          509,
+          936
+        ],
+        [
+          558,
+          560,
+          1006,
+          931
+        ],
+        [
+          1047,
+          560,
+          1497,
+          935
+        ]
+      ],
+      "placements": [
+        [
+          106,
+          199
+        ],
+        [
+          106,
+          175
+        ],
+        [
+          82,
+          183
+        ],
+        [
+          106,
+          109
+        ],
+        [
+          98,
+          136
+        ],
+        [
+          74,
+          136
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 31,
+      "nominal_cell_dimensions": [
+        512,
+        512
+      ],
+      "nominal_cell_span": [
+        512.0,
+        512.0
+      ],
+      "cols": 3,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          54,
+          111,
+          516,
+          452
+        ],
+        [
+          566,
+          87,
+          990,
+          452
+        ],
+        [
+          1055,
+          95,
+          1465,
+          450
+        ],
+        [
+          54,
+          533,
+          509,
+          936
+        ],
+        [
+          558,
+          560,
+          1006,
+          931
+        ],
+        [
+          1047,
+          560,
+          1497,
+          935
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 6
+  },
+  "angry": {
+    "status": "inspected",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "cols": 3,
+    "rows": 2,
+    "count": 6,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        615,
+        615
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 522.75,
+      "source_bounds": [
+        [
+          11,
+          90,
+          532,
+          482
+        ],
+        [
+          526,
+          92,
+          1016,
+          481
+        ],
+        [
+          1015,
+          92,
+          1525,
+          487
+        ],
+        [
+          12,
+          538,
+          538,
+          953
+        ],
+        [
+          524,
+          559,
+          1020,
+          957
+        ],
+        [
+          1015,
+          559,
+          1525,
+          958
+        ]
+      ],
+      "placements": [
+        [
+          62,
+          178
+        ],
+        [
+          66,
+          180
+        ],
+        [
+          42,
+          180
+        ],
+        [
+          64,
+          114
+        ],
+        [
+          64,
+          135
+        ],
+        [
+          42,
+          135
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 20,
+      "nominal_cell_dimensions": [
+        512,
+        512
+      ],
+      "nominal_cell_span": [
+        512.0,
+        512.0
+      ],
+      "cols": 3,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          11,
+          90,
+          532,
+          482
+        ],
+        [
+          526,
+          92,
+          1016,
+          481
+        ],
+        [
+          1015,
+          92,
+          1525,
+          487
+        ],
+        [
+          12,
+          538,
+          538,
+          953
+        ],
+        [
+          524,
+          559,
+          1020,
+          957
+        ],
+        [
+          1015,
+          559,
+          1525,
+          958
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 6
+  },
+  "sick": {
+    "status": "inspected",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "cols": 2,
+    "rows": 2,
+    "count": 4,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        753,
+        753
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 640.05,
+      "source_bounds": [
+        [
+          71,
+          162,
+          658,
+          628
+        ],
+        [
+          657,
+          242,
+          1211,
+          635
+        ],
+        [
+          101,
+          717,
+          630,
+          1113
+        ],
+        [
+          695,
+          704,
+          1195,
+          1106
+        ]
+      ],
+      "placements": [
+        [
+          134,
+          269
+        ],
+        [
+          93,
+          349
+        ],
+        [
+          164,
+          197
+        ],
+        [
+          131,
+          184
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 4,
+      "nominal_cell_dimensions": [
+        627,
+        627
+      ],
+      "nominal_cell_span": [
+        627.0,
+        627.0
+      ],
+      "cols": 2,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          71,
+          162,
+          658,
+          628
+        ],
+        [
+          657,
+          242,
+          1211,
+          635
+        ],
+        [
+          101,
+          717,
+          630,
+          1113
+        ],
+        [
+          695,
+          704,
+          1195,
+          1106
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 4
+  },
+  "bath": {
+    "status": "inspected",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "cols": 3,
+    "rows": 2,
+    "count": 6,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        615,
+        615
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 522.75,
+      "source_bounds": [
+        [
+          27,
+          93,
+          523,
+          470
+        ],
+        [
+          538,
+          93,
+          1008,
+          470
+        ],
+        [
+          1041,
+          88,
+          1513,
+          470
+        ],
+        [
+          27,
+          559,
+          484,
+          947
+        ],
+        [
+          532,
+          558,
+          1005,
+          952
+        ],
+        [
+          1033,
+          564,
+          1501,
+          947
+        ]
+      ],
+      "placements": [
+        [
+          78,
+          181
+        ],
+        [
+          78,
+          181
+        ],
+        [
+          68,
+          176
+        ],
+        [
+          78,
+          135
+        ],
+        [
+          72,
+          134
+        ],
+        [
+          60,
+          140
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 27,
+      "nominal_cell_dimensions": [
+        512,
+        512
+      ],
+      "nominal_cell_span": [
+        512.0,
+        512.0
+      ],
+      "cols": 3,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          27,
+          93,
+          523,
+          470
+        ],
+        [
+          538,
+          93,
+          1008,
+          470
+        ],
+        [
+          1041,
+          88,
+          1513,
+          470
+        ],
+        [
+          27,
+          559,
+          484,
+          947
+        ],
+        [
+          532,
+          558,
+          1005,
+          952
+        ],
+        [
+          1033,
+          564,
+          1501,
+          947
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 6
+  },
+  "pet": {
+    "status": "inspected",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "cols": 3,
+    "rows": 2,
+    "count": 6,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        615,
+        615
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 522.75,
+      "source_bounds": [
+        [
+          27,
+          110,
+          506,
+          510
+        ],
+        [
+          539,
+          157,
+          1034,
+          510
+        ],
+        [
+          1049,
+          81,
+          1510,
+          510
+        ],
+        [
+          43,
+          633,
+          525,
+          941
+        ],
+        [
+          545,
+          600,
+          1026,
+          941
+        ],
+        [
+          1049,
+          598,
+          1510,
+          934
+        ]
+      ],
+      "placements": [
+        [
+          78,
+          198
+        ],
+        [
+          78,
+          245
+        ],
+        [
+          76,
+          169
+        ],
+        [
+          94,
+          209
+        ],
+        [
+          84,
+          176
+        ],
+        [
+          76,
+          174
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 21,
+      "nominal_cell_dimensions": [
+        512,
+        512
+      ],
+      "nominal_cell_span": [
+        512.0,
+        512.0
+      ],
+      "cols": 3,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          27,
+          110,
+          506,
+          510
+        ],
+        [
+          539,
+          157,
+          1034,
+          510
+        ],
+        [
+          1049,
+          81,
+          1510,
+          510
+        ],
+        [
+          43,
+          633,
+          525,
+          941
+        ],
+        [
+          545,
+          600,
+          1026,
+          941
+        ],
+        [
+          1049,
+          598,
+          1510,
+          934
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 6
+  },
+  "grip": {
+    "status": "inspected",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "cols": 3,
+    "rows": 2,
+    "count": 6,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        615,
+        615
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 522.75,
+      "source_bounds": [
+        [
+          28,
+          97,
+          520,
+          474
+        ],
+        [
+          535,
+          126,
+          1017,
+          478
+        ],
+        [
+          1031,
+          125,
+          1515,
+          484
+        ],
+        [
+          35,
+          596,
+          520,
+          928
+        ],
+        [
+          541,
+          594,
+          1017,
+          929
+        ],
+        [
+          1035,
+          594,
+          1515,
+          935
+        ]
+      ],
+      "placements": [
+        [
+          80,
+          185
+        ],
+        [
+          74,
+          214
+        ],
+        [
+          58,
+          213
+        ],
+        [
+          86,
+          172
+        ],
+        [
+          80,
+          170
+        ],
+        [
+          62,
+          170
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 6,
+      "nominal_cell_dimensions": [
+        512,
+        512
+      ],
+      "nominal_cell_span": [
+        512.0,
+        512.0
+      ],
+      "cols": 3,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          28,
+          97,
+          520,
+          474
+        ],
+        [
+          535,
+          126,
+          1017,
+          478
+        ],
+        [
+          1031,
+          125,
+          1515,
+          484
+        ],
+        [
+          35,
+          596,
+          520,
+          928
+        ],
+        [
+          541,
+          594,
+          1017,
+          929
+        ],
+        [
+          1035,
+          594,
+          1515,
+          935
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 6
+  },
+  "shelter": {
+    "status": "inspected",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "cols": 3,
+    "rows": 2,
+    "count": 6,
+    "source_alpha_present": true,
+    "alignment": {
+      "method": "original_grid_coordinates_shared_scale",
+      "source_canvas": [
+        615,
+        615
+      ],
+      "canvas_padding": 1.2,
+      "baseline": 522.75,
+      "source_bounds": [
+        [
+          49,
+          70,
+          517,
+          490
+        ],
+        [
+          557,
+          120,
+          1019,
+          490
+        ],
+        [
+          1061,
+          160,
+          1501,
+          490
+        ],
+        [
+          45,
+          577,
+          500,
+          949
+        ],
+        [
+          568,
+          581,
+          1000,
+          947
+        ],
+        [
+          1056,
+          581,
+          1507,
+          952
+        ]
+      ],
+      "placements": [
+        [
+          100,
+          158
+        ],
+        [
+          96,
+          208
+        ],
+        [
+          88,
+          248
+        ],
+        [
+          96,
+          153
+        ],
+        [
+          108,
+          157
+        ],
+        [
+          84,
+          157
+        ]
+      ],
+      "preserves_vertical_motion": true,
+      "stretched": false,
+      "per_frame_scaling": false
+    },
+    "extraction": {
+      "method": "transparent_component_centers_to_nominal_grid",
+      "components": 6,
+      "nominal_cell_dimensions": [
+        512,
+        512
+      ],
+      "nominal_cell_span": [
+        512.0,
+        512.0
+      ],
+      "cols": 3,
+      "rows": 2,
+      "frame_bounds": [
+        [
+          49,
+          70,
+          517,
+          490
+        ],
+        [
+          557,
+          120,
+          1019,
+          490
+        ],
+        [
+          1061,
+          160,
+          1501,
+          490
+        ],
+        [
+          45,
+          577,
+          500,
+          949
+        ],
+        [
+          568,
+          581,
+          1000,
+          947
+        ],
+        [
+          1056,
+          581,
+          1507,
+          952
+        ]
+      ],
+      "source_edge_contacts": []
+    },
+    "distinct_source_frames": 6
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "generated_by": "built-in image_gen",
+  "prompt": "Use case: stylized-concept\nAsset type: 32 by 32 pixel sprite for an ESP32 round-screen forest chameleon pet game.\nPrimary request: draw one clearly recognizable small heap of animal droppings, three compact irregular rounded brown lumps piled naturally with one tiny tapered top. It should look like a tangible poop pile on the forest ground.\nScene/backdrop: genuinely transparent background, isolated sprite only.\nStyle/medium: crisp retro pixel art with a visibly coarse 32 by 32 pixel grid enlarged to the output, hard square pixel edges, no anti-aliasing, no smooth gradients.\nComposition/framing: one sprite centered, occupies around 25 by 20 cells in a 32 by 32 square canvas, ample transparent margin, ground baseline near the bottom, front three-quarter view.\nColor palette: maximum six earthy browns, very dark brown outline, warm tan highlights, dark brown undersides; no unrelated colors.\nConstraints: no eyes, no mouth, no face, no emoji expression, no text, no watermark, no decorative flies, no scenery, no separate ground ellipse or background. Clearly readable simple physical item at tiny screen size.",
+  "source": "poop-generated.png",
+  "source_sha256": "ae6c46873525acac9bab84daafab327b336e6c24032cadfa7997b1a2c776e309",
+  "output": "main/assets/poop.png",
+  "converter": {
+    "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+    "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+    "api": "make_pixel_art"
+  },
+  "processing": {
+    "width": 32,
+    "height": 32,
+    "silhouette_width": 25,
+    "baseline": 28,
+    "alpha_threshold": 127,
+    "colors": 6,
+    "dither": false,
+    "outline": false,
+    "remove_bg": false,
+    "brightness": 0,
+    "contrast": 0,
+    "saturation": 0,
+    "palette": [
+      [
+        35,
+        19,
+        13
+      ],
+      [
+        64,
+        34,
+        20
+      ],
+      [
+        96,
+        52,
+        27
+      ],
+      [
+        130,
+        77,
+        39
+      ],
+      [
+        170,
+        114,
+        62
+      ],
+      [
+        209,
+        157,
+        94
+      ]
+    ]
+  }
+}

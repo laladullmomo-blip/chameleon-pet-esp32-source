@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "stage": "adult",
+  "generator": "built-in image_gen",
+  "use_case": "identity-preserve",
+  "reference": {
+    "file": "preview/assets/growth-concepts/adult-v1.png",
+    "sha256": "1b5f497f8086235b13b9f3064e6a73836dc71f4f246c9af52f78df83e99dd9e3"
+  },
+  "prompt": {
+    "file": "main/assets/sick-redesign/adult/source/prompt.txt",
+    "sha256": "30a40e7d5dc8b298c118cad4413198c92b21be2e3ea05a24ddc6a73b8c3ef377"
+  },
+  "source": {
+    "file": "main/assets/sick-redesign/adult/source/sick-sheet.png",
+    "sha256": "22185ba2f5d1c39fee988f14c253dfa45e3b65a647a31514245913a9b4aa1e06"
+  },
+  "spec": {
+    "file": "main/assets/sick-redesign/adult/source/spec.json",
+    "sha256": "277c93a0c393cded488fe651c4b98e243dbe8b35e88d206614ac4c1adf125320"
+  },
+  "independently_drawn_poses": 4,
+  "grid": [
+    2,
+    2
+  ],
+  "changes": [
+    "crouched tired posture",
+    "half-closed eyelids and slow blink",
+    "small pale blue cold compress"
+  ],
+  "pose_manufacture": false
+}

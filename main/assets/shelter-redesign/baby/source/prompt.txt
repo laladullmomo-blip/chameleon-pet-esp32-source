@@ -1,0 +1,18 @@
+Use case: precise-object-edit.
+Asset type: six-frame pixel-art pet sprite sheet.
+
+Input Image 1 is the EDIT TARGET, the existing first-round baby leaf-shelter sprite sheet. Make only a tightly localized correction to the LEAF CANOPIES and the STEMS. The six baby bodies are already close to the approved scale: freeze them.
+
+Hard invariants: preserve all six existing body silhouettes, body size, yellow-green body color clusters, short infant crest, golden eyes, belly, feet, curled tails, separate poses, and the exact character coordinates in every tile. Keep all original character pixels unchanged outside the added leaf/stem area. Do not redraw the bodies, eyes or tails. Do not shrink, move, recenter or relayout any character. Do not create a newly designed small mascot.
+
+Grid and pixel density: keep exactly the same 3-column × 2-row sheet, 1536×1024 total, each tile exactly 512×512. Row-major zero-based frame order is 0,1,2 on the first row and 3,4,5 on the second row. The art is the native 128×128 logical pixel grid enlarged exactly 4×. Every visible stroke and edge must be coarse square 4×4 pixels with hard stepped corners, broad flat connected color clusters and the existing stage palette. No finer dots, antialias, blur, gradients, glossy highlights, new dithering, painterly shading, or soft texture. Keep the leaf/stem outline and palette as simple coarse pixels.
+
+Localized leaf correction:
+- In EACH 512×512 tile, all visible leaf and stem pixels must lie strictly inside the tile-relative safe area x=32..496 and y=16..496. There must be a clear transparent right-side margin; never let a leaf canopy touch or cross the tile boundary. Especially retract the rightmost leaf tips in frames 0, 2 and 5 so the leaf stays comfortably within its own tile.
+- Maintain the existing calm sheltering gesture and each frame's subtle leaf tilt. Keep the canopy above the head/crest. Change the leaf outline only as needed to satisfy the safe bounds; leave the baby beneath it unchanged.
+- Every stem must terminate exactly at the existing hand/toe grip. A stem runs from the leaf to that grip and stops there. Delete the dangling portion below the grip. It must never continue down beneath the feet, touch the ground, look like a support rod, or create a long vertical line underneath the pet.
+- Particularly shorten the dangling stems in frames 3 and 4 (bottom-left and bottom-middle). Preserve their existing body and hands while removing only the extra stem pixels below the grip. No new hand pose is necessary.
+
+Transparency: output a genuine transparent PNG. All empty background and tile gaps must be alpha=0, without any black background, green haze, vignette, glow, shadow, edge feathering, soft halo, or semi-transparent decorative pixels. The visible sprite and leaf pixels are solid flat color with crisp hard pixel boundaries. Remove the existing green soft backdrop and halo completely while retaining the pet pixels.
+
+No borders, grids, panels, labels, text, raindrops, ground, extra objects or additional characters. The result is the same six baby sprites with ONLY their leaf safe margins, short terminating stems, and empty transparent background corrected.

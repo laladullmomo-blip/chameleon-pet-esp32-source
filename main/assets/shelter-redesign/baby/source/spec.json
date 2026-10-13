@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "size": 128,
+  "palette_colors": 32,
+  "canvas_padding": 1.0,
+  "reference": "../../../../../preview/assets/growth-concepts/baby-v2.png",
+  "actions": [
+    {
+      "id": "shelter",
+      "file": "shelter-sheet.png",
+      "cols": 3,
+      "rows": 2,
+      "count": 6,
+      "fps": 4,
+      "loop": true,
+      "background": "transparent"
+    }
+  ],
+  "native_grid": true,
+  "native_grid_size": 128
+}

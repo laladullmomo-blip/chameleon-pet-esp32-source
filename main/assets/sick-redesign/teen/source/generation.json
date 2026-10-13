@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "stage": "teen",
+  "generator": "built-in image_gen",
+  "use_case": "identity-preserve",
+  "reference": {
+    "file": "preview/assets/chameleon.png",
+    "sha256": "30de7bd60f2d4371b8b7f3bcf2b29cd212b7dafbf9cdc98609472c7dfe2f57c9"
+  },
+  "prompt": {
+    "file": "main/assets/sick-redesign/teen/source/prompt.txt",
+    "sha256": "d81a88cace1837d9866f98484acad72b958c23418ddc06bf09e3fcf38f5f0981"
+  },
+  "source": {
+    "file": "main/assets/sick-redesign/teen/source/sick-sheet.png",
+    "sha256": "0ac961856315e1a61b559376eb8fe2bbf37ca9e06bfb36992d0afb40fd651e1b"
+  },
+  "spec": {
+    "file": "main/assets/sick-redesign/teen/source/spec.json",
+    "sha256": "ff3327338d963935803d930fdbbdb0efea5421cfe23d8c073c4fed8b3475aa53"
+  },
+  "independently_drawn_poses": 4,
+  "grid": [
+    2,
+    2
+  ],
+  "changes": [
+    "crouched tired posture",
+    "half-closed eyelids and slow blink",
+    "small pale blue cold compress"
+  ],
+  "pose_manufacture": false
+}

@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen",
+  "use_case": "precise-object-edit",
+  "identity_reference": "../chameleon.png",
+  "source_file": "sleep.png",
+  "requirements": {
+    "closed_eyes": true,
+    "closed_mouth": true,
+    "fixed_feet_head_tail": true,
+    "breathing": "drawn mid-back contour variations only",
+    "runtime_scaling": false,
+    "runtime_rotation": false,
+    "zzz": "separate software pixel overlay"
+  },
+  "prompts": [
+    "Use case: precise-object-edit. Asset type: four-frame transparent pixel-game sleep sprite sheet, for an ESP32 electronic pet. Input image 1 is the approved green coiled-tail chameleon identity reference. Input image 2 is the old sleeping sheet to replace because its pose changes too much. Create ONE square image, exactly a 2 columns x 2 rows sprite sheet with four separate equal square cells. Each cell contains the SAME cute right-facing chameleon sleeping peacefully, eyes fully closed, mouth closed, all feet tucked in the SAME places, tail coiled in the SAME position, large distinctive crest and yellow-green colours unchanged. Align its nose, head, tail center and bottom contact line exactly the same in all four cells. Anchor all feet/head/tail: these must not move. Draw a gentle four-phase breath by changing ONLY the upper mid-body/back contour by about ONE pixel at the final 128px cell size: phase 1 relaxed, phase 2 chest slightly fills, phase 3 chest very slightly fuller, phase 4 relaxes midway. The animation must look almost still; no rocking, bobbing, body shifting, head nodding, standing, stretching, yawning, rotation or scaling. Keep one shared sprite size and generous identical transparent margins (about 15 percent) within each cell. Each cell's actual character occupies x 12-88%, y 34-84%, whole tail and snout fit entirely. Very crisp intentional low-resolution pixel-art with large square pixels and a limited palette, consistent dark green outlines. Truly transparent background. No tree, branch, floor, shadow, scenery, labels, text, letters, z symbols, sparks, dividing grid or checkerboard baked into the image. Zzz is drawn by the software separately. Four genuinely individually drawn phases, not repeated identical tiles, but extremely small breathing changes only. IMPORTANT visually aligned identical sleeping silhouette so there is no big pose jitter when cells are played in order.",
+    "Precise edit of the provided sprite sheet. Output a genuinely transparent square 2x2 sheet. Rebuild all FOUR tiles using ONLY the sleeping chameleon in the UPPER LEFT tile as the locked model. The upper-left pose is the base: same curled tail silhouette, same foot pixels, same closed eye, same mouth, same crest dimensions, same lowered head. All four tiles must have exactly that same head, legs, feet, tail, outline position and scale in tile-local coordinates. NO posing changes anywhere. Only redraw about 1-2 pixels along the middle of the back just behind the crest to represent barely noticeable breathing: four phases 0, 1, 2, 1-pixel chest expansion. Keep the rest of every tile effectively a carbon copy of the upper left sleeping pose, including feet and tail. Remove the different-standing head/foot/body arrangements in the bottom row. Fixed identical contact baseline and margins. Flat crisp 128x128 pixel-art appearance per cell. No text/Zzz, no background, no branch, no extra objects. No head motion, no swaying, no bobbing, no puffing the whole body, no stretching, no rotating, no head or crest size changes, no different foot positions. The entire image is a minimalist nearly-static sleep breathing cycle, not a set of sleep poses. Breathing is ONLY the tiny mid-back contour difference. The four tile pictures are independent raster drawings that will be quantized with PixelArtConverter, not mathematical scaling."
+  ],
+  "selected_generation": "exec-47fcc739-512a-4bc4-a211-8359ccd20e3b.png"
+}

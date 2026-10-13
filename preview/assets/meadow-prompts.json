@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "source": "用户提供：ChatGPT 图像 2026年10月1日 12_20_44.png",
+  "prompts": {
+    "day": "Use case: lighting-weather. Asset type: square pixel-art background for a 466x466 chameleon pet game. Input image: edit target, keep the composition and chunky pixel-art style of the attached mushroom forest clearing exactly. Primary request: make only the sky a little more blue, a richer clear saturated azure / cobalt blue rather than pale cyan, pleasant bright daytime. Preserve the left tree, foliage silhouettes, every mushroom and flower, ground, cloud shapes, object locations and coarse square pixel scale. Do not add a pet, branch across the clearing, river, water, buildings, text or interface. Strict hard-edged pixel blocks, limited palette, no smooth gradients, no blur, no realistic texture. Full square opaque image.",
+    "night": "Use case: lighting-weather. Asset type: square pixel-art background for a 466x466 chameleon pet game. Input image: edit target, create the matching BLACK NIGHT VERSION of the exact same mushroom forest clearing. Preserve composition, left tree, foliage silhouettes, ground, every mushroom and flower placement and coarse square pixel scale. Change daylight to dark navy-blue moonlit night, cool blue and muted teal-green forest, clouds softly lit using only stepped flat pixel colors; add a small crescent moon in an empty area of sky and a few tiny square stars. Night must remain readable rather than pitch black. Strict hard-edged pixel blocks and limited palette, no smooth gradients, blur, realistic texture. Do not add pet, river, water, buildings, branch across the clearing, text or interface. Full square opaque image."
+  }
+}

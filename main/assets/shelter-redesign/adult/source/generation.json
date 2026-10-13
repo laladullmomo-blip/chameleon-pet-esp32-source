@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "stage": "adult",
+  "generator": "built-in image_gen",
+  "use_case": "precise-object-edit",
+  "reference": {
+    "file": "preview/assets/growth-concepts/adult-v1.png",
+    "sha256": "1b5f497f8086235b13b9f3064e6a73836dc71f4f246c9af52f78df83e99dd9e3"
+  },
+  "inputs": [
+    {
+      "file": "main/assets/shelter-redesign/adult/source/edit-input.png",
+      "sha256": "656a47d3f3e4353e902e4fe397d4b14dbf32c35dabb9bfec2442b4fb468b2bba"
+    },
+    {
+      "file": "main/assets/shelter-redesign/adult/source/input-reference.png",
+      "sha256": "531cc139f33ba07460a77d600674cb269409c7bd1da46ea6b5f267216afd67c9"
+    }
+  ],
+  "prompt": {
+    "file": "main/assets/shelter-redesign/adult/source/prompt.txt",
+    "sha256": "6fe6d46f9459e90b108e860c4ff23d9411448e628d1288f1625589c6a936b992"
+  },
+  "source": {
+    "file": "main/assets/shelter-redesign/adult/source/shelter-sheet.png",
+    "sha256": "0f6039e303b39a404bdd9d6de6f227f006de52d8e8f95b22697cf74d8eacfe6a"
+  },
+  "spec": {
+    "file": "main/assets/shelter-redesign/adult/source/spec.json",
+    "sha256": "d8909f281f5f906da0ecac524086c0aae18639e746261da8d5a7db7f57b7d135"
+  },
+  "independently_drawn_poses": 6,
+  "grid": [
+    3,
+    2
+  ],
+  "changes": [
+    "Leaf shelter drawn at the approved original 128px character scale",
+    "Leaf canopy/stem corrected to stay within fixed cell",
+    "Original stage body shape, eye, tail direction and color clusters used as edit references",
+    "Fixed-grid actual PixelArtConverter conversion without smoothing or per-frame fitting"
+  ],
+  "pose_manufacture": false,
+  "transparent_background": true,
+  "density_reference": {
+    "native_size": [
+      128,
+      128
+    ],
+    "minimum_step_px": 1,
+    "source_cell_size": [
+      512,
+      512
+    ],
+    "source_integer_scale": 4,
+    "original_frames": [
+      {
+        "file": "preview/assets/growth/adult/frames/shelter/shelter_00.png",
+        "sha256": "af02271b0ce01198a6e1fe4416cb8ddd168b84ca6cc34ad22a3a35cd0b891c61"
+      },
+      {
+        "file": "preview/assets/growth/adult/frames/shelter/shelter_01.png",
+        "sha256": "b1e1d590e1d2013ee57d1a406a2959330c15c472afde375d15688009894d64a4"
+      },
+      {
+        "file": "preview/assets/growth/adult/frames/shelter/shelter_02.png",
+        "sha256": "e5a90e89bfc93ce5ab43c2c33e54c9a3156ab4654b1b6f67e8a80494df9ad2c8"
+      },
+      {
+        "file": "preview/assets/growth/adult/frames/shelter/shelter_03.png",
+        "sha256": "15bb6598e52cef3ab54f41083a17010ced6319876d52ca94de009f8da8556a69"
+      },
+      {
+        "file": "preview/assets/growth/adult/frames/shelter/shelter_04.png",
+        "sha256": "c16ad41048dc279fe957a68fd84843ccde369379f561f91c4c530f7e85cbb444"
+      },
+      {
+        "file": "preview/assets/growth/adult/frames/shelter/shelter_05.png",
+        "sha256": "82e134d3d63dfd8d68b571680156eb4f07dac3a1b6507a2cdf837b2ca9b956c6"
+      }
+    ],
+    "pixel_identical_body_claim": false
+  },
+  "edit_chain": [
+    {
+      "generator": "built-in image_gen",
+      "inputs": [
+        {
+          "file": "main/assets/shelter-redesign/adult/source/input-reference.png",
+          "sha256": "531cc139f33ba07460a77d600674cb269409c7bd1da46ea6b5f267216afd67c9"
+        },
+        {
+          "file": "main/assets/shelter-redesign/adult/source/leaf-style-reference.png",
+          "sha256": "baa7f9d540296fdba4e806640f3e4d919604f4947e15538d19111d60c737aa53"
+        }
+      ],
+      "prompt": {
+        "file": "main/assets/shelter-redesign/adult/source/initial-prompt.txt",
+        "sha256": "84cb73838119498e38d0d4215627dd26fe428cb1895c3e091ddeb61ef9d7301e"
+      },
+      "output": {
+        "file": "main/assets/shelter-redesign/adult/source/edit-input.png",
+        "sha256": "656a47d3f3e4353e902e4fe397d4b14dbf32c35dabb9bfec2442b4fb468b2bba"
+      },
+      "transparent_background": true
+    },
+    {
+      "generator": "built-in image_gen",
+      "inputs": [
+        {
+          "file": "main/assets/shelter-redesign/adult/source/edit-input.png",
+          "sha256": "656a47d3f3e4353e902e4fe397d4b14dbf32c35dabb9bfec2442b4fb468b2bba"
+        },
+        {
+          "file": "main/assets/shelter-redesign/adult/source/input-reference.png",
+          "sha256": "531cc139f33ba07460a77d600674cb269409c7bd1da46ea6b5f267216afd67c9"
+        }
+      ],
+      "prompt": {
+        "file": "main/assets/shelter-redesign/adult/source/prompt.txt",
+        "sha256": "6fe6d46f9459e90b108e860c4ff23d9411448e628d1288f1625589c6a936b992"
+      },
+      "output": {
+        "file": "main/assets/shelter-redesign/adult/source/shelter-sheet.png",
+        "sha256": "0f6039e303b39a404bdd9d6de6f227f006de52d8e8f95b22697cf74d8eacfe6a"
+      },
+      "transparent_background": true
+    }
+  ]
+}

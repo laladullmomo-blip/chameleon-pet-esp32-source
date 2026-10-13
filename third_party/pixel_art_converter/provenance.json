@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+  "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+  "upstream_version": "2.0.0",
+  "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+  "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+  "license": "MIT",
+  "files_unmodified": ["core.py", "LICENSE"],
+  "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+  "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+  "used_api": ["make_pixel_art_animation", "split_sprite_sheet", "compose_sprite_sheet", "remove_bg_by_color"],
+  "unused_components": ["GUI", "rembg", "background-removal AI models", "automatic updates", "sklearn palette clustering"]
+}

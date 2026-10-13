@@ -1,0 +1,410 @@
+{
+  "version": 1,
+  "converter": {
+    "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+    "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+    "upstream_version": "2.0.0",
+    "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+    "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+    "license": "MIT",
+    "files_unmodified": [
+      "core.py",
+      "LICENSE"
+    ],
+    "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+    "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+    "used_api": [
+      "make_pixel_art_animation",
+      "split_sprite_sheet",
+      "compose_sprite_sheet",
+      "remove_bg_by_color"
+    ],
+    "unused_components": [
+      "GUI",
+      "rembg",
+      "background-removal AI models",
+      "automatic updates",
+      "sklearn palette clustering"
+    ],
+    "api": "make_pixel_art_animation"
+  },
+  "processing": {
+    "width": 128,
+    "height": 128,
+    "palette_colors": 32,
+    "reference_colors": 24,
+    "effect_colors": 8,
+    "dither": false,
+    "outline": false,
+    "remove_bg_ai": false,
+    "alpha": [
+      0,
+      255
+    ],
+    "pose_generation": false,
+    "frame_duplication": false,
+    "foot_anchor_method": "largest_8_connected_alpha_island_right_half_bottom_row"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "Pillow": "12.3.0",
+    "numpy": "2.3.5",
+    "scikit_image": "0.25.2",
+    "scipy": "1.16.3"
+  },
+  "reference": {
+    "file": "preview/assets/growth-concepts/baby-v2.png",
+    "sha256": "de6e159e9a46302e5a8b9a1d5c3cbb5c4c6f35cfa1ea0fe7e9182cb116c76104"
+  },
+  "palette": [
+    [
+      240,
+      215,
+      139
+    ],
+    [
+      170,
+      217,
+      65
+    ],
+    [
+      3,
+      30,
+      15
+    ],
+    [
+      2,
+      24,
+      12
+    ],
+    [
+      250,
+      243,
+      81
+    ],
+    [
+      45,
+      144,
+      93
+    ],
+    [
+      173,
+      219,
+      67
+    ],
+    [
+      253,
+      246,
+      82
+    ],
+    [
+      1,
+      30,
+      15
+    ],
+    [
+      45,
+      147,
+      95
+    ],
+    [
+      252,
+      241,
+      171
+    ],
+    [
+      0,
+      29,
+      14
+    ],
+    [
+      46,
+      138,
+      88
+    ],
+    [
+      174,
+      220,
+      67
+    ],
+    [
+      2,
+      13,
+      7
+    ],
+    [
+      165,
+      214,
+      65
+    ],
+    [
+      170,
+      219,
+      66
+    ],
+    [
+      251,
+      245,
+      95
+    ],
+    [
+      23,
+      63,
+      33
+    ],
+    [
+      55,
+      152,
+      94
+    ],
+    [
+      186,
+      225,
+      72
+    ],
+    [
+      176,
+      217,
+      68
+    ],
+    [
+      193,
+      187,
+      69
+    ],
+    [
+      250,
+      228,
+      97
+    ],
+    [
+      248,
+      176,
+      190
+    ],
+    [
+      227,
+      118,
+      154
+    ],
+    [
+      187,
+      70,
+      109
+    ],
+    [
+      110,
+      41,
+      77
+    ],
+    [
+      211,
+      243,
+      255
+    ],
+    [
+      131,
+      209,
+      237
+    ],
+    [
+      65,
+      151,
+      183
+    ],
+    [
+      34,
+      84,
+      111
+    ]
+  ],
+  "actions": {
+    "sick": {
+      "count": 4,
+      "fps": 2,
+      "loop": true,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.644531,
+          "y": 0.898438,
+          "pixel_x": 82.5,
+          "pixel_y": 115,
+          "body_bounds": [
+            17,
+            55,
+            118,
+            115
+          ]
+        },
+        {
+          "x": 0.621094,
+          "y": 0.898438,
+          "pixel_x": 79.5,
+          "pixel_y": 115,
+          "body_bounds": [
+            14,
+            55,
+            111,
+            115
+          ]
+        },
+        {
+          "x": 0.640625,
+          "y": 0.8125,
+          "pixel_x": 82.0,
+          "pixel_y": 104,
+          "body_bounds": [
+            18,
+            46,
+            118,
+            104
+          ]
+        },
+        {
+          "x": 0.613281,
+          "y": 0.8125,
+          "pixel_x": 78.5,
+          "pixel_y": 104,
+          "body_bounds": [
+            14,
+            43,
+            113,
+            104
+          ]
+        }
+      ],
+      "sheet": "frames/sick.png",
+      "frames": [
+        "frames/sick/sick_00.png",
+        "frames/sick/sick_01.png",
+        "frames/sick/sick_02.png",
+        "frames/sick/sick_03.png"
+      ],
+      "hashes": [
+        "d1eb108edf81b08b2f99bc1b35468094369bb34682e5e56242da1bdd0cfac4bf",
+        "854a112fff8bd8e132314a543226180585da37adb7ed77bf74bab170deaecd35",
+        "c905ccb840082bec28b5a44cc3bb0f48f198893736e18eb085fe76f4c06ae1b1",
+        "eb3e4ae2a18a20a49d680d9897a212508e92bb33df105e32e228f57790267d67"
+      ],
+      "png_sha256": [
+        "3f46bbff6c0df85737fd2a9612ca16c7ab41755d200ac2f69bb6f5fea631a3a7",
+        "dbeb9557370bf6a4539bef00247ae69643e8b5fcc4ecb8669d31d7841a93ec93",
+        "3a21aed7998740fccda8c9a2c6e2adcdab3125f560fc77a508374c9e8fa9faa0",
+        "6f9c865eb8f9077b3c1138abf045caf63feb20f441e4daf903a35120bdbcfe6a"
+      ],
+      "sheet_sha256": "db12e3c4a156d52d3f7f65ce38000e165aea3cb5c1e0d8df90914f5117fdb671",
+      "source": "main/assets/sick-redesign/baby/source/sick-sheet.png",
+      "source_sha256": "aacfc4283183df71e1d7572f90847cda464ef423a4d2888b1eaaba6fc002030c",
+      "source_grid": {
+        "cols": 2,
+        "rows": 2
+      },
+      "distinct_frames": 4,
+      "background": "transparent",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          753,
+          753
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 640.05,
+        "source_bounds": [
+          [
+            39,
+            215,
+            629,
+            572
+          ],
+          [
+            646,
+            216,
+            1218,
+            572
+          ],
+          [
+            40,
+            790,
+            629,
+            1131
+          ],
+          [
+            646,
+            771,
+            1227,
+            1131
+          ]
+        ],
+        "placements": [
+          [
+            102,
+            322
+          ],
+          [
+            82,
+            323
+          ],
+          [
+            103,
+            270
+          ],
+          [
+            82,
+            251
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 4,
+        "nominal_cell_dimensions": [
+          627,
+          627
+        ],
+        "nominal_cell_span": [
+          627.0,
+          627.0
+        ],
+        "cols": 2,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            39,
+            215,
+            629,
+            572
+          ],
+          [
+            646,
+            216,
+            1218,
+            572
+          ],
+          [
+            40,
+            790,
+            629,
+            1131
+          ],
+          [
+            646,
+            771,
+            1227,
+            1131
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    }
+  },
+  "total_frames": 4
+}

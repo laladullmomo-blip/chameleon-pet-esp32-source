@@ -1,0 +1,3677 @@
+{
+  "version": 1,
+  "converter": {
+    "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+    "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+    "upstream_version": "2.0.0",
+    "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+    "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+    "license": "MIT",
+    "files_unmodified": [
+      "core.py",
+      "LICENSE"
+    ],
+    "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+    "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+    "used_api": [
+      "make_pixel_art_animation",
+      "split_sprite_sheet",
+      "compose_sprite_sheet",
+      "remove_bg_by_color"
+    ],
+    "unused_components": [
+      "GUI",
+      "rembg",
+      "background-removal AI models",
+      "automatic updates",
+      "sklearn palette clustering"
+    ],
+    "api": "make_pixel_art_animation"
+  },
+  "processing": {
+    "width": 128,
+    "height": 128,
+    "palette_colors": 32,
+    "reference_colors": 24,
+    "effect_colors": 8,
+    "dither": false,
+    "outline": false,
+    "remove_bg_ai": false,
+    "alpha": [
+      0,
+      255
+    ],
+    "pose_generation": false,
+    "frame_duplication": false,
+    "foot_anchor_method": "largest_8_connected_alpha_island_right_half_bottom_row"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "Pillow": "12.3.0",
+    "numpy": "2.3.5",
+    "scikit_image": "0.25.2",
+    "scipy": "1.16.3"
+  },
+  "reference": {
+    "file": "preview/assets/growth-concepts/baby-v2.png",
+    "sha256": "de6e159e9a46302e5a8b9a1d5c3cbb5c4c6f35cfa1ea0fe7e9182cb116c76104"
+  },
+  "palette": [
+    [
+      240,
+      215,
+      139
+    ],
+    [
+      170,
+      217,
+      65
+    ],
+    [
+      3,
+      30,
+      15
+    ],
+    [
+      2,
+      24,
+      12
+    ],
+    [
+      250,
+      243,
+      81
+    ],
+    [
+      45,
+      144,
+      93
+    ],
+    [
+      173,
+      219,
+      67
+    ],
+    [
+      253,
+      246,
+      82
+    ],
+    [
+      1,
+      30,
+      15
+    ],
+    [
+      45,
+      147,
+      95
+    ],
+    [
+      252,
+      241,
+      171
+    ],
+    [
+      0,
+      29,
+      14
+    ],
+    [
+      46,
+      138,
+      88
+    ],
+    [
+      174,
+      220,
+      67
+    ],
+    [
+      2,
+      13,
+      7
+    ],
+    [
+      165,
+      214,
+      65
+    ],
+    [
+      170,
+      219,
+      66
+    ],
+    [
+      251,
+      245,
+      95
+    ],
+    [
+      23,
+      63,
+      33
+    ],
+    [
+      55,
+      152,
+      94
+    ],
+    [
+      186,
+      225,
+      72
+    ],
+    [
+      176,
+      217,
+      68
+    ],
+    [
+      193,
+      187,
+      69
+    ],
+    [
+      250,
+      228,
+      97
+    ],
+    [
+      248,
+      176,
+      190
+    ],
+    [
+      227,
+      118,
+      154
+    ],
+    [
+      187,
+      70,
+      109
+    ],
+    [
+      110,
+      41,
+      77
+    ],
+    [
+      211,
+      243,
+      255
+    ],
+    [
+      131,
+      209,
+      237
+    ],
+    [
+      65,
+      151,
+      183
+    ],
+    [
+      34,
+      84,
+      111
+    ]
+  ],
+  "actions": {
+    "idle": {
+      "count": 6,
+      "fps": 5,
+      "loop": true,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.601562,
+          "y": 0.921875,
+          "pixel_x": 77.0,
+          "pixel_y": 118,
+          "body_bounds": [
+            15,
+            58,
+            117,
+            118
+          ]
+        },
+        {
+          "x": 0.585938,
+          "y": 0.921875,
+          "pixel_x": 75.0,
+          "pixel_y": 118,
+          "body_bounds": [
+            15,
+            58,
+            115,
+            118
+          ]
+        },
+        {
+          "x": 0.578125,
+          "y": 0.921875,
+          "pixel_x": 74.0,
+          "pixel_y": 118,
+          "body_bounds": [
+            12,
+            56,
+            113,
+            118
+          ]
+        },
+        {
+          "x": 0.59375,
+          "y": 0.8125,
+          "pixel_x": 76.0,
+          "pixel_y": 104,
+          "body_bounds": [
+            15,
+            46,
+            116,
+            104
+          ]
+        },
+        {
+          "x": 0.597656,
+          "y": 0.8125,
+          "pixel_x": 76.5,
+          "pixel_y": 104,
+          "body_bounds": [
+            13,
+            43,
+            115,
+            104
+          ]
+        },
+        {
+          "x": 0.570312,
+          "y": 0.8125,
+          "pixel_x": 73.0,
+          "pixel_y": 104,
+          "body_bounds": [
+            12,
+            43,
+            113,
+            104
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/idle.png",
+      "frames": [
+        "growth/baby/frames/idle/idle_00.png",
+        "growth/baby/frames/idle/idle_01.png",
+        "growth/baby/frames/idle/idle_02.png",
+        "growth/baby/frames/idle/idle_03.png",
+        "growth/baby/frames/idle/idle_04.png",
+        "growth/baby/frames/idle/idle_05.png"
+      ],
+      "hashes": [
+        "98da315ff41c6d72511b4c0c56e57a8623d31b7bbc9b4addb28055ee22a2ac85",
+        "70c66579f46c23aaf772c4a7351d108f4bea250863a6d1b4b29c46820345e1d9",
+        "882cfd6114ea2a5e3ab1d0a5dec262f965ceef031e55fbb645e99ce2722c48a5",
+        "16581b7ddd14a5fc1f33152e52539afa4aee1553d38ae2196ae113046eaffe02",
+        "db451f0d3d05da37bb912befd3b3201cd39da94d3be5cbf5276ebf4e04ca6c01",
+        "90a88346a7ead34fc5e60654c5450f170811c21b5944bcf330217b49cdeacd6e"
+      ],
+      "png_sha256": [
+        "e5f59ab93cd36019cd86f8830f7ff9369f46b5f471e955f915c75565234391d1",
+        "a8cdc52489142d6938b258443e09319dde8a73579478e10390d180719e50f28d",
+        "cf2eaff2d5e2b281d795ab3df192da9fcfdcdc35c4a367a0f810e6052227a966",
+        "03fe6fb6b02da2a98080cbecddbfe645e5bace86e7f3e2b9bed0bfa0e389b3ac",
+        "d408ad7ee9f137eef54854769abd93089158889f385e774c9add92b3226a962b",
+        "34a4ca19923bdd2f82a25be38443d38136dbaa957810e2fc1d76d2bae67ccfb3"
+      ],
+      "sheet_sha256": "f529a155acff82bcfb6ac9355a8be89b3c9c8b8dd1d1c1deae2ffb5bb3ab628e",
+      "source": "preview/assets/growth/baby/source/idle.png",
+      "source_sha256": "b55bc165a1e06fe0b4b03c8f624eac35a090ad940a4e49bfbb76331f684db4ae",
+      "source_grid": {
+        "cols": 3,
+        "rows": 2
+      },
+      "distinct_frames": 6,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          615,
+          615
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 522.75,
+        "source_bounds": [
+          [
+            20,
+            191,
+            513,
+            481
+          ],
+          [
+            533,
+            191,
+            1013,
+            481
+          ],
+          [
+            1032,
+            183,
+            1516,
+            481
+          ],
+          [
+            21,
+            644,
+            508,
+            925
+          ],
+          [
+            525,
+            630,
+            1013,
+            926
+          ],
+          [
+            1029,
+            629,
+            1518,
+            926
+          ]
+        ],
+        "placements": [
+          [
+            72,
+            279
+          ],
+          [
+            72,
+            279
+          ],
+          [
+            60,
+            271
+          ],
+          [
+            72,
+            220
+          ],
+          [
+            64,
+            206
+          ],
+          [
+            56,
+            205
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 6,
+        "nominal_cell_dimensions": [
+          512,
+          512
+        ],
+        "nominal_cell_span": [
+          512.0,
+          512.0
+        ],
+        "cols": 3,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            20,
+            191,
+            513,
+            481
+          ],
+          [
+            533,
+            191,
+            1013,
+            481
+          ],
+          [
+            1032,
+            183,
+            1516,
+            481
+          ],
+          [
+            21,
+            644,
+            508,
+            925
+          ],
+          [
+            525,
+            630,
+            1013,
+            926
+          ],
+          [
+            1029,
+            629,
+            1518,
+            926
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "happy": {
+      "count": 6,
+      "fps": 10,
+      "loop": false,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.601562,
+          "y": 0.875,
+          "pixel_x": 77.0,
+          "pixel_y": 112,
+          "body_bounds": [
+            15,
+            49,
+            116,
+            112
+          ]
+        },
+        {
+          "x": 0.722656,
+          "y": 0.875,
+          "pixel_x": 92.5,
+          "pixel_y": 112,
+          "body_bounds": [
+            14,
+            48,
+            114,
+            113
+          ]
+        },
+        {
+          "x": 0.554688,
+          "y": 0.875,
+          "pixel_x": 71.0,
+          "pixel_y": 112,
+          "body_bounds": [
+            14,
+            47,
+            110,
+            113
+          ]
+        },
+        {
+          "x": 0.628906,
+          "y": 0.820312,
+          "pixel_x": 80.5,
+          "pixel_y": 105,
+          "body_bounds": [
+            16,
+            35,
+            121,
+            105
+          ]
+        },
+        {
+          "x": 0.726562,
+          "y": 0.804688,
+          "pixel_x": 93.0,
+          "pixel_y": 103,
+          "body_bounds": [
+            15,
+            36,
+            115,
+            105
+          ]
+        },
+        {
+          "x": 0.585938,
+          "y": 0.820312,
+          "pixel_x": 75.0,
+          "pixel_y": 105,
+          "body_bounds": [
+            13,
+            40,
+            113,
+            105
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/happy.png",
+      "frames": [
+        "growth/baby/frames/happy/happy_00.png",
+        "growth/baby/frames/happy/happy_01.png",
+        "growth/baby/frames/happy/happy_02.png",
+        "growth/baby/frames/happy/happy_03.png",
+        "growth/baby/frames/happy/happy_04.png",
+        "growth/baby/frames/happy/happy_05.png"
+      ],
+      "hashes": [
+        "a07d07465bec8026355582470ed268f284b375c65967cd1dd94f26cc7dcabc17",
+        "9117d3f270971a3ef43801b3b32d02320151846666c33ee8d1943b9256b92a39",
+        "a1e539be7989584986bfb7343470706d5da3dfe1d60051147d8608c26338c2d6",
+        "4813596cb5334ce2994539ddda24ef50741f1bf9972b27ba22d78ee54091ae1f",
+        "442e5e62ce3570c561236374d2d0300ce1f84cc174ea0505f3bc30c610645bf7",
+        "7e686e63b75735b4e43ad3506b8a766a723e1b07fc47e54cdad675d213a2ad65"
+      ],
+      "png_sha256": [
+        "1c6cd58b531141d2039e8dab574960dffb0b9e65c469ca1fe8f8c04cc9b63247",
+        "e10961f88e134a93fd70bbb6a705e943c0026bf86259154621fa04cf89fe660b",
+        "140801736a006db069d9d9052fd2094c4fd181f82726f24d2d46b3d4aeb9d615",
+        "b498dd2e6ba4d7c6b0fabbdc3682782f6407337970cdbdfa4a791a934395f49e",
+        "c36061bf13c7014cfa6ef862bf6f5c57b3037589fedf867fb45b9097ea392cfd",
+        "91012b9f38a7d8208d797860f4c03772441e45175cbeb4fadfb27421e9102487"
+      ],
+      "sheet_sha256": "4c3270d82bb7897d523714efe1a8dc4d66f31a2b348e59637a971d152f51a151",
+      "source": "preview/assets/growth/baby/source/happy.png",
+      "source_sha256": "9326ce1024fa7daf48efdda336257a0412271de4727b2eb12b997253bbaefef4",
+      "source_grid": {
+        "cols": 3,
+        "rows": 2
+      },
+      "distinct_frames": 6,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          615,
+          615
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 522.75,
+        "source_bounds": [
+          [
+            22,
+            146,
+            508,
+            453
+          ],
+          [
+            530,
+            145,
+            1010,
+            455
+          ],
+          [
+            1040,
+            139,
+            1503,
+            455
+          ],
+          [
+            24,
+            592,
+            529,
+            931
+          ],
+          [
+            532,
+            598,
+            1015,
+            927
+          ],
+          [
+            1035,
+            615,
+            1518,
+            928
+          ]
+        ],
+        "placements": [
+          [
+            74,
+            234
+          ],
+          [
+            70,
+            233
+          ],
+          [
+            68,
+            227
+          ],
+          [
+            76,
+            168
+          ],
+          [
+            72,
+            174
+          ],
+          [
+            62,
+            191
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 6,
+        "nominal_cell_dimensions": [
+          512,
+          512
+        ],
+        "nominal_cell_span": [
+          512.0,
+          512.0
+        ],
+        "cols": 3,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            22,
+            146,
+            508,
+            453
+          ],
+          [
+            530,
+            145,
+            1010,
+            455
+          ],
+          [
+            1040,
+            139,
+            1503,
+            455
+          ],
+          [
+            24,
+            592,
+            529,
+            931
+          ],
+          [
+            532,
+            598,
+            1015,
+            927
+          ],
+          [
+            1035,
+            615,
+            1518,
+            928
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "eat": {
+      "count": 8,
+      "fps": 6,
+      "loop": false,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.597656,
+          "y": 0.867188,
+          "pixel_x": 76.5,
+          "pixel_y": 111,
+          "body_bounds": [
+            14,
+            48,
+            115,
+            111
+          ]
+        },
+        {
+          "x": 0.609375,
+          "y": 0.867188,
+          "pixel_x": 78.0,
+          "pixel_y": 111,
+          "body_bounds": [
+            14,
+            48,
+            116,
+            111
+          ]
+        },
+        {
+          "x": 0.738281,
+          "y": 0.859375,
+          "pixel_x": 94.5,
+          "pixel_y": 110,
+          "body_bounds": [
+            14,
+            41,
+            115,
+            111
+          ]
+        },
+        {
+          "x": 0.679688,
+          "y": 0.859375,
+          "pixel_x": 87.0,
+          "pixel_y": 110,
+          "body_bounds": [
+            13,
+            47,
+            114,
+            111
+          ]
+        },
+        {
+          "x": 0.660156,
+          "y": 0.820312,
+          "pixel_x": 84.5,
+          "pixel_y": 105,
+          "body_bounds": [
+            14,
+            40,
+            115,
+            106
+          ]
+        },
+        {
+          "x": 0.695312,
+          "y": 0.820312,
+          "pixel_x": 89.0,
+          "pixel_y": 105,
+          "body_bounds": [
+            14,
+            42,
+            116,
+            106
+          ]
+        },
+        {
+          "x": 0.695312,
+          "y": 0.820312,
+          "pixel_x": 89.0,
+          "pixel_y": 105,
+          "body_bounds": [
+            14,
+            41,
+            116,
+            106
+          ]
+        },
+        {
+          "x": 0.667969,
+          "y": 0.820312,
+          "pixel_x": 85.5,
+          "pixel_y": 105,
+          "body_bounds": [
+            13,
+            42,
+            114,
+            106
+          ]
+        }
+      ],
+      "mouths": [
+        null,
+        null,
+        {
+          "x": 0.765625,
+          "y": 0.625
+        },
+        {
+          "x": 0.78125,
+          "y": 0.609375
+        },
+        {
+          "x": 0.796875,
+          "y": 0.5859375
+        },
+        null,
+        null,
+        null
+      ],
+      "sheet": "growth/baby/frames/eat.png",
+      "frames": [
+        "growth/baby/frames/eat/eat_00.png",
+        "growth/baby/frames/eat/eat_01.png",
+        "growth/baby/frames/eat/eat_02.png",
+        "growth/baby/frames/eat/eat_03.png",
+        "growth/baby/frames/eat/eat_04.png",
+        "growth/baby/frames/eat/eat_05.png",
+        "growth/baby/frames/eat/eat_06.png",
+        "growth/baby/frames/eat/eat_07.png"
+      ],
+      "hashes": [
+        "6689c56982196e92f0a72bad246f4566611b96114b2b980d3198678e7ce2b058",
+        "ba4b5a054f5b406a23edcd4b45120d434e4592ecef5fd1932070ededc680b0bc",
+        "f1163ed03e9a8bea8253de266df8486a3b15c84f9fc4918928222ca7acb16144",
+        "3e23970c235fb4d36e0216e3c7e5d23ee51bc5d19fff5f1d891a6953cd706e2d",
+        "3f0bdcaf5b9f8faf3056c27714d61d09a7ccddbac423a3d0642d83c04f600ca3",
+        "d935271ba27d02534b217233257325a2cfc9b6bbcebf6afb6da92517130807a2",
+        "df23ce42abad5777c80677343a7aef681b8df8c12d08426b6f236bb803362353",
+        "997bb4809535902d131afac388ce1257404e37b8b0011df0644ff2673b242f5d"
+      ],
+      "png_sha256": [
+        "9b42a088ae21ae066e038a1cd12fdf64a3d7205e7855141e5748d5db4015efab",
+        "2c3902a8d13abceb620301888610294a16d2ae86bb9f1045467295181f0bbdce",
+        "771d70f8ef9f7666fbefd8b1c304195aea19ba5167537c557f533522198e9ac2",
+        "8cd52611e9bbc29ad238d4279705778f258db69b0d78da54ff4fff711a6c1eb3",
+        "5d0e9c2080061669ecef79834162757c63cd8efc355988f4ddad6972db2f1118",
+        "f4db9fdfae13db9cdf9363d41bad19c3fcf1a34ebbc3178678e5d7f1b5091211",
+        "25d851e2a173ba35f5a466c3864f8c110a3fa1bfdb13150096f0795e3a7357e9",
+        "619cd318e097f819dffc0089fe9e03fa6e3577a55321c812340b7db182b36a7c"
+      ],
+      "sheet_sha256": "1a85a739489f48c73a5d64b6259a32011740fc1004c44ffafbacd8bc8ca9a854",
+      "source": "preview/assets/growth/baby/source/eat.png",
+      "source_sha256": "ed976ee245781069689da043da0d77efafc4f4a76fba6c5b095589f02f0e1d1f",
+      "source_grid": {
+        "cols": 4,
+        "rows": 2
+      },
+      "distinct_frames": 8,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          533,
+          533
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 453.05,
+        "source_bounds": [
+          [
+            13,
+            126,
+            436,
+            385
+          ],
+          [
+            459,
+            122,
+            884,
+            385
+          ],
+          [
+            902,
+            93,
+            1321,
+            385
+          ],
+          [
+            1341,
+            122,
+            1762,
+            385
+          ],
+          [
+            13,
+            535,
+            436,
+            807
+          ],
+          [
+            458,
+            542,
+            884,
+            807
+          ],
+          [
+            902,
+            540,
+            1326,
+            807
+          ],
+          [
+            1341,
+            542,
+            1762,
+            807
+          ]
+        ],
+        "placements": [
+          [
+            58,
+            202
+          ],
+          [
+            60,
+            198
+          ],
+          [
+            60,
+            169
+          ],
+          [
+            55,
+            198
+          ],
+          [
+            58,
+            168
+          ],
+          [
+            59,
+            175
+          ],
+          [
+            60,
+            173
+          ],
+          [
+            55,
+            175
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 8,
+        "nominal_cell_dimensions": [
+          443,
+          443
+        ],
+        "nominal_cell_span": [
+          443.5,
+          443.5
+        ],
+        "cols": 4,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            13,
+            126,
+            436,
+            385
+          ],
+          [
+            459,
+            122,
+            884,
+            385
+          ],
+          [
+            902,
+            93,
+            1321,
+            385
+          ],
+          [
+            1341,
+            122,
+            1762,
+            385
+          ],
+          [
+            13,
+            535,
+            436,
+            807
+          ],
+          [
+            458,
+            542,
+            884,
+            807
+          ],
+          [
+            902,
+            540,
+            1326,
+            807
+          ],
+          [
+            1341,
+            542,
+            1762,
+            807
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "sleep": {
+      "count": 4,
+      "fps": 1,
+      "loop": true,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.675781,
+          "y": 0.914062,
+          "pixel_x": 86.5,
+          "pixel_y": 117,
+          "body_bounds": [
+            19,
+            65,
+            118,
+            117
+          ]
+        },
+        {
+          "x": 0.6875,
+          "y": 0.914062,
+          "pixel_x": 88.0,
+          "pixel_y": 117,
+          "body_bounds": [
+            20,
+            65,
+            118,
+            117
+          ]
+        },
+        {
+          "x": 0.679688,
+          "y": 0.914062,
+          "pixel_x": 87.0,
+          "pixel_y": 117,
+          "body_bounds": [
+            19,
+            63,
+            118,
+            117
+          ]
+        },
+        {
+          "x": 0.6875,
+          "y": 0.914062,
+          "pixel_x": 88.0,
+          "pixel_y": 117,
+          "body_bounds": [
+            20,
+            65,
+            118,
+            117
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/sleep.png",
+      "frames": [
+        "growth/baby/frames/sleep/sleep_00.png",
+        "growth/baby/frames/sleep/sleep_01.png",
+        "growth/baby/frames/sleep/sleep_02.png",
+        "growth/baby/frames/sleep/sleep_03.png"
+      ],
+      "hashes": [
+        "db0223d1ecdde2159372c1648a1414551963d5671d2bf0e4aa56f7f6ca578ece",
+        "731be8c1490a16c9cef430febbfe10ad1751f74745365e4a681e87f2b76086dc",
+        "c2766558487bb9a8750223d9096e7c093612dbb421d7164eb50ef9ac4e7256e0",
+        "5849cffd855e2fa04f999b357a89b2bd65a9900c42231538e8c852b40c3106e2"
+      ],
+      "png_sha256": [
+        "4bf68648c12cdfdee96c7f030ad9c046614f84a5ae0574c71bd27468105e0424",
+        "20318ff375d068e79a452de70cd61292c73b595632fd9bbb3cd946b2630d3a2a",
+        "64c7ed194d1c52fdd28e505afbe9d04d4000c5e91873bcefbe30c8e4a42017ca",
+        "a3eaf2b2ba299d965494111a6e582fc9018997356b58925a729a39b31765f30b"
+      ],
+      "sheet_sha256": "edeaed7e7fafdc06385969c8aabe5b72793e9aadf293a125f1a9d89ed9b9e834",
+      "source": "preview/assets/growth/baby/source/sleep.png",
+      "source_sha256": "d5d85aeabfe64f69258e65980d79b5cbfe0ca2de11d59a7ea2958beb240511a4",
+      "source_grid": {
+        "cols": 2,
+        "rows": 2
+      },
+      "distinct_frames": 4,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          753,
+          753
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 640.05,
+        "source_bounds": [
+          [
+            46,
+            275,
+            631,
+            581
+          ],
+          [
+            650,
+            274,
+            1231,
+            581
+          ],
+          [
+            46,
+            757,
+            631,
+            1073
+          ],
+          [
+            651,
+            765,
+            1231,
+            1073
+          ]
+        ],
+        "placements": [
+          [
+            109,
+            382
+          ],
+          [
+            86,
+            381
+          ],
+          [
+            109,
+            237
+          ],
+          [
+            87,
+            245
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false,
+        "output_registration": {
+          "method": "integer_translation_nose_and_support",
+          "translations": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              0,
+              23
+            ],
+            [
+              5,
+              23
+            ]
+          ],
+          "scaling": false,
+          "rotation": false,
+          "pose_pixels_modified": false
+        }
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 4,
+        "nominal_cell_dimensions": [
+          627,
+          627
+        ],
+        "nominal_cell_span": [
+          627.0,
+          627.0
+        ],
+        "cols": 2,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            46,
+            275,
+            631,
+            581
+          ],
+          [
+            650,
+            274,
+            1231,
+            581
+          ],
+          [
+            46,
+            757,
+            631,
+            1073
+          ],
+          [
+            651,
+            765,
+            1231,
+            1073
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "walk": {
+      "count": 8,
+      "fps": 10,
+      "loop": true,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.632812,
+          "y": 0.867188,
+          "pixel_x": 81.0,
+          "pixel_y": 111,
+          "body_bounds": [
+            13,
+            49,
+            117,
+            111
+          ]
+        },
+        {
+          "x": 0.605469,
+          "y": 0.867188,
+          "pixel_x": 77.5,
+          "pixel_y": 111,
+          "body_bounds": [
+            12,
+            49,
+            116,
+            111
+          ]
+        },
+        {
+          "x": 0.679688,
+          "y": 0.859375,
+          "pixel_x": 87.0,
+          "pixel_y": 110,
+          "body_bounds": [
+            12,
+            49,
+            117,
+            111
+          ]
+        },
+        {
+          "x": 0.613281,
+          "y": 0.867188,
+          "pixel_x": 78.5,
+          "pixel_y": 111,
+          "body_bounds": [
+            12,
+            49,
+            116,
+            111
+          ]
+        },
+        {
+          "x": 0.660156,
+          "y": 0.867188,
+          "pixel_x": 84.5,
+          "pixel_y": 111,
+          "body_bounds": [
+            13,
+            48,
+            117,
+            111
+          ]
+        },
+        {
+          "x": 0.582031,
+          "y": 0.851562,
+          "pixel_x": 74.5,
+          "pixel_y": 109,
+          "body_bounds": [
+            12,
+            48,
+            116,
+            111
+          ]
+        },
+        {
+          "x": 0.71875,
+          "y": 0.859375,
+          "pixel_x": 92.0,
+          "pixel_y": 110,
+          "body_bounds": [
+            12,
+            48,
+            117,
+            111
+          ]
+        },
+        {
+          "x": 0.660156,
+          "y": 0.867188,
+          "pixel_x": 84.5,
+          "pixel_y": 111,
+          "body_bounds": [
+            12,
+            48,
+            116,
+            111
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/walk.png",
+      "frames": [
+        "growth/baby/frames/walk/walk_00.png",
+        "growth/baby/frames/walk/walk_01.png",
+        "growth/baby/frames/walk/walk_02.png",
+        "growth/baby/frames/walk/walk_03.png",
+        "growth/baby/frames/walk/walk_04.png",
+        "growth/baby/frames/walk/walk_05.png",
+        "growth/baby/frames/walk/walk_06.png",
+        "growth/baby/frames/walk/walk_07.png"
+      ],
+      "hashes": [
+        "c5aff48eec14ea08a3f7a86a2b8744122cf65a150afd5e26d023ca5e7a9786b7",
+        "597bb33224f14489f796e82ec3e2f019019b9fbd20d8a0806843da3cf98a85ab",
+        "be4f430d1952dca33d01b99b1fa8cd0c4d9ab304218da3ae2f54438ce71c027b",
+        "8c51c8c4cc59c914d48a0f19bc743cf0fc3077166a33a716d3fb11bbb5637b73",
+        "0a52afe5c96ac6b85b54ef0c43ba15a1b8d07f5b5f54b1c2bb5aae37244ed2f8",
+        "601d8a14f73570507cba91eeb45864b45f7e3ef431d9ab1d3d1f4215ccd87040",
+        "04590a37c6930255204f706c29d156f19d2300ccf372482f28289595ff6148f2",
+        "dd226bd5f3b15f91e53f980fbfc4614eb40aa0e280b06b90a3c7049ee21843d1"
+      ],
+      "png_sha256": [
+        "cb0b4cec6e4478e4ac3bac2bf7e26d4b58536a4b7cf83e1a0c1d04525be19c55",
+        "500d4ec8a7096ec56cca58932ecf3a9b16aeb076afdaf6ce51d429bd4120945d",
+        "415b5be8f519a2d50dc454f0477d392178e85af8081fda1df656ba7a0e89f1f4",
+        "a1d14fa2eb2f81d4cb7a2a3fc136c17683833afa184ec69ad31acbf299cccfe4",
+        "96e8f0eaa36f90721367e587db72dce1c5a5cac49eabe46a315b11d9c39535a2",
+        "e725530144130fb1a154220c58af72f4a733fd89976d4f37d5c0c95154ae119d",
+        "ccd392899c9db7f91ef7345760fd0dc50d4b27133184c468058b0ad9bcf49190",
+        "d2e94fc84602bf4d4575ea5ea85af1f0f0e7e412659feb63d998546d46d53fc1"
+      ],
+      "sheet_sha256": "5eb892677d22c423bd24a6cc0541f88c2fe5a156b81b27b8547d6686aac3a48b",
+      "source": "preview/assets/growth/baby/source/walk.png",
+      "source_sha256": "3e366fe6d9fba02aa383b4ac721a0b017292d1e370806bfa18b1e6c6bcf17556",
+      "source_grid": {
+        "cols": 4,
+        "rows": 2
+      },
+      "distinct_frames": 8,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          533,
+          533
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 453.05,
+        "source_bounds": [
+          [
+            8,
+            129,
+            441,
+            388
+          ],
+          [
+            451,
+            129,
+            883,
+            388
+          ],
+          [
+            893,
+            129,
+            1328,
+            388
+          ],
+          [
+            1338,
+            129,
+            1771,
+            388
+          ],
+          [
+            8,
+            569,
+            441,
+            828
+          ],
+          [
+            451,
+            569,
+            884,
+            828
+          ],
+          [
+            893,
+            569,
+            1328,
+            828
+          ],
+          [
+            1338,
+            569,
+            1771,
+            829
+          ]
+        ],
+        "placements": [
+          [
+            53,
+            205
+          ],
+          [
+            52,
+            205
+          ],
+          [
+            51,
+            205
+          ],
+          [
+            52,
+            205
+          ],
+          [
+            53,
+            202
+          ],
+          [
+            52,
+            202
+          ],
+          [
+            51,
+            202
+          ],
+          [
+            52,
+            202
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 8,
+        "nominal_cell_dimensions": [
+          443,
+          443
+        ],
+        "nominal_cell_span": [
+          443.5,
+          443.5
+        ],
+        "cols": 4,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            8,
+            129,
+            441,
+            388
+          ],
+          [
+            451,
+            129,
+            883,
+            388
+          ],
+          [
+            893,
+            129,
+            1328,
+            388
+          ],
+          [
+            1338,
+            129,
+            1771,
+            388
+          ],
+          [
+            8,
+            569,
+            441,
+            828
+          ],
+          [
+            451,
+            569,
+            884,
+            828
+          ],
+          [
+            893,
+            569,
+            1328,
+            828
+          ],
+          [
+            1338,
+            569,
+            1771,
+            829
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "blink": {
+      "count": 4,
+      "fps": 10,
+      "loop": false,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.585938,
+          "y": 0.882812,
+          "pixel_x": 75.0,
+          "pixel_y": 113,
+          "body_bounds": [
+            14,
+            52,
+            117,
+            113
+          ]
+        },
+        {
+          "x": 0.550781,
+          "y": 0.882812,
+          "pixel_x": 70.5,
+          "pixel_y": 113,
+          "body_bounds": [
+            11,
+            52,
+            113,
+            113
+          ]
+        },
+        {
+          "x": 0.585938,
+          "y": 0.71875,
+          "pixel_x": 75.0,
+          "pixel_y": 92,
+          "body_bounds": [
+            14,
+            31,
+            117,
+            92
+          ]
+        },
+        {
+          "x": 0.550781,
+          "y": 0.71875,
+          "pixel_x": 70.5,
+          "pixel_y": 92,
+          "body_bounds": [
+            11,
+            31,
+            113,
+            92
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/blink.png",
+      "frames": [
+        "growth/baby/frames/blink/blink_00.png",
+        "growth/baby/frames/blink/blink_01.png",
+        "growth/baby/frames/blink/blink_02.png",
+        "growth/baby/frames/blink/blink_03.png"
+      ],
+      "hashes": [
+        "1623438ab628b68a54180e754505a913a21f86f15bcc882ac122dc80163c3065",
+        "f6decfd3dd244f20a10b15a81f6f23e98012cee6a79e09c2762516843ff40d93",
+        "1b9bca7651320055ffd983bbb3778645a666b1e154651b1b1cb18a3b77877ba6",
+        "35fb3300f3dfcb0a4b8110f834aa6de4d602eed42d12ec5d2998ac44bde8ddf3"
+      ],
+      "png_sha256": [
+        "933610ee8432255a99ca5386ffebb841ef8bd43d43271d445722fecf0ef53a2b",
+        "17b0dd2ad3875c37adce5dce1b85765e0406848bd9aeecb243f394bf8cf58c82",
+        "e1ae436c60098912b717153572c9fd26f9fe96b2d1707ca178b7b5cf75f1b854",
+        "4267a751a0a5ee54d0b0c7c1b90e622abe7dbaea26843c39f9900c16ad425c61"
+      ],
+      "sheet_sha256": "b04e1f6298037651aa7a5b7d772e94abf52910024735806a77d6cda3bb0d11cc",
+      "source": "preview/assets/growth/baby/source/blink.png",
+      "source_sha256": "f90cd97a22c5495ef75a8f31c4ba16e83384daa7309ae8a5344d11598e766f77",
+      "source_grid": {
+        "cols": 2,
+        "rows": 2
+      },
+      "distinct_frames": 4,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          753,
+          753
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 640.05,
+        "source_bounds": [
+          [
+            19,
+            200,
+            626,
+            560
+          ],
+          [
+            626,
+            200,
+            1227,
+            560
+          ],
+          [
+            19,
+            702,
+            628,
+            1062
+          ],
+          [
+            627,
+            702,
+            1228,
+            1062
+          ]
+        ],
+        "placements": [
+          [
+            82,
+            307
+          ],
+          [
+            62,
+            307
+          ],
+          [
+            82,
+            182
+          ],
+          [
+            63,
+            182
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 4,
+        "nominal_cell_dimensions": [
+          627,
+          627
+        ],
+        "nominal_cell_span": [
+          627.0,
+          627.0
+        ],
+        "cols": 2,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            19,
+            200,
+            626,
+            560
+          ],
+          [
+            626,
+            200,
+            1227,
+            560
+          ],
+          [
+            19,
+            702,
+            628,
+            1062
+          ],
+          [
+            627,
+            702,
+            1228,
+            1062
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "stretch": {
+      "count": 6,
+      "fps": 6,
+      "loop": false,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.570312,
+          "y": 0.898438,
+          "pixel_x": 73.0,
+          "pixel_y": 115,
+          "body_bounds": [
+            15,
+            60,
+            110,
+            115
+          ]
+        },
+        {
+          "x": 0.65625,
+          "y": 0.898438,
+          "pixel_x": 84.0,
+          "pixel_y": 115,
+          "body_bounds": [
+            13,
+            59,
+            111,
+            115
+          ]
+        },
+        {
+          "x": 0.726562,
+          "y": 0.898438,
+          "pixel_x": 93.0,
+          "pixel_y": 115,
+          "body_bounds": [
+            12,
+            62,
+            115,
+            115
+          ]
+        },
+        {
+          "x": 0.730469,
+          "y": 0.804688,
+          "pixel_x": 93.5,
+          "pixel_y": 103,
+          "body_bounds": [
+            15,
+            46,
+            118,
+            103
+          ]
+        },
+        {
+          "x": 0.628906,
+          "y": 0.804688,
+          "pixel_x": 80.5,
+          "pixel_y": 103,
+          "body_bounds": [
+            17,
+            52,
+            116,
+            103
+          ]
+        },
+        {
+          "x": 0.59375,
+          "y": 0.8125,
+          "pixel_x": 76.0,
+          "pixel_y": 104,
+          "body_bounds": [
+            19,
+            52,
+            112,
+            104
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/stretch.png",
+      "frames": [
+        "growth/baby/frames/stretch/stretch_00.png",
+        "growth/baby/frames/stretch/stretch_01.png",
+        "growth/baby/frames/stretch/stretch_02.png",
+        "growth/baby/frames/stretch/stretch_03.png",
+        "growth/baby/frames/stretch/stretch_04.png",
+        "growth/baby/frames/stretch/stretch_05.png"
+      ],
+      "hashes": [
+        "ae5b0304496aad9c2fc5e7e1cc6bb0fcadada9970adc73c74bfb6512a89b88ef",
+        "283811c2254e2804d639454a80de9767a8cf455d5be1f6d7df49ff4c96ba6f91",
+        "bef7cba237e7cca95ecea48a39eeb4cd4f98b2568cadeeaae4d759c8071f4482",
+        "0fbc2408ef0215633dc1ae0efdaf45e7dca24f24f32829a1550a7d48cbb5b855",
+        "3d47235716a278638f79bb64b846b3b24127ac5f183ec528d752d7fde61a0008",
+        "482ea019b05e2e58c793ab986254b84cb620fca9f95f8181694ceef5e23b0df7"
+      ],
+      "png_sha256": [
+        "05661866893a318ed673e82580183d12312ffaa9566f3f29aa817ab15746450c",
+        "ff713504f787e26f7b2cd199a78924b48920e4a225f2df2f7a1a6a29327e8c97",
+        "fcafa4c29d7ba458d4e5dcea12df753cf55bbe23ae9a4c7f108c612d6e43ff3e",
+        "eec4669cd486a780ad29c51471d35f10d57d2141fc36db350cacb5cb19ef88bd",
+        "c92d279015b5a97194e277d1abd145360c53c59ad863f740550389ee51874bb9",
+        "9df1827b9122ef0bd24f0300d98ffd7879e80ce5303c356d99c1035d297e8a35"
+      ],
+      "sheet_sha256": "28c9c4558c544f91abaa7ca0e02f4eae87367d460fdad2d53e22eb834c7ebfec",
+      "source": "preview/assets/growth/baby/source/stretch.png",
+      "source_sha256": "f34809564723eef3d62539af19086a5698e683bb8fd9a48374bf73a9be798326",
+      "source_grid": {
+        "cols": 3,
+        "rows": 2
+      },
+      "distinct_frames": 6,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          615,
+          615
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 522.75,
+        "source_bounds": [
+          [
+            22,
+            200,
+            477,
+            464
+          ],
+          [
+            524,
+            197,
+            992,
+            464
+          ],
+          [
+            1030,
+            208,
+            1523,
+            463
+          ],
+          [
+            22,
+            644,
+            514,
+            920
+          ],
+          [
+            543,
+            676,
+            1018,
+            921
+          ],
+          [
+            1063,
+            676,
+            1514,
+            922
+          ]
+        ],
+        "placements": [
+          [
+            74,
+            288
+          ],
+          [
+            64,
+            285
+          ],
+          [
+            58,
+            296
+          ],
+          [
+            74,
+            220
+          ],
+          [
+            82,
+            252
+          ],
+          [
+            90,
+            252
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 6,
+        "nominal_cell_dimensions": [
+          512,
+          512
+        ],
+        "nominal_cell_span": [
+          512.0,
+          512.0
+        ],
+        "cols": 3,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            22,
+            200,
+            477,
+            464
+          ],
+          [
+            524,
+            197,
+            992,
+            464
+          ],
+          [
+            1030,
+            208,
+            1523,
+            463
+          ],
+          [
+            22,
+            644,
+            514,
+            920
+          ],
+          [
+            543,
+            676,
+            1018,
+            921
+          ],
+          [
+            1063,
+            676,
+            1514,
+            922
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "wave": {
+      "count": 6,
+      "fps": 8,
+      "loop": false,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.640625,
+          "y": 0.859375,
+          "pixel_x": 82.0,
+          "pixel_y": 110,
+          "body_bounds": [
+            15,
+            50,
+            115,
+            110
+          ]
+        },
+        {
+          "x": 0.726562,
+          "y": 0.859375,
+          "pixel_x": 93.0,
+          "pixel_y": 110,
+          "body_bounds": [
+            14,
+            50,
+            114,
+            110
+          ]
+        },
+        {
+          "x": 0.691406,
+          "y": 0.859375,
+          "pixel_x": 88.5,
+          "pixel_y": 110,
+          "body_bounds": [
+            11,
+            49,
+            110,
+            110
+          ]
+        },
+        {
+          "x": 0.621094,
+          "y": 0.789062,
+          "pixel_x": 79.5,
+          "pixel_y": 101,
+          "body_bounds": [
+            15,
+            38,
+            123,
+            101
+          ]
+        },
+        {
+          "x": 0.722656,
+          "y": 0.789062,
+          "pixel_x": 92.5,
+          "pixel_y": 101,
+          "body_bounds": [
+            14,
+            39,
+            114,
+            101
+          ]
+        },
+        {
+          "x": 0.59375,
+          "y": 0.789062,
+          "pixel_x": 76.0,
+          "pixel_y": 101,
+          "body_bounds": [
+            10,
+            39,
+            111,
+            101
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/wave.png",
+      "frames": [
+        "growth/baby/frames/wave/wave_00.png",
+        "growth/baby/frames/wave/wave_01.png",
+        "growth/baby/frames/wave/wave_02.png",
+        "growth/baby/frames/wave/wave_03.png",
+        "growth/baby/frames/wave/wave_04.png",
+        "growth/baby/frames/wave/wave_05.png"
+      ],
+      "hashes": [
+        "e220c7dec3c5340260e83e116525316f8a8e57b01a79486529d7c36784f87c56",
+        "bf5e64358e4c87e5ca7b1ba697a955cd70b96c7d53e8f26f550592576d749e68",
+        "ccf501ed989fbab1b4e749f0166e5a3acf0e171f48366ad438eba03bc917c416",
+        "d624193cd5bcb8c3c3b752def095b6c559ba9554d05b1a9135ab6cb7a619390a",
+        "1943f4706577481cff74a5df0970903d2dd97ad397c60646e9e1463f0df522c8",
+        "60297819279becf1cf5dfcbacf1b611e92b4b404538f7d2920fee89b793fe7cf"
+      ],
+      "png_sha256": [
+        "fea063a68da1323b822b1ac1c61650fa6968c4b52cfaf0a9de6f6018d2cb3030",
+        "04c8dcc18c350c3c78f3847f7c78a0865d288a1aa621954a0e5de717921171c7",
+        "367d8ac34d4f36681d1825d71e7cdebe47699756ce07d6189702ba1c48811c57",
+        "71276088b8c8d3f48590dce1c334235285ec2caf6a056674a6f80f9284ec263d",
+        "ee10add83405292ef1150c769061f5879ee4e05e700592524d1feceb04b25400",
+        "c65ab1ee7ab6605e1f704fcddc1bec71192a1847178a5525eef3720549c8b5ca"
+      ],
+      "sheet_sha256": "76ed1f97368cf12cf78846278313b6b6b541d7aed283fba70d7e182979e6dfc6",
+      "source": "preview/assets/growth/baby/source/wave.png",
+      "source_sha256": "d54962b918c9574c081379859809f4baf158c27399fb64a22558b8fe0fe0f17a",
+      "source_grid": {
+        "cols": 3,
+        "rows": 2
+      },
+      "distinct_frames": 6,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          615,
+          615
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 522.75,
+        "source_bounds": [
+          [
+            20,
+            153,
+            501,
+            443
+          ],
+          [
+            528,
+            153,
+            1006,
+            443
+          ],
+          [
+            1027,
+            146,
+            1501,
+            443
+          ],
+          [
+            20,
+            607,
+            541,
+            908
+          ],
+          [
+            530,
+            613,
+            1010,
+            908
+          ],
+          [
+            1022,
+            614,
+            1508,
+            908
+          ]
+        ],
+        "placements": [
+          [
+            72,
+            241
+          ],
+          [
+            68,
+            241
+          ],
+          [
+            54,
+            234
+          ],
+          [
+            72,
+            183
+          ],
+          [
+            70,
+            189
+          ],
+          [
+            50,
+            190
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 6,
+        "nominal_cell_dimensions": [
+          512,
+          512
+        ],
+        "nominal_cell_span": [
+          512.0,
+          512.0
+        ],
+        "cols": 3,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            20,
+            153,
+            501,
+            443
+          ],
+          [
+            528,
+            153,
+            1006,
+            443
+          ],
+          [
+            1027,
+            146,
+            1501,
+            443
+          ],
+          [
+            20,
+            607,
+            541,
+            908
+          ],
+          [
+            530,
+            613,
+            1010,
+            908
+          ],
+          [
+            1022,
+            614,
+            1508,
+            908
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "dizzy": {
+      "count": 6,
+      "fps": 6,
+      "loop": true,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.601562,
+          "y": 0.867188,
+          "pixel_x": 77.0,
+          "pixel_y": 111,
+          "body_bounds": [
+            18,
+            54,
+            115,
+            111
+          ]
+        },
+        {
+          "x": 0.585938,
+          "y": 0.882812,
+          "pixel_x": 75.0,
+          "pixel_y": 113,
+          "body_bounds": [
+            17,
+            58,
+            113,
+            113
+          ]
+        },
+        {
+          "x": 0.589844,
+          "y": 0.867188,
+          "pixel_x": 75.5,
+          "pixel_y": 111,
+          "body_bounds": [
+            14,
+            52,
+            111,
+            111
+          ]
+        },
+        {
+          "x": 0.675781,
+          "y": 0.804688,
+          "pixel_x": 86.5,
+          "pixel_y": 103,
+          "body_bounds": [
+            19,
+            42,
+            121,
+            103
+          ]
+        },
+        {
+          "x": 0.628906,
+          "y": 0.789062,
+          "pixel_x": 80.5,
+          "pixel_y": 101,
+          "body_bounds": [
+            18,
+            42,
+            115,
+            102
+          ]
+        },
+        {
+          "x": 0.574219,
+          "y": 0.804688,
+          "pixel_x": 73.5,
+          "pixel_y": 103,
+          "body_bounds": [
+            13,
+            42,
+            112,
+            103
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/dizzy.png",
+      "frames": [
+        "growth/baby/frames/dizzy/dizzy_00.png",
+        "growth/baby/frames/dizzy/dizzy_01.png",
+        "growth/baby/frames/dizzy/dizzy_02.png",
+        "growth/baby/frames/dizzy/dizzy_03.png",
+        "growth/baby/frames/dizzy/dizzy_04.png",
+        "growth/baby/frames/dizzy/dizzy_05.png"
+      ],
+      "hashes": [
+        "c5ca84a2c70d7b34684ffa616508a7e5a1d083b1f7d0fb4b66571c421cda4b65",
+        "b39daee1cf0991829b42fbb83c32495f31e1175d344949d63400fb9f82caf618",
+        "2cba4722e2154d7c80a3ba524c0b36da2eba8a406ca3292b5e8c9c7be2656172",
+        "2f4f28413000bcde8cb17834d6db9d602af4deeb9bcbf7a12264740ae7e44a91",
+        "45c0b43879aafaeef109a1f80f1a13f866e6e4106dca6d95c01afda6239570dc",
+        "1c17d7cf03bde684495681f36978dd14a13f3257c68833c4f3971bedc51f3f5f"
+      ],
+      "png_sha256": [
+        "d120e2fcd9c5662805c68c99abe591fe166629050f5e5c66c96189997115dc86",
+        "d99c93b5255712b542ebc9a297ab4866e130434b75efceed7e5408e28e79fdd7",
+        "a48703a41c0dcb94d77b40c4447c7973c289215de123a1ec5c84b7b623caf428",
+        "27e2c50af7ca6b2cddf2af4fc162ee133634582a45178a6c3cfe499e07c29d7b",
+        "506b7b478a6141a5f4b2bc29add88dbe99492948e8d1b77b607baecefc848388",
+        "1258c1d8f72643eb399fafc79df1083f390d126556b85735aa0523780d7aa0d1"
+      ],
+      "sheet_sha256": "8a3a6aa105e8158bc2ecad9f4dfb516e378b41d11a8cb10377802bd82fae822d",
+      "source": "preview/assets/growth/baby/source/dizzy.png",
+      "source_sha256": "e25a05d4b952cee75310f0690c9ef74d9dc6f2a4a081ed7a4645f3a6b40168ea",
+      "source_grid": {
+        "cols": 3,
+        "rows": 2
+      },
+      "distinct_frames": 6,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          615,
+          615
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 522.75,
+        "source_bounds": [
+          [
+            35,
+            173,
+            504,
+            448
+          ],
+          [
+            544,
+            192,
+            1005,
+            454
+          ],
+          [
+            1038,
+            162,
+            1508,
+            448
+          ],
+          [
+            40,
+            626,
+            528,
+            919
+          ],
+          [
+            546,
+            626,
+            1012,
+            917
+          ],
+          [
+            1035,
+            628,
+            1513,
+            919
+          ]
+        ],
+        "placements": [
+          [
+            86,
+            261
+          ],
+          [
+            84,
+            280
+          ],
+          [
+            66,
+            250
+          ],
+          [
+            92,
+            202
+          ],
+          [
+            86,
+            202
+          ],
+          [
+            62,
+            204
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 6,
+        "nominal_cell_dimensions": [
+          512,
+          512
+        ],
+        "nominal_cell_span": [
+          512.0,
+          512.0
+        ],
+        "cols": 3,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            35,
+            173,
+            504,
+            448
+          ],
+          [
+            544,
+            192,
+            1005,
+            454
+          ],
+          [
+            1038,
+            162,
+            1508,
+            448
+          ],
+          [
+            40,
+            626,
+            528,
+            919
+          ],
+          [
+            546,
+            626,
+            1012,
+            917
+          ],
+          [
+            1035,
+            628,
+            1513,
+            919
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "angry": {
+      "count": 6,
+      "fps": 6,
+      "loop": true,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.59375,
+          "y": 0.867188,
+          "pixel_x": 76.0,
+          "pixel_y": 111,
+          "body_bounds": [
+            17,
+            51,
+            115,
+            111
+          ]
+        },
+        {
+          "x": 0.582031,
+          "y": 0.867188,
+          "pixel_x": 74.5,
+          "pixel_y": 111,
+          "body_bounds": [
+            16,
+            51,
+            113,
+            111
+          ]
+        },
+        {
+          "x": 0.613281,
+          "y": 0.851562,
+          "pixel_x": 78.5,
+          "pixel_y": 109,
+          "body_bounds": [
+            14,
+            50,
+            111,
+            111
+          ]
+        },
+        {
+          "x": 0.632812,
+          "y": 0.8125,
+          "pixel_x": 81.0,
+          "pixel_y": 104,
+          "body_bounds": [
+            16,
+            41,
+            116,
+            104
+          ]
+        },
+        {
+          "x": 0.601562,
+          "y": 0.804688,
+          "pixel_x": 77.0,
+          "pixel_y": 103,
+          "body_bounds": [
+            15,
+            41,
+            112,
+            103
+          ]
+        },
+        {
+          "x": 0.582031,
+          "y": 0.804688,
+          "pixel_x": 74.5,
+          "pixel_y": 103,
+          "body_bounds": [
+            14,
+            41,
+            112,
+            103
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/angry.png",
+      "frames": [
+        "growth/baby/frames/angry/angry_00.png",
+        "growth/baby/frames/angry/angry_01.png",
+        "growth/baby/frames/angry/angry_02.png",
+        "growth/baby/frames/angry/angry_03.png",
+        "growth/baby/frames/angry/angry_04.png",
+        "growth/baby/frames/angry/angry_05.png"
+      ],
+      "hashes": [
+        "18250e936195bee332d1152ae9a61732e004454204c99d9d5ebe593ca26309e4",
+        "4e9f76e224a9bd4bfa57221a4d17379e5e7e14e8a610c4fca0929c79213cc097",
+        "4c933699c191ef42aa4b0457acff99b887b99cc24292891f89cae2f77159bbc8",
+        "9d57d2e19970cdc81934c5c77fb9accd8d2fdf15bfae7854395cdbab357e5fd4",
+        "425d6734d628329a184d5b9bcbf10ccdeed6bcc42fb8dc2fe306a0085a9201c0",
+        "d153af5b72e33ee3711ffb1bcea1dd5ac66e49ad3725961f0b4f455a5f4e858b"
+      ],
+      "png_sha256": [
+        "1bce876eb3e95f5cc37ad419fe5a591292cd1ca80d759836315eaf0a1accd7ec",
+        "29c032d6921ac301e9396901e1df1e0e4d7c66a656587f2e980276d2cfba1e4e",
+        "6b6adea313381a8b4845506ceab7aaceb154c6dccd8ce923c9b7fbfc0b8f87b7",
+        "9050c721eb679ede9d1ac01a9d2051d38808c29054f5ca9ccde385e2ddc9efcf",
+        "8ee9eceec1b293b0c62868b08807aab35a02e2a6419c98316c28aa5ab7863ec0",
+        "45873164706d5c27c7d09957ff8f6196e02b87e1a493f966e1c35dba521cc61f"
+      ],
+      "sheet_sha256": "8830582358de23aec1bacce2ad4c6dd4633e62ced6ee9299d009664630d392e7",
+      "source": "preview/assets/growth/baby/source/angry.png",
+      "source_sha256": "caa9de928381672a18ff16af9e635a4e0e7256f90d22f85c8104f197b1751dfd",
+      "source_grid": {
+        "cols": 3,
+        "rows": 2
+      },
+      "distinct_frames": 6,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          615,
+          615
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 522.75,
+        "source_bounds": [
+          [
+            30,
+            157,
+            500,
+            444
+          ],
+          [
+            537,
+            156,
+            1005,
+            444
+          ],
+          [
+            1038,
+            153,
+            1507,
+            447
+          ],
+          [
+            26,
+            621,
+            504,
+            923
+          ],
+          [
+            532,
+            622,
+            999,
+            919
+          ],
+          [
+            1042,
+            623,
+            1510,
+            919
+          ]
+        ],
+        "placements": [
+          [
+            82,
+            245
+          ],
+          [
+            76,
+            244
+          ],
+          [
+            66,
+            241
+          ],
+          [
+            78,
+            197
+          ],
+          [
+            72,
+            198
+          ],
+          [
+            70,
+            199
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 6,
+        "nominal_cell_dimensions": [
+          512,
+          512
+        ],
+        "nominal_cell_span": [
+          512.0,
+          512.0
+        ],
+        "cols": 3,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            30,
+            157,
+            500,
+            444
+          ],
+          [
+            537,
+            156,
+            1005,
+            444
+          ],
+          [
+            1038,
+            153,
+            1507,
+            447
+          ],
+          [
+            26,
+            621,
+            504,
+            923
+          ],
+          [
+            532,
+            622,
+            999,
+            919
+          ],
+          [
+            1042,
+            623,
+            1510,
+            919
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "sick": {
+      "count": 4,
+      "fps": 4,
+      "loop": true,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.660156,
+          "y": 0.945312,
+          "pixel_x": 84.5,
+          "pixel_y": 121,
+          "body_bounds": [
+            19,
+            71,
+            115,
+            121
+          ]
+        },
+        {
+          "x": 0.621094,
+          "y": 0.945312,
+          "pixel_x": 79.5,
+          "pixel_y": 121,
+          "body_bounds": [
+            16,
+            69,
+            108,
+            121
+          ]
+        },
+        {
+          "x": 0.65625,
+          "y": 0.898438,
+          "pixel_x": 84.0,
+          "pixel_y": 115,
+          "body_bounds": [
+            19,
+            64,
+            114,
+            115
+          ]
+        },
+        {
+          "x": 0.609375,
+          "y": 0.898438,
+          "pixel_x": 78.0,
+          "pixel_y": 115,
+          "body_bounds": [
+            14,
+            64,
+            110,
+            115
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/sick.png",
+      "frames": [
+        "growth/baby/frames/sick/sick_00.png",
+        "growth/baby/frames/sick/sick_01.png",
+        "growth/baby/frames/sick/sick_02.png",
+        "growth/baby/frames/sick/sick_03.png"
+      ],
+      "hashes": [
+        "3a6d821cc20ae615a343a23cc697fbf15ffea05ea1babac3f459ae55a754c8f9",
+        "2537d3854834573ab8e6a00f32eb683dc819abe00705419fedeeaefb35fd5680",
+        "f2332ea870d01d5dc6e0c396d666941a7eb79048839ad423c634382d8cf35e1e",
+        "dcf1c3147c03de1a9fa392d63ddde2e70eb6a00c099f37750cbd163e13ea5e27"
+      ],
+      "png_sha256": [
+        "e37e401b5ba2ebb7e9437b87b0899575a97cd352cd7f5c351ddbf2c16110332a",
+        "a33bda6f7e3b122770be6d9a6099d656452fc5d28c0922654deaeca57febc655",
+        "4b70c70ab48a1f803d2477d9fe3056ef79bc58153029e84c2f2cccfbf2037749",
+        "49d11e71720144b0c67eacc0dd91420b0d1306dd66995e019df619a169bea641"
+      ],
+      "sheet_sha256": "27ec43f2caed10ad19cf0f8e4742141ba88199cd22b5666487aac50448a62d91",
+      "source": "preview/assets/growth/baby/source/sick.png",
+      "source_sha256": "18cde05225ff700ae0d5d431e440da551328ec53158676fd610ee11695ac695e",
+      "source_grid": {
+        "cols": 2,
+        "rows": 2
+      },
+      "distinct_frames": 4,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          753,
+          753
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 640.05,
+        "source_bounds": [
+          [
+            51,
+            311,
+            617,
+            603
+          ],
+          [
+            660,
+            296,
+            1201,
+            605
+          ],
+          [
+            51,
+            898,
+            610,
+            1200
+          ],
+          [
+            646,
+            895,
+            1213,
+            1200
+          ]
+        ],
+        "placements": [
+          [
+            114,
+            418
+          ],
+          [
+            96,
+            403
+          ],
+          [
+            114,
+            378
+          ],
+          [
+            82,
+            375
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 4,
+        "nominal_cell_dimensions": [
+          627,
+          627
+        ],
+        "nominal_cell_span": [
+          627.0,
+          627.0
+        ],
+        "cols": 2,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            51,
+            311,
+            617,
+            603
+          ],
+          [
+            660,
+            296,
+            1201,
+            605
+          ],
+          [
+            51,
+            898,
+            610,
+            1200
+          ],
+          [
+            646,
+            895,
+            1213,
+            1200
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "bath": {
+      "count": 6,
+      "fps": 8,
+      "loop": false,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.585938,
+          "y": 0.914062,
+          "pixel_x": 75.0,
+          "pixel_y": 117,
+          "body_bounds": [
+            14,
+            55,
+            115,
+            117
+          ]
+        },
+        {
+          "x": 0.699219,
+          "y": 0.914062,
+          "pixel_x": 89.5,
+          "pixel_y": 117,
+          "body_bounds": [
+            15,
+            54,
+            112,
+            117
+          ]
+        },
+        {
+          "x": 0.683594,
+          "y": 0.914062,
+          "pixel_x": 87.5,
+          "pixel_y": 117,
+          "body_bounds": [
+            13,
+            52,
+            112,
+            117
+          ]
+        },
+        {
+          "x": 0.722656,
+          "y": 0.820312,
+          "pixel_x": 92.5,
+          "pixel_y": 105,
+          "body_bounds": [
+            15,
+            39,
+            117,
+            106
+          ]
+        },
+        {
+          "x": 0.726562,
+          "y": 0.820312,
+          "pixel_x": 93.0,
+          "pixel_y": 105,
+          "body_bounds": [
+            15,
+            42,
+            115,
+            106
+          ]
+        },
+        {
+          "x": 0.589844,
+          "y": 0.828125,
+          "pixel_x": 75.5,
+          "pixel_y": 106,
+          "body_bounds": [
+            13,
+            42,
+            112,
+            106
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/bath.png",
+      "frames": [
+        "growth/baby/frames/bath/bath_00.png",
+        "growth/baby/frames/bath/bath_01.png",
+        "growth/baby/frames/bath/bath_02.png",
+        "growth/baby/frames/bath/bath_03.png",
+        "growth/baby/frames/bath/bath_04.png",
+        "growth/baby/frames/bath/bath_05.png"
+      ],
+      "hashes": [
+        "f86142a2703dea9bb0e681c2627e04f3adfa741cdb68c855b33361e3acdb557e",
+        "579fe2f963fc2d1d18a78afb3fda029f62cacc3e01e3562d8b3322462c7384e8",
+        "aeb61073cd261c9a187fc960eada8af9c5105108293f82fd7f442b197935f20d",
+        "58b4ccea254bc2c58332af1af8bfbdad5209fdbbda13e6f49ccdff9624e8582a",
+        "d9b09e46fae6f6a5c291034de574cc5d52283b1a85466f02b9e4a3ecf6ab61d8",
+        "582b33c825d01821733d68cb94ccc87cbbac826c28a81a49fbe226dec6840bd4"
+      ],
+      "png_sha256": [
+        "7edd24bc770e0ac0f2c859e249ee002e3220977da62d4b64f3bccc4f64e98a98",
+        "628458be1bd3f34df7f9d86425692b44880f92aaae5b72b064bb6fa9ccd784bd",
+        "09f6e425985a07d8a68f5d763046eac7d6d5ee501be20affc1c6f9c863c99ef6",
+        "96e9226635b80300a77d3985a471f1622944067f009e38edd37d7107a9467a08",
+        "6d417d729c0d45e2a89c2d0e9324df628027f238369ea4eb7672bbd8d98653ee",
+        "80f489c7a192c8e7e72277090ccea109d6fd6bedd150acc75323986efa69e7c7"
+      ],
+      "sheet_sha256": "a034097cce98453cc6651c5896d6cad6331fe26fe792ac03ed4bccfeda4f0de7",
+      "source": "preview/assets/growth/baby/source/bath.png",
+      "source_sha256": "7af3c8ef3c1a7d5d802b9ccaa0a7448c2b19ee140e2c2302e2b731ae6f35fb28",
+      "source_grid": {
+        "cols": 3,
+        "rows": 2
+      },
+      "distinct_frames": 6,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          615,
+          615
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 522.75,
+        "source_bounds": [
+          [
+            17,
+            176,
+            501,
+            474
+          ],
+          [
+            533,
+            172,
+            1001,
+            475
+          ],
+          [
+            1034,
+            163,
+            1513,
+            477
+          ],
+          [
+            22,
+            611,
+            513,
+            933
+          ],
+          [
+            533,
+            625,
+            1012,
+            933
+          ],
+          [
+            1034,
+            625,
+            1513,
+            933
+          ]
+        ],
+        "placements": [
+          [
+            68,
+            264
+          ],
+          [
+            72,
+            260
+          ],
+          [
+            62,
+            251
+          ],
+          [
+            74,
+            187
+          ],
+          [
+            72,
+            201
+          ],
+          [
+            62,
+            201
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 6,
+        "nominal_cell_dimensions": [
+          512,
+          512
+        ],
+        "nominal_cell_span": [
+          512.0,
+          512.0
+        ],
+        "cols": 3,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            17,
+            176,
+            501,
+            474
+          ],
+          [
+            533,
+            172,
+            1001,
+            475
+          ],
+          [
+            1034,
+            163,
+            1513,
+            477
+          ],
+          [
+            22,
+            611,
+            513,
+            933
+          ],
+          [
+            533,
+            625,
+            1012,
+            933
+          ],
+          [
+            1034,
+            625,
+            1513,
+            933
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "pet": {
+      "count": 6,
+      "fps": 8,
+      "loop": false,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.628906,
+          "y": 0.859375,
+          "pixel_x": 80.5,
+          "pixel_y": 110,
+          "body_bounds": [
+            17,
+            54,
+            115,
+            110
+          ]
+        },
+        {
+          "x": 0.625,
+          "y": 0.867188,
+          "pixel_x": 80.0,
+          "pixel_y": 111,
+          "body_bounds": [
+            18,
+            47,
+            117,
+            111
+          ]
+        },
+        {
+          "x": 0.71875,
+          "y": 0.859375,
+          "pixel_x": 92.0,
+          "pixel_y": 110,
+          "body_bounds": [
+            15,
+            47,
+            114,
+            112
+          ]
+        },
+        {
+          "x": 0.738281,
+          "y": 0.757812,
+          "pixel_x": 94.5,
+          "pixel_y": 97,
+          "body_bounds": [
+            17,
+            35,
+            119,
+            99
+          ]
+        },
+        {
+          "x": 0.640625,
+          "y": 0.773438,
+          "pixel_x": 82.0,
+          "pixel_y": 99,
+          "body_bounds": [
+            17,
+            38,
+            119,
+            99
+          ]
+        },
+        {
+          "x": 0.613281,
+          "y": 0.773438,
+          "pixel_x": 78.5,
+          "pixel_y": 99,
+          "body_bounds": [
+            16,
+            38,
+            114,
+            99
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/pet.png",
+      "frames": [
+        "growth/baby/frames/pet/pet_00.png",
+        "growth/baby/frames/pet/pet_01.png",
+        "growth/baby/frames/pet/pet_02.png",
+        "growth/baby/frames/pet/pet_03.png",
+        "growth/baby/frames/pet/pet_04.png",
+        "growth/baby/frames/pet/pet_05.png"
+      ],
+      "hashes": [
+        "2d654169be8bacb59f35de6402f2fd4dbdf1950e5653a10c27fc0df3456a4e69",
+        "a01cf29c414537cd3756c263b07ab035fa012cc8730331be5984e4fd8c49e4b9",
+        "190805541c14804c9a7315dd7e070b4b729e4a7ee5ae78940781ccfa6d2dfc2f",
+        "eaa555859a6673b5c8ef6f2b258a229ce541cffd2b819204fa8ea19dc2b47654",
+        "1dbae9841dc1df0ee89292b30607e840d6b792338847484582a3706ac3714c3b",
+        "e1287def20f08153bd65dc03a7180f10237a523560c712cb9f6328cbbaff269a"
+      ],
+      "png_sha256": [
+        "1c5d18da57d8c2a9451e51e12c4de40988d662a4bd461e050b7269c780904813",
+        "30bbaddffa007832390e5612a93e097ea89448486ccdaea3b49cf067509dda87",
+        "58f9cf5dc1ff044f290e6826088d910762027d59f277e178f7dcf28a3294f074",
+        "5141bad8bdfc6f8b7372e8a50373914f7182e3dd7bbf0c4ce0a8317693b19694",
+        "c56aad94e2d2b18cd5b855c7fc5d4627610f0f0a90e51e39bdb4b7cf291e88c0",
+        "d1bff618a5e696707fa1d4259c00b1266e86efcf209f19924ea21b83cf551842"
+      ],
+      "sheet_sha256": "d01548e6fccc3501ee58cf65c8a245856cfe0e81c2dd8115aa31ec08bbffea03",
+      "source": "preview/assets/growth/baby/source/pet.png",
+      "source_sha256": "d8669fb3dfddc2c5a527ee8d8516882be4aa94c7a52005e4eeb56100ba23d73d",
+      "source_grid": {
+        "cols": 3,
+        "rows": 2
+      },
+      "distinct_frames": 6,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          615,
+          615
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 522.75,
+        "source_bounds": [
+          [
+            28,
+            172,
+            502,
+            443
+          ],
+          [
+            547,
+            137,
+            1027,
+            447
+          ],
+          [
+            1045,
+            140,
+            1520,
+            450
+          ],
+          [
+            29,
+            591,
+            521,
+            901
+          ],
+          [
+            540,
+            608,
+            1031,
+            902
+          ],
+          [
+            1050,
+            609,
+            1522,
+            902
+          ]
+        ],
+        "placements": [
+          [
+            80,
+            260
+          ],
+          [
+            86,
+            225
+          ],
+          [
+            72,
+            228
+          ],
+          [
+            80,
+            167
+          ],
+          [
+            80,
+            184
+          ],
+          [
+            78,
+            185
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 6,
+        "nominal_cell_dimensions": [
+          512,
+          512
+        ],
+        "nominal_cell_span": [
+          512.0,
+          512.0
+        ],
+        "cols": 3,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            28,
+            172,
+            502,
+            443
+          ],
+          [
+            547,
+            137,
+            1027,
+            447
+          ],
+          [
+            1045,
+            140,
+            1520,
+            450
+          ],
+          [
+            29,
+            591,
+            521,
+            901
+          ],
+          [
+            540,
+            608,
+            1031,
+            902
+          ],
+          [
+            1050,
+            609,
+            1522,
+            902
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    },
+    "shelter": {
+      "count": 6,
+      "fps": 4,
+      "loop": true,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.597656,
+          "y": 0.898438,
+          "pixel_x": 76.5,
+          "pixel_y": 115,
+          "body_bounds": [
+            17,
+            56,
+            114,
+            115
+          ]
+        },
+        {
+          "x": 0.660156,
+          "y": 0.898438,
+          "pixel_x": 84.5,
+          "pixel_y": 115,
+          "body_bounds": [
+            17,
+            65,
+            114,
+            115
+          ]
+        },
+        {
+          "x": 0.597656,
+          "y": 0.898438,
+          "pixel_x": 76.5,
+          "pixel_y": 115,
+          "body_bounds": [
+            14,
+            68,
+            111,
+            115
+          ]
+        },
+        {
+          "x": 0.59375,
+          "y": 0.820312,
+          "pixel_x": 76.0,
+          "pixel_y": 105,
+          "body_bounds": [
+            17,
+            59,
+            113,
+            105
+          ]
+        },
+        {
+          "x": 0.605469,
+          "y": 0.820312,
+          "pixel_x": 77.5,
+          "pixel_y": 105,
+          "body_bounds": [
+            16,
+            52,
+            112,
+            105
+          ]
+        },
+        {
+          "x": 0.636719,
+          "y": 0.820312,
+          "pixel_x": 81.5,
+          "pixel_y": 105,
+          "body_bounds": [
+            15,
+            50,
+            112,
+            105
+          ]
+        }
+      ],
+      "sheet": "growth/baby/frames/shelter.png",
+      "frames": [
+        "growth/baby/frames/shelter/shelter_00.png",
+        "growth/baby/frames/shelter/shelter_01.png",
+        "growth/baby/frames/shelter/shelter_02.png",
+        "growth/baby/frames/shelter/shelter_03.png",
+        "growth/baby/frames/shelter/shelter_04.png",
+        "growth/baby/frames/shelter/shelter_05.png"
+      ],
+      "hashes": [
+        "248c9c18be6d59e22d5af3bc8c12442a7f24d9aef95085deea4aafa0ed5c4e27",
+        "a90470195f062bfb039b16ec70d555374ce418a5d7a1d6b5373cc1996465448f",
+        "fd4fead3d14e35bafffdb752409940b76d709535c7380fd552f6cded55312fc4",
+        "7254a4d46c488361170faad7a4f7cd94e64d3356896f97ef4c676efb2ce707b2",
+        "ab3eba538744e82997154ba2183a38b513977ab9e6741f786b9f8560505b388c",
+        "c487aa367b84e8f534b9c65961f18cdcd9b46b0651a813f98e88f8e13768f6aa"
+      ],
+      "png_sha256": [
+        "50c55d590558e400ea6fb3d68c8272ffd77df12302d107ee1d61b8942311c8df",
+        "2fca3fcc221a57d2855248cb84ad4bd4297ff26fb9806267695869b2bd1acbe4",
+        "525ec2a8f1e200b93078a116a9329640f27637d927ad788a7a963ecb7713ddb8",
+        "c2defe542377a364ac9004cf4392af2b19951b29be4bf4780ee5e8777ea50d36",
+        "4baa460daa74c281710b7525b6a777630ed05fd0be5a0ab3ae7f0a1d2b91a828",
+        "d88c47a1c919ff85d989a6048af4841c45fab83eeea42c34e8c068f8161912c9"
+      ],
+      "sheet_sha256": "ffe771e8640abcb0d8efbe46b471b492701d0900739d01fc1d7abb298c15f2c6",
+      "source": "preview/assets/growth/baby/source/shelter.png",
+      "source_sha256": "22d0aceb7b4bf15e08f4685491a4cdb28763e1add975288d87e9a9f8befc6337",
+      "source_grid": {
+        "cols": 3,
+        "rows": 2
+      },
+      "distinct_frames": 6,
+      "background": "auto",
+      "alignment": {
+        "method": "original_grid_coordinates_shared_scale",
+        "source_canvas": [
+          615,
+          615
+        ],
+        "canvas_padding": 1.2,
+        "baseline": 522.75,
+        "source_bounds": [
+          [
+            30,
+            183,
+            499,
+            466
+          ],
+          [
+            540,
+            224,
+            1010,
+            466
+          ],
+          [
+            1043,
+            241,
+            1507,
+            466
+          ],
+          [
+            30,
+            707,
+            494,
+            928
+          ],
+          [
+            539,
+            676,
+            1000,
+            928
+          ],
+          [
+            1045,
+            666,
+            1513,
+            931
+          ]
+        ],
+        "placements": [
+          [
+            82,
+            271
+          ],
+          [
+            80,
+            312
+          ],
+          [
+            70,
+            329
+          ],
+          [
+            82,
+            283
+          ],
+          [
+            78,
+            252
+          ],
+          [
+            72,
+            242
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "stretched": false,
+        "per_frame_scaling": false
+      },
+      "extraction": {
+        "method": "transparent_component_centers_to_nominal_grid",
+        "components": 6,
+        "nominal_cell_dimensions": [
+          512,
+          512
+        ],
+        "nominal_cell_span": [
+          512.0,
+          512.0
+        ],
+        "cols": 3,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            30,
+            183,
+            499,
+            466
+          ],
+          [
+            540,
+            224,
+            1010,
+            466
+          ],
+          [
+            1043,
+            241,
+            1507,
+            466
+          ],
+          [
+            30,
+            707,
+            494,
+            928
+          ],
+          [
+            539,
+            676,
+            1000,
+            928
+          ],
+          [
+            1045,
+            666,
+            1513,
+            931
+          ]
+        ],
+        "source_edge_contacts": []
+      }
+    }
+  },
+  "total_frames": 82
+}

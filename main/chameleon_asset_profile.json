@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "default_stage": "baby",
+  "action_overrides": {
+    "baby": {
+      "sick": "main/assets/sick-redesign/baby/frames/manifest.json",
+      "shelter": "main/assets/shelter-redesign/baby/frames/manifest.json"
+    },
+    "teen": {"sick": "main/assets/sick-redesign/teen/frames/manifest.json"},
+    "adult": {
+      "sick": "main/assets/sick-redesign/adult/frames/manifest.json",
+      "shelter": "main/assets/shelter-redesign/adult/frames/manifest.json"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.log
+.tools
+.tools/
+.venv/
+node_modules/
+build/
+managed_components/
+dist/
+artifacts/
+sdkconfig
+sdkconfig.old
+.env
+.env.*
+*.pem
+*.key
+*.p12
+wifi_secrets.h
+__pycache__/
+.pytest_cache/
+
+# Desktop browser validation artifacts
+output/playwright/
+.playwright-cli/
+
+# Local dependency cache may be a symlink; never publish machine paths.
+managed_components

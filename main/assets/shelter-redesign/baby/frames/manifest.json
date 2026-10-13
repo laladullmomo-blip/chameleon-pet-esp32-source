@@ -1,0 +1,561 @@
+{
+  "version": 1,
+  "converter": {
+    "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+    "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+    "upstream_version": "2.0.0",
+    "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+    "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+    "license": "MIT",
+    "files_unmodified": [
+      "core.py",
+      "LICENSE"
+    ],
+    "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+    "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+    "used_api": [
+      "make_pixel_art_animation",
+      "split_sprite_sheet",
+      "compose_sprite_sheet",
+      "remove_bg_by_color"
+    ],
+    "unused_components": [
+      "GUI",
+      "rembg",
+      "background-removal AI models",
+      "automatic updates",
+      "sklearn palette clustering"
+    ],
+    "api": "make_pixel_art_animation"
+  },
+  "processing": {
+    "width": 128,
+    "height": 128,
+    "palette_colors": 32,
+    "reference_colors": 24,
+    "effect_colors": 8,
+    "dither": false,
+    "outline": false,
+    "remove_bg_ai": false,
+    "alpha": [
+      0,
+      255
+    ],
+    "pose_generation": false,
+    "frame_duplication": false,
+    "foot_anchor_method": "largest_8_connected_alpha_island_right_half_bottom_row",
+    "native_grid": {
+      "enabled": true,
+      "native_grid_size": 128,
+      "source_cell_size": 512,
+      "source_to_native_factor": 4,
+      "fixed_source_coordinates": true,
+      "color_apis": [
+        "_quantize_to_palette_lab",
+        "_majority_downscale"
+      ],
+      "alpha_threshold": 127,
+      "alpha_resampling": "NEAREST",
+      "converter_input": [
+        128,
+        128
+      ],
+      "converter_output": [
+        128,
+        128
+      ],
+      "converter_ratio": 1.0,
+      "lanczos": false,
+      "bilateral": false,
+      "dither": false,
+      "outline": false,
+      "fixed_palette": true
+    }
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "Pillow": "12.3.0",
+    "numpy": "2.3.5",
+    "scikit_image": "0.25.2",
+    "scipy": "1.16.3"
+  },
+  "reference": {
+    "file": "preview/assets/growth-concepts/baby-v2.png",
+    "sha256": "de6e159e9a46302e5a8b9a1d5c3cbb5c4c6f35cfa1ea0fe7e9182cb116c76104"
+  },
+  "palette": [
+    [
+      240,
+      215,
+      139
+    ],
+    [
+      170,
+      217,
+      65
+    ],
+    [
+      3,
+      30,
+      15
+    ],
+    [
+      2,
+      24,
+      12
+    ],
+    [
+      250,
+      243,
+      81
+    ],
+    [
+      45,
+      144,
+      93
+    ],
+    [
+      173,
+      219,
+      67
+    ],
+    [
+      253,
+      246,
+      82
+    ],
+    [
+      1,
+      30,
+      15
+    ],
+    [
+      45,
+      147,
+      95
+    ],
+    [
+      252,
+      241,
+      171
+    ],
+    [
+      0,
+      29,
+      14
+    ],
+    [
+      46,
+      138,
+      88
+    ],
+    [
+      174,
+      220,
+      67
+    ],
+    [
+      2,
+      13,
+      7
+    ],
+    [
+      165,
+      214,
+      65
+    ],
+    [
+      170,
+      219,
+      66
+    ],
+    [
+      251,
+      245,
+      95
+    ],
+    [
+      23,
+      63,
+      33
+    ],
+    [
+      55,
+      152,
+      94
+    ],
+    [
+      186,
+      225,
+      72
+    ],
+    [
+      176,
+      217,
+      68
+    ],
+    [
+      193,
+      187,
+      69
+    ],
+    [
+      250,
+      228,
+      97
+    ],
+    [
+      248,
+      176,
+      190
+    ],
+    [
+      227,
+      118,
+      154
+    ],
+    [
+      187,
+      70,
+      109
+    ],
+    [
+      110,
+      41,
+      77
+    ],
+    [
+      211,
+      243,
+      255
+    ],
+    [
+      131,
+      209,
+      237
+    ],
+    [
+      65,
+      151,
+      183
+    ],
+    [
+      34,
+      84,
+      111
+    ]
+  ],
+  "actions": {
+    "shelter": {
+      "count": 6,
+      "fps": 4,
+      "loop": true,
+      "width": 128,
+      "height": 128,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "foot_anchors": [
+        {
+          "x": 0.613281,
+          "y": 0.875,
+          "pixel_x": 78.5,
+          "pixel_y": 112,
+          "body_bounds": [
+            15,
+            37,
+            124,
+            112
+          ]
+        },
+        {
+          "x": 0.71875,
+          "y": 0.875,
+          "pixel_x": 92.0,
+          "pixel_y": 112,
+          "body_bounds": [
+            14,
+            42,
+            124,
+            112
+          ]
+        },
+        {
+          "x": 0.617188,
+          "y": 0.875,
+          "pixel_x": 79.0,
+          "pixel_y": 112,
+          "body_bounds": [
+            14,
+            43,
+            119,
+            112
+          ]
+        },
+        {
+          "x": 0.628906,
+          "y": 0.804688,
+          "pixel_x": 80.5,
+          "pixel_y": 103,
+          "body_bounds": [
+            15,
+            30,
+            123,
+            103
+          ]
+        },
+        {
+          "x": 0.617188,
+          "y": 0.804688,
+          "pixel_x": 79.0,
+          "pixel_y": 103,
+          "body_bounds": [
+            14,
+            26,
+            124,
+            103
+          ]
+        },
+        {
+          "x": 0.660156,
+          "y": 0.804688,
+          "pixel_x": 84.5,
+          "pixel_y": 103,
+          "body_bounds": [
+            13,
+            26,
+            120,
+            103
+          ]
+        }
+      ],
+      "sheet": "frames/shelter.png",
+      "frames": [
+        "frames/shelter/shelter_00.png",
+        "frames/shelter/shelter_01.png",
+        "frames/shelter/shelter_02.png",
+        "frames/shelter/shelter_03.png",
+        "frames/shelter/shelter_04.png",
+        "frames/shelter/shelter_05.png"
+      ],
+      "hashes": [
+        "f5f9c7cf128027beccdb2367569f61c9d2d7643fa89d62f3dd2b320a7f61a612",
+        "07220183c894b9b2c28156d1127e28687c371d3305b67d788f22c07b8929ca3d",
+        "42e079beb6e2cd096ecad79986c1a37d2df5f169a9d3791d1ac08233289d8dae",
+        "6ab490d56b865779e4e611abba51a464e87904e04fcdf8a905582602f250d8e0",
+        "ecd84cad2496e9a4a342f061a58da2514bd8b247fdaccba20e0cfffde2d675f0",
+        "f4f26b95c3f89aab164bea19d2e75a666707fc33fb9dd4775b2c1941a0fd6037"
+      ],
+      "png_sha256": [
+        "b88ad00d6045233f2f210f08cdf9d31459a757a23896d906c6d712bbf8723e77",
+        "b1f611d50f51019c10618bc413d317ff1c8f4b9b3a8c7d58b6a4e4974785ef0d",
+        "5e0ad0f7d2a2b9339368499cfc20c4dff692c0475151494e1e5cfb85e16150ba",
+        "d556e3d1edbc1cf00ff63e189a9c2682cc4ce08e6c1e2ff5a7328c58599b4a15",
+        "5c9445adb6c19de0f0993bdfab80397df2f1f56247386e3f2b20cd87af1abf36",
+        "f0d50cdcbfee98ac0452ea56c6f0b1b63d8c55edba6264548c5276d88e133974"
+      ],
+      "sheet_sha256": "4e790451e401b05e9a900ef7e85f1b81749f78a09f4ed01de7155a8e3ba250d6",
+      "source": "main/assets/shelter-redesign/baby/source/shelter-sheet.png",
+      "source_sha256": "ebbf2ea09f3a66058b2e9b6983485ea8dcba0dc7747855c9a52f3858200fe759",
+      "source_grid": {
+        "cols": 3,
+        "rows": 2
+      },
+      "distinct_frames": 6,
+      "background": "transparent",
+      "alignment": {
+        "method": "fixed_native_grid_coordinates_no_fit",
+        "source_canvas": [
+          512,
+          512
+        ],
+        "native_canvas": [
+          128,
+          128
+        ],
+        "canvas_padding": 1.0,
+        "baseline": 108.8,
+        "source_bounds": [
+          [
+            0,
+            0,
+            512,
+            512
+          ],
+          [
+            512,
+            0,
+            1024,
+            512
+          ],
+          [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          [
+            0,
+            512,
+            512,
+            1024
+          ],
+          [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          [
+            1024,
+            512,
+            1536,
+            1024
+          ]
+        ],
+        "placements": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "preserves_vertical_motion": true,
+        "source_grid_preserved": true,
+        "stretched": false,
+        "per_frame_scaling": false,
+        "cropped": false
+      },
+      "extraction": {
+        "method": "fixed_native_grid_cells",
+        "source_dimensions": [
+          1536,
+          1024
+        ],
+        "nominal_cell_dimensions": [
+          512,
+          512
+        ],
+        "nominal_cell_span": [
+          512,
+          512
+        ],
+        "cols": 3,
+        "rows": 2,
+        "frame_bounds": [
+          [
+            0,
+            0,
+            512,
+            512
+          ],
+          [
+            512,
+            0,
+            1024,
+            512
+          ],
+          [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          [
+            0,
+            512,
+            512,
+            1024
+          ],
+          [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          [
+            1024,
+            512,
+            1536,
+            1024
+          ]
+        ],
+        "native_grid_size": 128,
+        "source_to_native_factor": 4,
+        "cropped": false
+      },
+      "native_grid": {
+        "enabled": true,
+        "native_grid_size": 128,
+        "source_cell_size": 512,
+        "source_to_native_factor": 4,
+        "fixed_source_coordinates": true,
+        "color_apis": [
+          "_quantize_to_palette_lab",
+          "_majority_downscale"
+        ],
+        "alpha_threshold": 127,
+        "alpha_resampling": "NEAREST",
+        "converter_input": [
+          128,
+          128
+        ],
+        "converter_output": [
+          128,
+          128
+        ],
+        "converter_ratio": 1.0,
+        "lanczos": false,
+        "bilateral": false,
+        "dither": false,
+        "outline": false,
+        "fixed_palette": true,
+        "raw_rgba_sha256": [
+          "e238dea6d590cc3edc2e22124c7ac0666b090cc2900b1da30b154b1d8d6abd6f",
+          "a246c5377957a710004df56856e2d46b536a2ce7cc7847c26f9f77ee9a249804",
+          "866e44760e707011acd92c9fe0cea0e74876718e9c57de2f2a9758483ecfe8b6",
+          "dbdce9cc52b36fa11bc7f557c424221c6302a86bc9c112fa219d585c39bda81a",
+          "ad6fe8aad02530214661bf616f7b2ee1e6836e0215508e1a53a1588c56763c79",
+          "a9b70d50fd4369080eaae939959d756971e403d42e9c1bba50c9bd566d36c6c9"
+        ],
+        "aligned_rgba_sha256": [
+          "f5f9c7cf128027beccdb2367569f61c9d2d7643fa89d62f3dd2b320a7f61a612",
+          "07220183c894b9b2c28156d1127e28687c371d3305b67d788f22c07b8929ca3d",
+          "42e079beb6e2cd096ecad79986c1a37d2df5f169a9d3791d1ac08233289d8dae",
+          "6ab490d56b865779e4e611abba51a464e87904e04fcdf8a905582602f250d8e0",
+          "ecd84cad2496e9a4a342f061a58da2514bd8b247fdaccba20e0cfffde2d675f0",
+          "f4f26b95c3f89aab164bea19d2e75a666707fc33fb9dd4775b2c1941a0fd6037"
+        ],
+        "output_rgba_sha256": [
+          "f5f9c7cf128027beccdb2367569f61c9d2d7643fa89d62f3dd2b320a7f61a612",
+          "07220183c894b9b2c28156d1127e28687c371d3305b67d788f22c07b8929ca3d",
+          "42e079beb6e2cd096ecad79986c1a37d2df5f169a9d3791d1ac08233289d8dae",
+          "6ab490d56b865779e4e611abba51a464e87904e04fcdf8a905582602f250d8e0",
+          "ecd84cad2496e9a4a342f061a58da2514bd8b247fdaccba20e0cfffde2d675f0",
+          "f4f26b95c3f89aab164bea19d2e75a666707fc33fb9dd4775b2c1941a0fd6037"
+        ]
+      }
+    }
+  },
+  "total_frames": 6
+}

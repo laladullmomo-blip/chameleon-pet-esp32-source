@@ -1,0 +1,3727 @@
+{
+  "version": 3,
+  "default_stage": "baby",
+  "stage_order": [
+    "baby",
+    "teen",
+    "adult"
+  ],
+  "stages": {
+    "baby": {
+      "stage": "baby",
+      "label": "幼年",
+      "render_scale": 0.84,
+      "pet_size": 210,
+      "widget_size": 155,
+      "reference": {
+        "file": "preview/assets/growth-concepts/baby-v2.png",
+        "sha256": "de6e159e9a46302e5a8b9a1d5c3cbb5c4c6f35cfa1ea0fe7e9182cb116c76104"
+      },
+      "source_manifest": "preview/assets/growth/baby/frames/manifest.json",
+      "source_manifest_sha256": "549cf2e11ffb653787a23d6a8bbaff5711333d8fba08ba19d1ed6543a5304532",
+      "converter": {
+        "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+        "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+        "upstream_version": "2.0.0",
+        "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+        "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+        "license": "MIT",
+        "files_unmodified": [
+          "core.py",
+          "LICENSE"
+        ],
+        "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+        "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+        "used_api": [
+          "make_pixel_art_animation",
+          "split_sprite_sheet",
+          "compose_sprite_sheet",
+          "remove_bg_by_color"
+        ],
+        "unused_components": [
+          "GUI",
+          "rembg",
+          "background-removal AI models",
+          "automatic updates",
+          "sklearn palette clustering"
+        ],
+        "api": "make_pixel_art_animation"
+      },
+      "actions": {
+        "idle": {
+          "count": 6,
+          "fps": 5,
+          "loop": true,
+          "foot_y": [
+            0.921875,
+            0.921875,
+            0.921875,
+            0.8125,
+            0.8125,
+            0.8125
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/baby/frames/idle/idle_00.png",
+              "png_sha256": "e5f59ab93cd36019cd86f8830f7ff9369f46b5f471e955f915c75565234391d1",
+              "rgba_sha256": "98da315ff41c6d72511b4c0c56e57a8623d31b7bbc9b4addb28055ee22a2ac85",
+              "rgb565a8_sha256": "57fe33f2ae9017ce06289d1d30a73416e4607228b2f902abe365f6ccee773d91",
+              "bytes": 49152,
+              "symbol": "ch_baby_idle_00"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/idle/idle_01.png",
+              "png_sha256": "a8cdc52489142d6938b258443e09319dde8a73579478e10390d180719e50f28d",
+              "rgba_sha256": "70c66579f46c23aaf772c4a7351d108f4bea250863a6d1b4b29c46820345e1d9",
+              "rgb565a8_sha256": "a8f183eeac310200b5068968a51bab170639c369369144a0dd1b171881a4c044",
+              "bytes": 49152,
+              "symbol": "ch_baby_idle_01"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/idle/idle_02.png",
+              "png_sha256": "cf2eaff2d5e2b281d795ab3df192da9fcfdcdc35c4a367a0f810e6052227a966",
+              "rgba_sha256": "882cfd6114ea2a5e3ab1d0a5dec262f965ceef031e55fbb645e99ce2722c48a5",
+              "rgb565a8_sha256": "0a10b33407081e21b40f3a1ddf56f57be7e57bdbe2ce2731ddc34aa5d2c67c0f",
+              "bytes": 49152,
+              "symbol": "ch_baby_idle_02"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/idle/idle_03.png",
+              "png_sha256": "03fe6fb6b02da2a98080cbecddbfe645e5bace86e7f3e2b9bed0bfa0e389b3ac",
+              "rgba_sha256": "16581b7ddd14a5fc1f33152e52539afa4aee1553d38ae2196ae113046eaffe02",
+              "rgb565a8_sha256": "8365bd1b2149ee4c6d7da24dab24d7791f24e85482ede35aedc2622edbe55567",
+              "bytes": 49152,
+              "symbol": "ch_baby_idle_03"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/idle/idle_04.png",
+              "png_sha256": "d408ad7ee9f137eef54854769abd93089158889f385e774c9add92b3226a962b",
+              "rgba_sha256": "db451f0d3d05da37bb912befd3b3201cd39da94d3be5cbf5276ebf4e04ca6c01",
+              "rgb565a8_sha256": "f7c75e275327e93cc2057964b61758fcfe66b4f5b745fde0ca755e1d56cfb01e",
+              "bytes": 49152,
+              "symbol": "ch_baby_idle_04"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/idle/idle_05.png",
+              "png_sha256": "34a4ca19923bdd2f82a25be38443d38136dbaa957810e2fc1d76d2bae67ccfb3",
+              "rgba_sha256": "90a88346a7ead34fc5e60654c5450f170811c21b5944bcf330217b49cdeacd6e",
+              "rgb565a8_sha256": "19669d2c7b0375992a269352fd8b7df7cbc341f88886b5149e6b54d7a623db39",
+              "bytes": 49152,
+              "symbol": "ch_baby_idle_05"
+            }
+          ]
+        },
+        "happy": {
+          "count": 6,
+          "fps": 10,
+          "loop": false,
+          "foot_y": [
+            0.875,
+            0.875,
+            0.875,
+            0.820312,
+            0.804688,
+            0.820312
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/baby/frames/happy/happy_00.png",
+              "png_sha256": "1c6cd58b531141d2039e8dab574960dffb0b9e65c469ca1fe8f8c04cc9b63247",
+              "rgba_sha256": "a07d07465bec8026355582470ed268f284b375c65967cd1dd94f26cc7dcabc17",
+              "rgb565a8_sha256": "7df5ce8ff77ff4f4b5bb586884ecd7cded7f8690f520dffe95608cca3c5fedc0",
+              "bytes": 49152,
+              "symbol": "ch_baby_happy_00"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/happy/happy_01.png",
+              "png_sha256": "e10961f88e134a93fd70bbb6a705e943c0026bf86259154621fa04cf89fe660b",
+              "rgba_sha256": "9117d3f270971a3ef43801b3b32d02320151846666c33ee8d1943b9256b92a39",
+              "rgb565a8_sha256": "30a41b3a01dfe3bb7a2cafa82c05919e20c442a53d856588e3170c8b8bc811bb",
+              "bytes": 49152,
+              "symbol": "ch_baby_happy_01"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/happy/happy_02.png",
+              "png_sha256": "140801736a006db069d9d9052fd2094c4fd181f82726f24d2d46b3d4aeb9d615",
+              "rgba_sha256": "a1e539be7989584986bfb7343470706d5da3dfe1d60051147d8608c26338c2d6",
+              "rgb565a8_sha256": "6037885e211508ddada8ad58d0440a2bccd911adb56f3a9473a74d6cb66f1fe6",
+              "bytes": 49152,
+              "symbol": "ch_baby_happy_02"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/happy/happy_03.png",
+              "png_sha256": "b498dd2e6ba4d7c6b0fabbdc3682782f6407337970cdbdfa4a791a934395f49e",
+              "rgba_sha256": "4813596cb5334ce2994539ddda24ef50741f1bf9972b27ba22d78ee54091ae1f",
+              "rgb565a8_sha256": "8c2f816a9f5ec95dd2d4620aaf6c43d9b9ffa22870619ca94917a00b3ea2eb27",
+              "bytes": 49152,
+              "symbol": "ch_baby_happy_03"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/happy/happy_04.png",
+              "png_sha256": "c36061bf13c7014cfa6ef862bf6f5c57b3037589fedf867fb45b9097ea392cfd",
+              "rgba_sha256": "442e5e62ce3570c561236374d2d0300ce1f84cc174ea0505f3bc30c610645bf7",
+              "rgb565a8_sha256": "258d68b46e1f99aa2364b76039f70db8d2617e1eae42c8c9a3097e0da6a5c2c8",
+              "bytes": 49152,
+              "symbol": "ch_baby_happy_04"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/happy/happy_05.png",
+              "png_sha256": "91012b9f38a7d8208d797860f4c03772441e45175cbeb4fadfb27421e9102487",
+              "rgba_sha256": "7e686e63b75735b4e43ad3506b8a766a723e1b07fc47e54cdad675d213a2ad65",
+              "rgb565a8_sha256": "a76fec79b103bc57917051c5151bf01b4b9aa72e5f4499b9ccfae4106205223f",
+              "bytes": 49152,
+              "symbol": "ch_baby_happy_05"
+            }
+          ]
+        },
+        "eat": {
+          "count": 8,
+          "fps": 6,
+          "loop": false,
+          "foot_y": [
+            0.867188,
+            0.867188,
+            0.859375,
+            0.859375,
+            0.820312,
+            0.820312,
+            0.820312,
+            0.820312
+          ],
+          "mouths": [
+            null,
+            null,
+            {
+              "x": 0.765625,
+              "y": 0.625
+            },
+            {
+              "x": 0.78125,
+              "y": 0.609375
+            },
+            {
+              "x": 0.796875,
+              "y": 0.5859375
+            },
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/baby/frames/eat/eat_00.png",
+              "png_sha256": "9b42a088ae21ae066e038a1cd12fdf64a3d7205e7855141e5748d5db4015efab",
+              "rgba_sha256": "6689c56982196e92f0a72bad246f4566611b96114b2b980d3198678e7ce2b058",
+              "rgb565a8_sha256": "3f88dd21a5c10292653d285f521ca9ae683264973955f9f09ce57228d7d0687c",
+              "bytes": 49152,
+              "symbol": "ch_baby_eat_00"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/eat/eat_01.png",
+              "png_sha256": "2c3902a8d13abceb620301888610294a16d2ae86bb9f1045467295181f0bbdce",
+              "rgba_sha256": "ba4b5a054f5b406a23edcd4b45120d434e4592ecef5fd1932070ededc680b0bc",
+              "rgb565a8_sha256": "f5acf2edf58fddfce94f21aef8aa51c534be64707e053de6db2adc4e1f1c7755",
+              "bytes": 49152,
+              "symbol": "ch_baby_eat_01"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/eat/eat_02.png",
+              "png_sha256": "771d70f8ef9f7666fbefd8b1c304195aea19ba5167537c557f533522198e9ac2",
+              "rgba_sha256": "f1163ed03e9a8bea8253de266df8486a3b15c84f9fc4918928222ca7acb16144",
+              "rgb565a8_sha256": "83d6bcbd102c1d52199c7d58c121d8e0940b67971e374e69721ac5ef70e74ba4",
+              "bytes": 49152,
+              "symbol": "ch_baby_eat_02"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/eat/eat_03.png",
+              "png_sha256": "8cd52611e9bbc29ad238d4279705778f258db69b0d78da54ff4fff711a6c1eb3",
+              "rgba_sha256": "3e23970c235fb4d36e0216e3c7e5d23ee51bc5d19fff5f1d891a6953cd706e2d",
+              "rgb565a8_sha256": "e81847bdcf34e2ce2170ca9142423c8cc5ccf8722dbaf822d1e24acb1dcdd0e7",
+              "bytes": 49152,
+              "symbol": "ch_baby_eat_03"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/eat/eat_04.png",
+              "png_sha256": "5d0e9c2080061669ecef79834162757c63cd8efc355988f4ddad6972db2f1118",
+              "rgba_sha256": "3f0bdcaf5b9f8faf3056c27714d61d09a7ccddbac423a3d0642d83c04f600ca3",
+              "rgb565a8_sha256": "eb028f06f10651001f4f12fd6402667cea7dd8929c7bdd72f4c7ce3ee4ab8007",
+              "bytes": 49152,
+              "symbol": "ch_baby_eat_04"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/eat/eat_05.png",
+              "png_sha256": "f4db9fdfae13db9cdf9363d41bad19c3fcf1a34ebbc3178678e5d7f1b5091211",
+              "rgba_sha256": "d935271ba27d02534b217233257325a2cfc9b6bbcebf6afb6da92517130807a2",
+              "rgb565a8_sha256": "b16876ffcb6d96390a7af67b8c4cee10060b2b54683c35f69d8a09d421e4dcf1",
+              "bytes": 49152,
+              "symbol": "ch_baby_eat_05"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/eat/eat_06.png",
+              "png_sha256": "25d851e2a173ba35f5a466c3864f8c110a3fa1bfdb13150096f0795e3a7357e9",
+              "rgba_sha256": "df23ce42abad5777c80677343a7aef681b8df8c12d08426b6f236bb803362353",
+              "rgb565a8_sha256": "f1544922e867b754b1f9f6efb95f91aba97d9eaeafab2aaeac6a75f710c30b14",
+              "bytes": 49152,
+              "symbol": "ch_baby_eat_06"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/eat/eat_07.png",
+              "png_sha256": "619cd318e097f819dffc0089fe9e03fa6e3577a55321c812340b7db182b36a7c",
+              "rgba_sha256": "997bb4809535902d131afac388ce1257404e37b8b0011df0644ff2673b242f5d",
+              "rgb565a8_sha256": "6e599b6fe0985cc904777ad45b11e0c4f5709dfc60a86df0a56cb1d9143d2020",
+              "bytes": 49152,
+              "symbol": "ch_baby_eat_07"
+            }
+          ]
+        },
+        "sleep": {
+          "count": 4,
+          "fps": 1,
+          "loop": true,
+          "foot_y": [
+            0.914062,
+            0.914062,
+            0.914062,
+            0.914062
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/baby/frames/sleep/sleep_00.png",
+              "png_sha256": "4bf68648c12cdfdee96c7f030ad9c046614f84a5ae0574c71bd27468105e0424",
+              "rgba_sha256": "db0223d1ecdde2159372c1648a1414551963d5671d2bf0e4aa56f7f6ca578ece",
+              "rgb565a8_sha256": "32c7c918de8d09205ed9b39e763c0ed6c1c1a74cce73936f6a48c029868d9e79",
+              "bytes": 49152,
+              "symbol": "ch_baby_sleep_00"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/sleep/sleep_01.png",
+              "png_sha256": "20318ff375d068e79a452de70cd61292c73b595632fd9bbb3cd946b2630d3a2a",
+              "rgba_sha256": "731be8c1490a16c9cef430febbfe10ad1751f74745365e4a681e87f2b76086dc",
+              "rgb565a8_sha256": "a4981128a0809c4bb165b089f65fcc0f382005f21011d29f0be191312aa7a860",
+              "bytes": 49152,
+              "symbol": "ch_baby_sleep_01"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/sleep/sleep_02.png",
+              "png_sha256": "64c7ed194d1c52fdd28e505afbe9d04d4000c5e91873bcefbe30c8e4a42017ca",
+              "rgba_sha256": "c2766558487bb9a8750223d9096e7c093612dbb421d7164eb50ef9ac4e7256e0",
+              "rgb565a8_sha256": "4cb11b01be6fb2a99ab7365809272273c81464f87ca7560f57dee293b51ef9a7",
+              "bytes": 49152,
+              "symbol": "ch_baby_sleep_02"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/sleep/sleep_03.png",
+              "png_sha256": "a3eaf2b2ba299d965494111a6e582fc9018997356b58925a729a39b31765f30b",
+              "rgba_sha256": "5849cffd855e2fa04f999b357a89b2bd65a9900c42231538e8c852b40c3106e2",
+              "rgb565a8_sha256": "1296b653727413fee94fd259617385f2ff4afd25de236beb8200f9afdb80606d",
+              "bytes": 49152,
+              "symbol": "ch_baby_sleep_03"
+            }
+          ]
+        },
+        "walk": {
+          "count": 8,
+          "fps": 10,
+          "loop": true,
+          "foot_y": [
+            0.867188,
+            0.867188,
+            0.859375,
+            0.867188,
+            0.867188,
+            0.851562,
+            0.859375,
+            0.867188
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/baby/frames/walk/walk_00.png",
+              "png_sha256": "cb0b4cec6e4478e4ac3bac2bf7e26d4b58536a4b7cf83e1a0c1d04525be19c55",
+              "rgba_sha256": "c5aff48eec14ea08a3f7a86a2b8744122cf65a150afd5e26d023ca5e7a9786b7",
+              "rgb565a8_sha256": "d8415c059a3c55850551ee335d9f2e5ada1b912497eb3277b43ab1e7c3947088",
+              "bytes": 49152,
+              "symbol": "ch_baby_walk_00"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/walk/walk_01.png",
+              "png_sha256": "500d4ec8a7096ec56cca58932ecf3a9b16aeb076afdaf6ce51d429bd4120945d",
+              "rgba_sha256": "597bb33224f14489f796e82ec3e2f019019b9fbd20d8a0806843da3cf98a85ab",
+              "rgb565a8_sha256": "0567b7fd671a9d2063d6160123801ae5447dd80b034f0ebb0b69d8d89c32c0fd",
+              "bytes": 49152,
+              "symbol": "ch_baby_walk_01"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/walk/walk_02.png",
+              "png_sha256": "415b5be8f519a2d50dc454f0477d392178e85af8081fda1df656ba7a0e89f1f4",
+              "rgba_sha256": "be4f430d1952dca33d01b99b1fa8cd0c4d9ab304218da3ae2f54438ce71c027b",
+              "rgb565a8_sha256": "9c908fcb10e6eeb82a9bb0aeae54a79a5cb0753c64b0ae5232727adba4d77260",
+              "bytes": 49152,
+              "symbol": "ch_baby_walk_02"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/walk/walk_03.png",
+              "png_sha256": "a1d14fa2eb2f81d4cb7a2a3fc136c17683833afa184ec69ad31acbf299cccfe4",
+              "rgba_sha256": "8c51c8c4cc59c914d48a0f19bc743cf0fc3077166a33a716d3fb11bbb5637b73",
+              "rgb565a8_sha256": "3200b5ff39abd2263cccf102c54f400f3b83ca4120cd42c350d1e47ddbc8d7f3",
+              "bytes": 49152,
+              "symbol": "ch_baby_walk_03"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/walk/walk_04.png",
+              "png_sha256": "96e8f0eaa36f90721367e587db72dce1c5a5cac49eabe46a315b11d9c39535a2",
+              "rgba_sha256": "0a52afe5c96ac6b85b54ef0c43ba15a1b8d07f5b5f54b1c2bb5aae37244ed2f8",
+              "rgb565a8_sha256": "878c771800864974ae29de0ff8cd850d56227fe527d8dfc71096a340102f7ca5",
+              "bytes": 49152,
+              "symbol": "ch_baby_walk_04"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/walk/walk_05.png",
+              "png_sha256": "e725530144130fb1a154220c58af72f4a733fd89976d4f37d5c0c95154ae119d",
+              "rgba_sha256": "601d8a14f73570507cba91eeb45864b45f7e3ef431d9ab1d3d1f4215ccd87040",
+              "rgb565a8_sha256": "5dc3f4051f7c2fb5947664619ebbd1e0cf5f49585906207b43cdd4767ae67229",
+              "bytes": 49152,
+              "symbol": "ch_baby_walk_05"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/walk/walk_06.png",
+              "png_sha256": "ccd392899c9db7f91ef7345760fd0dc50d4b27133184c468058b0ad9bcf49190",
+              "rgba_sha256": "04590a37c6930255204f706c29d156f19d2300ccf372482f28289595ff6148f2",
+              "rgb565a8_sha256": "9b11712bb5c3e996c6b0f45bc14f866ce11a8c94a09940037061d28831ff9733",
+              "bytes": 49152,
+              "symbol": "ch_baby_walk_06"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/walk/walk_07.png",
+              "png_sha256": "d2e94fc84602bf4d4575ea5ea85af1f0f0e7e412659feb63d998546d46d53fc1",
+              "rgba_sha256": "dd226bd5f3b15f91e53f980fbfc4614eb40aa0e280b06b90a3c7049ee21843d1",
+              "rgb565a8_sha256": "9b8615a3a7c51bb44a61d88502ae2911b5035c5b65f816d554590da3718fd4ec",
+              "bytes": 49152,
+              "symbol": "ch_baby_walk_07"
+            }
+          ]
+        },
+        "blink": {
+          "count": 4,
+          "fps": 10,
+          "loop": false,
+          "foot_y": [
+            0.882812,
+            0.882812,
+            0.71875,
+            0.71875
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/baby/frames/blink/blink_00.png",
+              "png_sha256": "933610ee8432255a99ca5386ffebb841ef8bd43d43271d445722fecf0ef53a2b",
+              "rgba_sha256": "1623438ab628b68a54180e754505a913a21f86f15bcc882ac122dc80163c3065",
+              "rgb565a8_sha256": "b048d3383888018c96801117cbe40bc0777ad80ac0c22c710eb166cfad9c90ba",
+              "bytes": 49152,
+              "symbol": "ch_baby_blink_00"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/blink/blink_01.png",
+              "png_sha256": "17b0dd2ad3875c37adce5dce1b85765e0406848bd9aeecb243f394bf8cf58c82",
+              "rgba_sha256": "f6decfd3dd244f20a10b15a81f6f23e98012cee6a79e09c2762516843ff40d93",
+              "rgb565a8_sha256": "9e27dfec6bd6315d59366bb8a5e69026f55b52c47f875704fc1eed8770967963",
+              "bytes": 49152,
+              "symbol": "ch_baby_blink_01"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/blink/blink_02.png",
+              "png_sha256": "e1ae436c60098912b717153572c9fd26f9fe96b2d1707ca178b7b5cf75f1b854",
+              "rgba_sha256": "1b9bca7651320055ffd983bbb3778645a666b1e154651b1b1cb18a3b77877ba6",
+              "rgb565a8_sha256": "d874228d35a3caba9c22b7d7b848db326c771199837b49ed0b9ebc5cfcf6a153",
+              "bytes": 49152,
+              "symbol": "ch_baby_blink_02"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/blink/blink_03.png",
+              "png_sha256": "4267a751a0a5ee54d0b0c7c1b90e622abe7dbaea26843c39f9900c16ad425c61",
+              "rgba_sha256": "35fb3300f3dfcb0a4b8110f834aa6de4d602eed42d12ec5d2998ac44bde8ddf3",
+              "rgb565a8_sha256": "906e2747a4e9391769c9c07808953c23032c300c392cd643d4b1b1a1b1c7e678",
+              "bytes": 49152,
+              "symbol": "ch_baby_blink_03"
+            }
+          ]
+        },
+        "stretch": {
+          "count": 6,
+          "fps": 6,
+          "loop": false,
+          "foot_y": [
+            0.898438,
+            0.898438,
+            0.898438,
+            0.804688,
+            0.804688,
+            0.8125
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/baby/frames/stretch/stretch_00.png",
+              "png_sha256": "05661866893a318ed673e82580183d12312ffaa9566f3f29aa817ab15746450c",
+              "rgba_sha256": "ae5b0304496aad9c2fc5e7e1cc6bb0fcadada9970adc73c74bfb6512a89b88ef",
+              "rgb565a8_sha256": "1f8e74e87a90f97973da4c0c8ca60637fb3988f2174b9edff00d2f9cbb0117c3",
+              "bytes": 49152,
+              "symbol": "ch_baby_stretch_00"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/stretch/stretch_01.png",
+              "png_sha256": "ff713504f787e26f7b2cd199a78924b48920e4a225f2df2f7a1a6a29327e8c97",
+              "rgba_sha256": "283811c2254e2804d639454a80de9767a8cf455d5be1f6d7df49ff4c96ba6f91",
+              "rgb565a8_sha256": "71841a337f49dc8136f3de1fcd30616511d920e90f369bb2dfd44df6b335a823",
+              "bytes": 49152,
+              "symbol": "ch_baby_stretch_01"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/stretch/stretch_02.png",
+              "png_sha256": "fcafa4c29d7ba458d4e5dcea12df753cf55bbe23ae9a4c7f108c612d6e43ff3e",
+              "rgba_sha256": "bef7cba237e7cca95ecea48a39eeb4cd4f98b2568cadeeaae4d759c8071f4482",
+              "rgb565a8_sha256": "998a194450c701ea01f6293f0c196a707f87b2510918291540451275c32d3978",
+              "bytes": 49152,
+              "symbol": "ch_baby_stretch_02"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/stretch/stretch_03.png",
+              "png_sha256": "eec4669cd486a780ad29c51471d35f10d57d2141fc36db350cacb5cb19ef88bd",
+              "rgba_sha256": "0fbc2408ef0215633dc1ae0efdaf45e7dca24f24f32829a1550a7d48cbb5b855",
+              "rgb565a8_sha256": "1fed078f64d7eabb006ab539665e855dc445b73fb91342ea290356f948764d2e",
+              "bytes": 49152,
+              "symbol": "ch_baby_stretch_03"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/stretch/stretch_04.png",
+              "png_sha256": "c92d279015b5a97194e277d1abd145360c53c59ad863f740550389ee51874bb9",
+              "rgba_sha256": "3d47235716a278638f79bb64b846b3b24127ac5f183ec528d752d7fde61a0008",
+              "rgb565a8_sha256": "cfa2b3c9bd033eeb8fa8b74a3aeaae631095a26998a163e3a3d96556a06873f2",
+              "bytes": 49152,
+              "symbol": "ch_baby_stretch_04"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/stretch/stretch_05.png",
+              "png_sha256": "9df1827b9122ef0bd24f0300d98ffd7879e80ce5303c356d99c1035d297e8a35",
+              "rgba_sha256": "482ea019b05e2e58c793ab986254b84cb620fca9f95f8181694ceef5e23b0df7",
+              "rgb565a8_sha256": "e9fdf034513fa94f7118717b2caf12ca77d904c996e4baf89e41e3308201b736",
+              "bytes": 49152,
+              "symbol": "ch_baby_stretch_05"
+            }
+          ]
+        },
+        "wave": {
+          "count": 6,
+          "fps": 8,
+          "loop": false,
+          "foot_y": [
+            0.859375,
+            0.859375,
+            0.859375,
+            0.789062,
+            0.789062,
+            0.789062
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/baby/frames/wave/wave_00.png",
+              "png_sha256": "fea063a68da1323b822b1ac1c61650fa6968c4b52cfaf0a9de6f6018d2cb3030",
+              "rgba_sha256": "e220c7dec3c5340260e83e116525316f8a8e57b01a79486529d7c36784f87c56",
+              "rgb565a8_sha256": "aedde65a798efe82d54378332978550d07ef0af853b875dbccb9b447485e7091",
+              "bytes": 49152,
+              "symbol": "ch_baby_wave_00"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/wave/wave_01.png",
+              "png_sha256": "04c8dcc18c350c3c78f3847f7c78a0865d288a1aa621954a0e5de717921171c7",
+              "rgba_sha256": "bf5e64358e4c87e5ca7b1ba697a955cd70b96c7d53e8f26f550592576d749e68",
+              "rgb565a8_sha256": "54176177228e8a2cbc36120a291e80965dc33489c01a28035127aea3cb41ddb1",
+              "bytes": 49152,
+              "symbol": "ch_baby_wave_01"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/wave/wave_02.png",
+              "png_sha256": "367d8ac34d4f36681d1825d71e7cdebe47699756ce07d6189702ba1c48811c57",
+              "rgba_sha256": "ccf501ed989fbab1b4e749f0166e5a3acf0e171f48366ad438eba03bc917c416",
+              "rgb565a8_sha256": "c41aea3608461f197bf83441bbf27937dd8a50677c6d6673de4808cc26b2296f",
+              "bytes": 49152,
+              "symbol": "ch_baby_wave_02"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/wave/wave_03.png",
+              "png_sha256": "71276088b8c8d3f48590dce1c334235285ec2caf6a056674a6f80f9284ec263d",
+              "rgba_sha256": "d624193cd5bcb8c3c3b752def095b6c559ba9554d05b1a9135ab6cb7a619390a",
+              "rgb565a8_sha256": "e09c94c8114042ae13766b277103e7c165fee4293b087e9a98e2a3db874dcb65",
+              "bytes": 49152,
+              "symbol": "ch_baby_wave_03"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/wave/wave_04.png",
+              "png_sha256": "ee10add83405292ef1150c769061f5879ee4e05e700592524d1feceb04b25400",
+              "rgba_sha256": "1943f4706577481cff74a5df0970903d2dd97ad397c60646e9e1463f0df522c8",
+              "rgb565a8_sha256": "528ecb8bb934bdaa298cf789f73ae9f52ba5a38085dc889e4f8c2ab7800d67f2",
+              "bytes": 49152,
+              "symbol": "ch_baby_wave_04"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/wave/wave_05.png",
+              "png_sha256": "c65ab1ee7ab6605e1f704fcddc1bec71192a1847178a5525eef3720549c8b5ca",
+              "rgba_sha256": "60297819279becf1cf5dfcbacf1b611e92b4b404538f7d2920fee89b793fe7cf",
+              "rgb565a8_sha256": "0766d83d3e669974c42f893b6e5676a3b6383ac2ecadb77328976bc5d308d2c8",
+              "bytes": 49152,
+              "symbol": "ch_baby_wave_05"
+            }
+          ]
+        },
+        "dizzy": {
+          "count": 6,
+          "fps": 6,
+          "loop": true,
+          "foot_y": [
+            0.867188,
+            0.882812,
+            0.867188,
+            0.804688,
+            0.789062,
+            0.804688
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/baby/frames/dizzy/dizzy_00.png",
+              "png_sha256": "d120e2fcd9c5662805c68c99abe591fe166629050f5e5c66c96189997115dc86",
+              "rgba_sha256": "c5ca84a2c70d7b34684ffa616508a7e5a1d083b1f7d0fb4b66571c421cda4b65",
+              "rgb565a8_sha256": "5b6f8790864baa9c3436d3123ca7d0cbdf48e9bd851e23c5c5602eff55512a42",
+              "bytes": 49152,
+              "symbol": "ch_baby_dizzy_00"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/dizzy/dizzy_01.png",
+              "png_sha256": "d99c93b5255712b542ebc9a297ab4866e130434b75efceed7e5408e28e79fdd7",
+              "rgba_sha256": "b39daee1cf0991829b42fbb83c32495f31e1175d344949d63400fb9f82caf618",
+              "rgb565a8_sha256": "0455bdfda9cccf5ef5ad17ad100ce0df70739dd9f22f687343e429774b287937",
+              "bytes": 49152,
+              "symbol": "ch_baby_dizzy_01"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/dizzy/dizzy_02.png",
+              "png_sha256": "a48703a41c0dcb94d77b40c4447c7973c289215de123a1ec5c84b7b623caf428",
+              "rgba_sha256": "2cba4722e2154d7c80a3ba524c0b36da2eba8a406ca3292b5e8c9c7be2656172",
+              "rgb565a8_sha256": "1c50af25561d5b8fa92bd3dd8e7433ae3caa9d637eb9ef121890661a049676b3",
+              "bytes": 49152,
+              "symbol": "ch_baby_dizzy_02"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/dizzy/dizzy_03.png",
+              "png_sha256": "27e2c50af7ca6b2cddf2af4fc162ee133634582a45178a6c3cfe499e07c29d7b",
+              "rgba_sha256": "2f4f28413000bcde8cb17834d6db9d602af4deeb9bcbf7a12264740ae7e44a91",
+              "rgb565a8_sha256": "83db78f69357be3f34db1323da47577280c9e83fcdd6328896606adff9fb3beb",
+              "bytes": 49152,
+              "symbol": "ch_baby_dizzy_03"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/dizzy/dizzy_04.png",
+              "png_sha256": "506b7b478a6141a5f4b2bc29add88dbe99492948e8d1b77b607baecefc848388",
+              "rgba_sha256": "45c0b43879aafaeef109a1f80f1a13f866e6e4106dca6d95c01afda6239570dc",
+              "rgb565a8_sha256": "39ab91aa0151a79a782e9156898d354853082d7981eb541e41fe18a8dec0a9eb",
+              "bytes": 49152,
+              "symbol": "ch_baby_dizzy_04"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/dizzy/dizzy_05.png",
+              "png_sha256": "1258c1d8f72643eb399fafc79df1083f390d126556b85735aa0523780d7aa0d1",
+              "rgba_sha256": "1c17d7cf03bde684495681f36978dd14a13f3257c68833c4f3971bedc51f3f5f",
+              "rgb565a8_sha256": "984e66e179680731adb98129da82526becf23508d16a127ce0693b959883c462",
+              "bytes": 49152,
+              "symbol": "ch_baby_dizzy_05"
+            }
+          ]
+        },
+        "angry": {
+          "count": 6,
+          "fps": 6,
+          "loop": true,
+          "foot_y": [
+            0.867188,
+            0.867188,
+            0.851562,
+            0.8125,
+            0.804688,
+            0.804688
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/baby/frames/angry/angry_00.png",
+              "png_sha256": "1bce876eb3e95f5cc37ad419fe5a591292cd1ca80d759836315eaf0a1accd7ec",
+              "rgba_sha256": "18250e936195bee332d1152ae9a61732e004454204c99d9d5ebe593ca26309e4",
+              "rgb565a8_sha256": "8e2c7891405130fed2ae1166243e7a10c7558881211643b102da157ac256d667",
+              "bytes": 49152,
+              "symbol": "ch_baby_angry_00"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/angry/angry_01.png",
+              "png_sha256": "29c032d6921ac301e9396901e1df1e0e4d7c66a656587f2e980276d2cfba1e4e",
+              "rgba_sha256": "4e9f76e224a9bd4bfa57221a4d17379e5e7e14e8a610c4fca0929c79213cc097",
+              "rgb565a8_sha256": "e6651c4c4929f03b9d08abe865c31719291389b945d28ebf9661a8a119e9e904",
+              "bytes": 49152,
+              "symbol": "ch_baby_angry_01"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/angry/angry_02.png",
+              "png_sha256": "6b6adea313381a8b4845506ceab7aaceb154c6dccd8ce923c9b7fbfc0b8f87b7",
+              "rgba_sha256": "4c933699c191ef42aa4b0457acff99b887b99cc24292891f89cae2f77159bbc8",
+              "rgb565a8_sha256": "da5e486e4a133d7c4a28623c789c2d1966777dc48110b861b4e75567210d367e",
+              "bytes": 49152,
+              "symbol": "ch_baby_angry_02"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/angry/angry_03.png",
+              "png_sha256": "9050c721eb679ede9d1ac01a9d2051d38808c29054f5ca9ccde385e2ddc9efcf",
+              "rgba_sha256": "9d57d2e19970cdc81934c5c77fb9accd8d2fdf15bfae7854395cdbab357e5fd4",
+              "rgb565a8_sha256": "627ae5b96553cdc94a7b269fd779e9440ea0576ef27cdb84b1eeaf0bd6cb7689",
+              "bytes": 49152,
+              "symbol": "ch_baby_angry_03"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/angry/angry_04.png",
+              "png_sha256": "8ee9eceec1b293b0c62868b08807aab35a02e2a6419c98316c28aa5ab7863ec0",
+              "rgba_sha256": "425d6734d628329a184d5b9bcbf10ccdeed6bcc42fb8dc2fe306a0085a9201c0",
+              "rgb565a8_sha256": "5b0ad4f70f0b71aa0e9c262202616ab359279a5a3f8ea87252bc1d8ecf5b835e",
+              "bytes": 49152,
+              "symbol": "ch_baby_angry_04"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/angry/angry_05.png",
+              "png_sha256": "45873164706d5c27c7d09957ff8f6196e02b87e1a493f966e1c35dba521cc61f",
+              "rgba_sha256": "d153af5b72e33ee3711ffb1bcea1dd5ac66e49ad3725961f0b4f455a5f4e858b",
+              "rgb565a8_sha256": "dd33815ecd4de30832cb976c68fec53d1b9984b865dcbe803c7a5ae81996a364",
+              "bytes": 49152,
+              "symbol": "ch_baby_angry_05"
+            }
+          ]
+        },
+        "sick": {
+          "count": 4,
+          "fps": 2,
+          "loop": true,
+          "foot_y": [
+            0.898438,
+            0.898438,
+            0.8125,
+            0.8125
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "main/assets/sick-redesign/baby/frames/sick/sick_00.png",
+              "png_sha256": "3f46bbff6c0df85737fd2a9612ca16c7ab41755d200ac2f69bb6f5fea631a3a7",
+              "rgba_sha256": "d1eb108edf81b08b2f99bc1b35468094369bb34682e5e56242da1bdd0cfac4bf",
+              "rgb565a8_sha256": "ae798a7dfa738d3b1af78fb7a5619e2d51228f893e32d94bedebbe5a815eed25",
+              "bytes": 49152,
+              "symbol": "ch_baby_sick_00"
+            },
+            {
+              "source": "main/assets/sick-redesign/baby/frames/sick/sick_01.png",
+              "png_sha256": "dbeb9557370bf6a4539bef00247ae69643e8b5fcc4ecb8669d31d7841a93ec93",
+              "rgba_sha256": "854a112fff8bd8e132314a543226180585da37adb7ed77bf74bab170deaecd35",
+              "rgb565a8_sha256": "ac4b907ef7ad94758b56145ba7aaddb89910bd08dfa546bc6764ecf2719dee35",
+              "bytes": 49152,
+              "symbol": "ch_baby_sick_01"
+            },
+            {
+              "source": "main/assets/sick-redesign/baby/frames/sick/sick_02.png",
+              "png_sha256": "3a21aed7998740fccda8c9a2c6e2adcdab3125f560fc77a508374c9e8fa9faa0",
+              "rgba_sha256": "c905ccb840082bec28b5a44cc3bb0f48f198893736e18eb085fe76f4c06ae1b1",
+              "rgb565a8_sha256": "41be25e9645894f67e665a3b32466105d643f9da7cdcaa77e43ebafdba957663",
+              "bytes": 49152,
+              "symbol": "ch_baby_sick_02"
+            },
+            {
+              "source": "main/assets/sick-redesign/baby/frames/sick/sick_03.png",
+              "png_sha256": "6f9c865eb8f9077b3c1138abf045caf63feb20f441e4daf903a35120bdbcfe6a",
+              "rgba_sha256": "eb3e4ae2a18a20a49d680d9897a212508e92bb33df105e32e228f57790267d67",
+              "rgb565a8_sha256": "7866e7efbf2e83df0498c9bd3b44f8c2bc936bd7d47f1d7a9534db34a76d58ec",
+              "bytes": 49152,
+              "symbol": "ch_baby_sick_03"
+            }
+          ],
+          "board_override": {
+            "source_manifest": "main/assets/sick-redesign/baby/frames/manifest.json",
+            "source_manifest_sha256": "2639b6d5f412f4c265338eaf31873295b1ebf85642969fa632724449c8c34ef3",
+            "source_sheet": "main/assets/sick-redesign/baby/source/sick-sheet.png",
+            "source_sheet_sha256": "aacfc4283183df71e1d7572f90847cda464ef423a4d2888b1eaaba6fc002030c",
+            "generation_record": "main/assets/sick-redesign/baby/source/generation.json",
+            "generation_record_sha256": "9e561495e3718ac0454e32ced0beca956bde951b4515d971d53f1eeb8cdf06cc",
+            "reference": {
+              "file": "preview/assets/growth-concepts/baby-v2.png",
+              "sha256": "de6e159e9a46302e5a8b9a1d5c3cbb5c4c6f35cfa1ea0fe7e9182cb116c76104"
+            },
+            "converter": {
+              "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+              "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+              "upstream_version": "2.0.0",
+              "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+              "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+              "license": "MIT",
+              "files_unmodified": [
+                "core.py",
+                "LICENSE"
+              ],
+              "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+              "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+              "used_api": [
+                "make_pixel_art_animation",
+                "split_sprite_sheet",
+                "compose_sprite_sheet",
+                "remove_bg_by_color"
+              ],
+              "unused_components": [
+                "GUI",
+                "rembg",
+                "background-removal AI models",
+                "automatic updates",
+                "sklearn palette clustering"
+              ],
+              "api": "make_pixel_art_animation"
+            },
+            "replaces_action_only": "sick",
+            "extra_frames_packed": 0
+          }
+        },
+        "bath": {
+          "count": 6,
+          "fps": 8,
+          "loop": false,
+          "foot_y": [
+            0.914062,
+            0.914062,
+            0.914062,
+            0.820312,
+            0.820312,
+            0.828125
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/baby/frames/bath/bath_00.png",
+              "png_sha256": "7edd24bc770e0ac0f2c859e249ee002e3220977da62d4b64f3bccc4f64e98a98",
+              "rgba_sha256": "f86142a2703dea9bb0e681c2627e04f3adfa741cdb68c855b33361e3acdb557e",
+              "rgb565a8_sha256": "008254b81e678f3e5609c5b9d9a6b1a88b24dd5dfb3474c10d15dea62332abf2",
+              "bytes": 49152,
+              "symbol": "ch_baby_bath_00"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/bath/bath_01.png",
+              "png_sha256": "628458be1bd3f34df7f9d86425692b44880f92aaae5b72b064bb6fa9ccd784bd",
+              "rgba_sha256": "579fe2f963fc2d1d18a78afb3fda029f62cacc3e01e3562d8b3322462c7384e8",
+              "rgb565a8_sha256": "55d4b2f5f87a2322bf57017d71ee739f2c666bdeb2df406f8ef12288ad16e1dd",
+              "bytes": 49152,
+              "symbol": "ch_baby_bath_01"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/bath/bath_02.png",
+              "png_sha256": "09f6e425985a07d8a68f5d763046eac7d6d5ee501be20affc1c6f9c863c99ef6",
+              "rgba_sha256": "aeb61073cd261c9a187fc960eada8af9c5105108293f82fd7f442b197935f20d",
+              "rgb565a8_sha256": "66b3dc43b3b41eafc8724a2e29196ab0a55c108b449e978a7ce41d385226ada4",
+              "bytes": 49152,
+              "symbol": "ch_baby_bath_02"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/bath/bath_03.png",
+              "png_sha256": "96e9226635b80300a77d3985a471f1622944067f009e38edd37d7107a9467a08",
+              "rgba_sha256": "58b4ccea254bc2c58332af1af8bfbdad5209fdbbda13e6f49ccdff9624e8582a",
+              "rgb565a8_sha256": "292ada1a33cdc988d3a29b509359acec2e59843cb84cbeb3ff9ac93eb2cee5de",
+              "bytes": 49152,
+              "symbol": "ch_baby_bath_03"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/bath/bath_04.png",
+              "png_sha256": "6d417d729c0d45e2a89c2d0e9324df628027f238369ea4eb7672bbd8d98653ee",
+              "rgba_sha256": "d9b09e46fae6f6a5c291034de574cc5d52283b1a85466f02b9e4a3ecf6ab61d8",
+              "rgb565a8_sha256": "28564ddc1ce4131c671c589881105986fdacb08a826240dc234fb9fc30c2ed6b",
+              "bytes": 49152,
+              "symbol": "ch_baby_bath_04"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/bath/bath_05.png",
+              "png_sha256": "80f489c7a192c8e7e72277090ccea109d6fd6bedd150acc75323986efa69e7c7",
+              "rgba_sha256": "582b33c825d01821733d68cb94ccc87cbbac826c28a81a49fbe226dec6840bd4",
+              "rgb565a8_sha256": "1ff64fd03f2995545649c2320e5f52627cd68f13acb0794f7f1ae53444729137",
+              "bytes": 49152,
+              "symbol": "ch_baby_bath_05"
+            }
+          ]
+        },
+        "pet": {
+          "count": 6,
+          "fps": 8,
+          "loop": false,
+          "foot_y": [
+            0.859375,
+            0.867188,
+            0.859375,
+            0.757812,
+            0.773438,
+            0.773438
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/baby/frames/pet/pet_00.png",
+              "png_sha256": "1c5d18da57d8c2a9451e51e12c4de40988d662a4bd461e050b7269c780904813",
+              "rgba_sha256": "2d654169be8bacb59f35de6402f2fd4dbdf1950e5653a10c27fc0df3456a4e69",
+              "rgb565a8_sha256": "52d70d08a6fc6d0ccfa4b40a69875e0f171384d706963b96db72e7c3f38fbbbc",
+              "bytes": 49152,
+              "symbol": "ch_baby_pet_00"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/pet/pet_01.png",
+              "png_sha256": "30bbaddffa007832390e5612a93e097ea89448486ccdaea3b49cf067509dda87",
+              "rgba_sha256": "a01cf29c414537cd3756c263b07ab035fa012cc8730331be5984e4fd8c49e4b9",
+              "rgb565a8_sha256": "1b04db998fb990c66461a48091a491e65b9896d5bdddcb1fbc2a0169f70a456e",
+              "bytes": 49152,
+              "symbol": "ch_baby_pet_01"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/pet/pet_02.png",
+              "png_sha256": "58f9cf5dc1ff044f290e6826088d910762027d59f277e178f7dcf28a3294f074",
+              "rgba_sha256": "190805541c14804c9a7315dd7e070b4b729e4a7ee5ae78940781ccfa6d2dfc2f",
+              "rgb565a8_sha256": "658f3c2c693e3d6b54a6acd86fe0159228bc14b91a71071bd841352539e60176",
+              "bytes": 49152,
+              "symbol": "ch_baby_pet_02"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/pet/pet_03.png",
+              "png_sha256": "5141bad8bdfc6f8b7372e8a50373914f7182e3dd7bbf0c4ce0a8317693b19694",
+              "rgba_sha256": "eaa555859a6673b5c8ef6f2b258a229ce541cffd2b819204fa8ea19dc2b47654",
+              "rgb565a8_sha256": "a1e059af2dcc888a5ae464b4c6aecd1a3b8a3d37ad7fcc4143586ce1f8418ed0",
+              "bytes": 49152,
+              "symbol": "ch_baby_pet_03"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/pet/pet_04.png",
+              "png_sha256": "c56aad94e2d2b18cd5b855c7fc5d4627610f0f0a90e51e39bdb4b7cf291e88c0",
+              "rgba_sha256": "1dbae9841dc1df0ee89292b30607e840d6b792338847484582a3706ac3714c3b",
+              "rgb565a8_sha256": "0effb371904e94d7203da60a258f850339d6d274c54b47ff5501925d647d3b29",
+              "bytes": 49152,
+              "symbol": "ch_baby_pet_04"
+            },
+            {
+              "source": "preview/assets/growth/baby/frames/pet/pet_05.png",
+              "png_sha256": "d1bff618a5e696707fa1d4259c00b1266e86efcf209f19924ea21b83cf551842",
+              "rgba_sha256": "e1287def20f08153bd65dc03a7180f10237a523560c712cb9f6328cbbaff269a",
+              "rgb565a8_sha256": "0dd421636d017d34bb89dadde1b5d09f655c66ee52b65dc14307a9e1b7754f54",
+              "bytes": 49152,
+              "symbol": "ch_baby_pet_05"
+            }
+          ]
+        },
+        "shelter": {
+          "count": 6,
+          "fps": 4,
+          "loop": true,
+          "foot_y": [
+            0.875,
+            0.875,
+            0.875,
+            0.804688,
+            0.804688,
+            0.804688
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "main/assets/shelter-redesign/baby/frames/shelter/shelter_00.png",
+              "png_sha256": "b88ad00d6045233f2f210f08cdf9d31459a757a23896d906c6d712bbf8723e77",
+              "rgba_sha256": "f5f9c7cf128027beccdb2367569f61c9d2d7643fa89d62f3dd2b320a7f61a612",
+              "rgb565a8_sha256": "7ca5f5634dd59a916c79d8e0099d0f58f14f1872cc6cd59a585ca2305ff60053",
+              "bytes": 49152,
+              "symbol": "ch_baby_shelter_00"
+            },
+            {
+              "source": "main/assets/shelter-redesign/baby/frames/shelter/shelter_01.png",
+              "png_sha256": "b1f611d50f51019c10618bc413d317ff1c8f4b9b3a8c7d58b6a4e4974785ef0d",
+              "rgba_sha256": "07220183c894b9b2c28156d1127e28687c371d3305b67d788f22c07b8929ca3d",
+              "rgb565a8_sha256": "c7e2f4bddfa1475286e1cc38329e5fff16debf62095675ac0abe00ef29897c81",
+              "bytes": 49152,
+              "symbol": "ch_baby_shelter_01"
+            },
+            {
+              "source": "main/assets/shelter-redesign/baby/frames/shelter/shelter_02.png",
+              "png_sha256": "5e0ad0f7d2a2b9339368499cfc20c4dff692c0475151494e1e5cfb85e16150ba",
+              "rgba_sha256": "42e079beb6e2cd096ecad79986c1a37d2df5f169a9d3791d1ac08233289d8dae",
+              "rgb565a8_sha256": "7a6a879061ce5898cf63824e7024da3173bfc93ecd35f45e9a3b9a1741d550da",
+              "bytes": 49152,
+              "symbol": "ch_baby_shelter_02"
+            },
+            {
+              "source": "main/assets/shelter-redesign/baby/frames/shelter/shelter_03.png",
+              "png_sha256": "d556e3d1edbc1cf00ff63e189a9c2682cc4ce08e6c1e2ff5a7328c58599b4a15",
+              "rgba_sha256": "6ab490d56b865779e4e611abba51a464e87904e04fcdf8a905582602f250d8e0",
+              "rgb565a8_sha256": "f4068987879ac4d3ac774b446d99351f68e488f418aff7b9bfc8d1c976064d34",
+              "bytes": 49152,
+              "symbol": "ch_baby_shelter_03"
+            },
+            {
+              "source": "main/assets/shelter-redesign/baby/frames/shelter/shelter_04.png",
+              "png_sha256": "5c9445adb6c19de0f0993bdfab80397df2f1f56247386e3f2b20cd87af1abf36",
+              "rgba_sha256": "ecd84cad2496e9a4a342f061a58da2514bd8b247fdaccba20e0cfffde2d675f0",
+              "rgb565a8_sha256": "b5537b3f883074093c96431a8a8f0dfa9a241da60bad2f82d1a8f19df1bc7041",
+              "bytes": 49152,
+              "symbol": "ch_baby_shelter_04"
+            },
+            {
+              "source": "main/assets/shelter-redesign/baby/frames/shelter/shelter_05.png",
+              "png_sha256": "f0d50cdcbfee98ac0452ea56c6f0b1b63d8c55edba6264548c5276d88e133974",
+              "rgba_sha256": "f4f26b95c3f89aab164bea19d2e75a666707fc33fb9dd4775b2c1941a0fd6037",
+              "rgb565a8_sha256": "30b0922e4aa8b0a7fe9115595258fa18c765bec39b1d2f3faaad688d86b53527",
+              "bytes": 49152,
+              "symbol": "ch_baby_shelter_05"
+            }
+          ],
+          "board_override": {
+            "source_manifest": "main/assets/shelter-redesign/baby/frames/manifest.json",
+            "source_manifest_sha256": "e79d6b5c063bd9eddaa1cf2a56ede995fe6b7c2d8b3aec34a32b1e36eef3e53c",
+            "source_sheet": "main/assets/shelter-redesign/baby/source/shelter-sheet.png",
+            "source_sheet_sha256": "ebbf2ea09f3a66058b2e9b6983485ea8dcba0dc7747855c9a52f3858200fe759",
+            "generation_record": "main/assets/shelter-redesign/baby/source/generation.json",
+            "generation_record_sha256": "024d1d4ad8854bc1e2ab1e7a376bb7421646eab414020243a350ca455b40e0b4",
+            "reference": {
+              "file": "preview/assets/growth-concepts/baby-v2.png",
+              "sha256": "de6e159e9a46302e5a8b9a1d5c3cbb5c4c6f35cfa1ea0fe7e9182cb116c76104"
+            },
+            "converter": {
+              "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+              "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+              "upstream_version": "2.0.0",
+              "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+              "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+              "license": "MIT",
+              "files_unmodified": [
+                "core.py",
+                "LICENSE"
+              ],
+              "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+              "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+              "used_api": [
+                "make_pixel_art_animation",
+                "split_sprite_sheet",
+                "compose_sprite_sheet",
+                "remove_bg_by_color"
+              ],
+              "unused_components": [
+                "GUI",
+                "rembg",
+                "background-removal AI models",
+                "automatic updates",
+                "sklearn palette clustering"
+              ],
+              "api": "make_pixel_art_animation"
+            },
+            "replaces_action_only": "shelter",
+            "extra_frames_packed": 0,
+            "source_pose_audit": {
+              "raw_rgba_sha256": [
+                "e238dea6d590cc3edc2e22124c7ac0666b090cc2900b1da30b154b1d8d6abd6f",
+                "a246c5377957a710004df56856e2d46b536a2ce7cc7847c26f9f77ee9a249804",
+                "866e44760e707011acd92c9fe0cea0e74876718e9c57de2f2a9758483ecfe8b6",
+                "dbdce9cc52b36fa11bc7f557c424221c6302a86bc9c112fa219d585c39bda81a",
+                "ad6fe8aad02530214661bf616f7b2ee1e6836e0215508e1a53a1588c56763c79",
+                "a9b70d50fd4369080eaae939959d756971e403d42e9c1bba50c9bd566d36c6c9"
+              ],
+              "aligned_rgba_sha256": [
+                "f5f9c7cf128027beccdb2367569f61c9d2d7643fa89d62f3dd2b320a7f61a612",
+                "07220183c894b9b2c28156d1127e28687c371d3305b67d788f22c07b8929ca3d",
+                "42e079beb6e2cd096ecad79986c1a37d2df5f169a9d3791d1ac08233289d8dae",
+                "6ab490d56b865779e4e611abba51a464e87904e04fcdf8a905582602f250d8e0",
+                "ecd84cad2496e9a4a342f061a58da2514bd8b247fdaccba20e0cfffde2d675f0",
+                "f4f26b95c3f89aab164bea19d2e75a666707fc33fb9dd4775b2c1941a0fd6037"
+              ],
+              "output_rgba_sha256": [
+                "f5f9c7cf128027beccdb2367569f61c9d2d7643fa89d62f3dd2b320a7f61a612",
+                "07220183c894b9b2c28156d1127e28687c371d3305b67d788f22c07b8929ca3d",
+                "42e079beb6e2cd096ecad79986c1a37d2df5f169a9d3791d1ac08233289d8dae",
+                "6ab490d56b865779e4e611abba51a464e87904e04fcdf8a905582602f250d8e0",
+                "ecd84cad2496e9a4a342f061a58da2514bd8b247fdaccba20e0cfffde2d675f0",
+                "f4f26b95c3f89aab164bea19d2e75a666707fc33fb9dd4775b2c1941a0fd6037"
+              ],
+              "source_grid": {
+                "cols": 3,
+                "rows": 2
+              },
+              "count": 6,
+              "stretched": false,
+              "per_frame_scaling": false,
+              "native_grid": {
+                "enabled": true,
+                "native_grid_size": 128,
+                "source_cell_size": 512,
+                "source_to_native_factor": 4,
+                "fixed_source_coordinates": true,
+                "color_apis": [
+                  "_quantize_to_palette_lab",
+                  "_majority_downscale"
+                ],
+                "alpha_threshold": 127,
+                "alpha_resampling": "NEAREST",
+                "converter_input": [
+                  128,
+                  128
+                ],
+                "converter_output": [
+                  128,
+                  128
+                ],
+                "converter_ratio": 1.0,
+                "lanczos": false,
+                "bilateral": false,
+                "dither": false,
+                "outline": false,
+                "fixed_palette": true,
+                "raw_rgba_sha256": [
+                  "e238dea6d590cc3edc2e22124c7ac0666b090cc2900b1da30b154b1d8d6abd6f",
+                  "a246c5377957a710004df56856e2d46b536a2ce7cc7847c26f9f77ee9a249804",
+                  "866e44760e707011acd92c9fe0cea0e74876718e9c57de2f2a9758483ecfe8b6",
+                  "dbdce9cc52b36fa11bc7f557c424221c6302a86bc9c112fa219d585c39bda81a",
+                  "ad6fe8aad02530214661bf616f7b2ee1e6836e0215508e1a53a1588c56763c79",
+                  "a9b70d50fd4369080eaae939959d756971e403d42e9c1bba50c9bd566d36c6c9"
+                ],
+                "aligned_rgba_sha256": [
+                  "f5f9c7cf128027beccdb2367569f61c9d2d7643fa89d62f3dd2b320a7f61a612",
+                  "07220183c894b9b2c28156d1127e28687c371d3305b67d788f22c07b8929ca3d",
+                  "42e079beb6e2cd096ecad79986c1a37d2df5f169a9d3791d1ac08233289d8dae",
+                  "6ab490d56b865779e4e611abba51a464e87904e04fcdf8a905582602f250d8e0",
+                  "ecd84cad2496e9a4a342f061a58da2514bd8b247fdaccba20e0cfffde2d675f0",
+                  "f4f26b95c3f89aab164bea19d2e75a666707fc33fb9dd4775b2c1941a0fd6037"
+                ],
+                "output_rgba_sha256": [
+                  "f5f9c7cf128027beccdb2367569f61c9d2d7643fa89d62f3dd2b320a7f61a612",
+                  "07220183c894b9b2c28156d1127e28687c371d3305b67d788f22c07b8929ca3d",
+                  "42e079beb6e2cd096ecad79986c1a37d2df5f169a9d3791d1ac08233289d8dae",
+                  "6ab490d56b865779e4e611abba51a464e87904e04fcdf8a905582602f250d8e0",
+                  "ecd84cad2496e9a4a342f061a58da2514bd8b247fdaccba20e0cfffde2d675f0",
+                  "f4f26b95c3f89aab164bea19d2e75a666707fc33fb9dd4775b2c1941a0fd6037"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "sprite_bytes": 4030464,
+      "frame_count": 82
+    },
+    "teen": {
+      "stage": "teen",
+      "label": "少年",
+      "render_scale": 1,
+      "pet_size": 250,
+      "widget_size": 185,
+      "reference": {
+        "file": "preview/assets/chameleon.png",
+        "sha256": "30de7bd60f2d4371b8b7f3bcf2b29cd212b7dafbf9cdc98609472c7dfe2f57c9"
+      },
+      "source_manifest": "preview/assets/frames/manifest.json",
+      "source_manifest_sha256": "8f77898c0220068842542fe0fc3df68e39defc8afcb8d0b408b06c185129e54e",
+      "converter": {
+        "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+        "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+        "upstream_version": "2.0.0",
+        "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+        "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+        "license": "MIT",
+        "files_unmodified": [
+          "core.py",
+          "LICENSE"
+        ],
+        "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+        "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+        "used_api": [
+          "make_pixel_art_animation",
+          "split_sprite_sheet",
+          "compose_sprite_sheet",
+          "remove_bg_by_color"
+        ],
+        "unused_components": [
+          "GUI",
+          "rembg",
+          "background-removal AI models",
+          "automatic updates",
+          "sklearn palette clustering"
+        ],
+        "api": "make_pixel_art_animation"
+      },
+      "actions": {
+        "idle": {
+          "count": 6,
+          "fps": 5,
+          "loop": true,
+          "foot_y": [
+            0.851562,
+            0.851562,
+            0.851562,
+            0.804688,
+            0.796875,
+            0.804688
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/idle/idle_00.png",
+              "png_sha256": "d2a5475ccd2a9ae996f00bce68208b99e8de388d12f5f800334803fbcf2ced37",
+              "rgba_sha256": "cdf1621df845eb3e04cc8100fa2a93d233baeac24bb214e2997eb65cf67c2663",
+              "rgb565a8_sha256": "0d97c125dc2ce496696bb1b6ecf91aee69c455d9a9fd6679937c93d12d4bf012",
+              "bytes": 49152,
+              "symbol": "ch_teen_idle_00"
+            },
+            {
+              "source": "preview/assets/frames/idle/idle_01.png",
+              "png_sha256": "8784389cc379c5096b1612bea54dfb5331f4abecea4872a18e596ad3259cf006",
+              "rgba_sha256": "df743d2b1f454f137257485c47366b225e2efecd313a3c9b7287d911d4a7cf25",
+              "rgb565a8_sha256": "b7498fb10c016d38d3d406bb7f549bbb9ecd27dce78b7601ef851ab639e45313",
+              "bytes": 49152,
+              "symbol": "ch_teen_idle_01"
+            },
+            {
+              "source": "preview/assets/frames/idle/idle_02.png",
+              "png_sha256": "dd1619268a4c1b15c8d96414f27b1f266789a4316f35cef97e0b0c4cf93190cb",
+              "rgba_sha256": "0791cd37f54ca52234930ef0ab19dd0b8f957b159dc2613df3b0c5e8a263c376",
+              "rgb565a8_sha256": "8c8cb8e21a7a45b744371017d51e5f971a1dbf09337d7d83075f86b36f2bffdf",
+              "bytes": 49152,
+              "symbol": "ch_teen_idle_02"
+            },
+            {
+              "source": "preview/assets/frames/idle/idle_03.png",
+              "png_sha256": "b43283e0ac889959fca1236cd7f55e36ae00448afc7b0e9a207aa0e8b0c1f83f",
+              "rgba_sha256": "62a9d97dbb360591dcadfc4ca639a41b16f30b4eaa9fe1a3f56bdc0dd965744a",
+              "rgb565a8_sha256": "6f5ff617cceab25ffa835f0cf29aa89d7118a63bd55fbfded4b0e933dd8ecaac",
+              "bytes": 49152,
+              "symbol": "ch_teen_idle_03"
+            },
+            {
+              "source": "preview/assets/frames/idle/idle_04.png",
+              "png_sha256": "648af9b62425666bd2f88e834d14fb520ca86711f30d0c0b52dab3de3a5d4fb9",
+              "rgba_sha256": "9557621357fb40c159b2a649de64fa8e86c578134e0f168c002dcf0c146ed40e",
+              "rgb565a8_sha256": "e51084770342f8c73d2b82751f8900360668b9f2e15d63832be2db510c7791e8",
+              "bytes": 49152,
+              "symbol": "ch_teen_idle_04"
+            },
+            {
+              "source": "preview/assets/frames/idle/idle_05.png",
+              "png_sha256": "a7ba1c8b5d7da89ce6807243524a420e5ab566e0631e9ac6b4e6c3ea084ca73f",
+              "rgba_sha256": "04c3ca6b4f1123a7df56096dedbdfdf1ab84b50969a6387db4041ddf7c0073fc",
+              "rgb565a8_sha256": "d53fb4a4705227d2ddae4fa8cf9a4e2c1437220e4e300fc62237570f875166d5",
+              "bytes": 49152,
+              "symbol": "ch_teen_idle_05"
+            }
+          ]
+        },
+        "happy": {
+          "count": 6,
+          "fps": 10,
+          "loop": false,
+          "foot_y": [
+            0.890625,
+            0.898438,
+            0.859375,
+            0.804688,
+            0.8125,
+            0.804688
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/happy/happy_00.png",
+              "png_sha256": "ce3887e704e57707483aa7d08cfad7191b32d608d4feb11d7278cd7b50a32b36",
+              "rgba_sha256": "90c4482f9c2ae72aad09b8840508961ca356d8924a0b839ca10a0eac1a44ba3f",
+              "rgb565a8_sha256": "cdf643d39823428a7e87ed59e6552b654ace0f89976539ab08ebd1a9b5986043",
+              "bytes": 49152,
+              "symbol": "ch_teen_happy_00"
+            },
+            {
+              "source": "preview/assets/frames/happy/happy_01.png",
+              "png_sha256": "446d0a4c92d948dc4ba28971a777e558a17fdec5b8be5ac30b37906be1f498c5",
+              "rgba_sha256": "6c94a504bdb9b9c8565e260901e406d93005495a016149a327cefda61013684e",
+              "rgb565a8_sha256": "38b48b85f31b31fa6950bbd2be9be7c6a7938d94eb320fca3c312cd42748df01",
+              "bytes": 49152,
+              "symbol": "ch_teen_happy_01"
+            },
+            {
+              "source": "preview/assets/frames/happy/happy_02.png",
+              "png_sha256": "7b590ffd16b00eb6914555c420de88381fe2a4090805a94aac654f931a6c3b1f",
+              "rgba_sha256": "5d4037523f5ad06bb6cc45ab6940e611847353865123d45c2b8d512da3f44052",
+              "rgb565a8_sha256": "8c028a12031b9a9a5ee1849a9e5d875cb4794c080465306af88d21a34c190a39",
+              "bytes": 49152,
+              "symbol": "ch_teen_happy_02"
+            },
+            {
+              "source": "preview/assets/frames/happy/happy_03.png",
+              "png_sha256": "1b1113b26a75c65a9e964f88e9392e0239eed3272f7dacd8c731ed810b694ecf",
+              "rgba_sha256": "b4f68bd228a8b1237e17f6a2839b5f088eda775482da48bc5bfd8b6212c203ba",
+              "rgb565a8_sha256": "e99ace2da171b9410cd45cc211d6c8ac73fb4aabf64ea0c27a07b0b50fd4d426",
+              "bytes": 49152,
+              "symbol": "ch_teen_happy_03"
+            },
+            {
+              "source": "preview/assets/frames/happy/happy_04.png",
+              "png_sha256": "056911dd38b83cabd8db790f7e25f332bb3edf1206757eac834d2e827667f6bc",
+              "rgba_sha256": "433aec1af8dc622c8169d9fde983bd85c659554eb540a709a3c028ec0afa3e5c",
+              "rgb565a8_sha256": "17559e760f61ba7dbaafde0cbf83cae6e9c2ac03e6102a6f22c29a4cee2788b4",
+              "bytes": 49152,
+              "symbol": "ch_teen_happy_04"
+            },
+            {
+              "source": "preview/assets/frames/happy/happy_05.png",
+              "png_sha256": "9a3ceb739364af0bca4ebcc286be7babee54bcab51a46117f05cd5bb511a81a8",
+              "rgba_sha256": "106b709e181a50be87c99a3463f006f479437b8d4bee3eb52f49d50984661237",
+              "rgb565a8_sha256": "2482dda5811e992207bcbf3fdf35ddcd3a3211a64535e14f09a3429d38fbd3c7",
+              "bytes": 49152,
+              "symbol": "ch_teen_happy_05"
+            }
+          ]
+        },
+        "eat": {
+          "count": 8,
+          "fps": 6,
+          "loop": false,
+          "foot_y": [
+            0.867188,
+            0.867188,
+            0.867188,
+            0.875,
+            0.820312,
+            0.820312,
+            0.820312,
+            0.8125
+          ],
+          "mouths": [
+            null,
+            null,
+            {
+              "x": 0.765625,
+              "y": 0.65625
+            },
+            {
+              "x": 0.7734375,
+              "y": 0.65625
+            },
+            {
+              "x": 0.828125,
+              "y": 0.578125
+            },
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/eat/eat_00.png",
+              "png_sha256": "e4a17aac1fc11d61c7cc1b59d4e32963858a8936e6bef625e9285007339986ce",
+              "rgba_sha256": "2bad1f99d7e119ccd7f0865dcdb58a1f453d09bb66c92424415221badfc26e71",
+              "rgb565a8_sha256": "112df5446596a95612c3698652b644cb070871a0fe4209e1eae645371a9e037b",
+              "bytes": 49152,
+              "symbol": "ch_teen_eat_00"
+            },
+            {
+              "source": "preview/assets/frames/eat/eat_01.png",
+              "png_sha256": "8dc5cabef00d4719c38257df6e2578c8f02a3c5cab68cd651c51c98e9492775d",
+              "rgba_sha256": "640c980d1b6cfdbd115fdb8b44d250b04cbad1a126858cbd65a8907758fc66cd",
+              "rgb565a8_sha256": "d207d457a0fa7f9419e45b949892e7b1e0a25285874c876ef183f240a45a9112",
+              "bytes": 49152,
+              "symbol": "ch_teen_eat_01"
+            },
+            {
+              "source": "preview/assets/frames/eat/eat_02.png",
+              "png_sha256": "c1bdb41746020e63d763b76c8b862787d55e7712541290ff080e4513960cd190",
+              "rgba_sha256": "aabe438a33902176faadfefe5bbc1441b41f82f4f62c40f4bbe35fdb4a67704e",
+              "rgb565a8_sha256": "7ffa5a2560ca58d9c6b126bca0540a1ea8441aeb98ceee8d291e05f0a670663b",
+              "bytes": 49152,
+              "symbol": "ch_teen_eat_02"
+            },
+            {
+              "source": "preview/assets/frames/eat/eat_03.png",
+              "png_sha256": "f697c667b4048a55055c7f9e7656e36958b843f637933bdbee22b0af5a56d9c8",
+              "rgba_sha256": "8ed77d4343bc3409b2ae2506f6255c277f6bf2f5d15d647b0ba00a0038c5d43f",
+              "rgb565a8_sha256": "45076b2c24177c547908e2d0b3819ca1d05370d1a709fbcebf7b130633205d73",
+              "bytes": 49152,
+              "symbol": "ch_teen_eat_03"
+            },
+            {
+              "source": "preview/assets/frames/eat/eat_04.png",
+              "png_sha256": "41823faee5cee18240126e3f6ac626eeb86b103168fea60fba1aa96b436693ce",
+              "rgba_sha256": "5c5265dcfba3d0632a3516dd3bb7229055b9ff45e0b7b5e195581af289fa1ecd",
+              "rgb565a8_sha256": "f9e81b75b906cf12d674a6d9da4dcfc7f9c27d2dd0e03232010e2be4ae9d1d7e",
+              "bytes": 49152,
+              "symbol": "ch_teen_eat_04"
+            },
+            {
+              "source": "preview/assets/frames/eat/eat_05.png",
+              "png_sha256": "5ac3df172eeac11d0d43cad9501a3be0a66a82f52b4011af6d59a9d520a04385",
+              "rgba_sha256": "41ada1fff52dedb01eb808e2396774b7d9bef0a9d138edeb402edcb82793a8ac",
+              "rgb565a8_sha256": "257085e32834ceef71f2905b42b8f5bd44d671b14e79a6c4ea47533ea76802a8",
+              "bytes": 49152,
+              "symbol": "ch_teen_eat_05"
+            },
+            {
+              "source": "preview/assets/frames/eat/eat_06.png",
+              "png_sha256": "07027fb235cfefe6c0365843eb84d636123ef7f788eeea70e5aaddc5c6b0e512",
+              "rgba_sha256": "15bcc099f0e38d65240c8bd635cccc977cd3ba0f4f77429de8ee164adba79e31",
+              "rgb565a8_sha256": "a3494c5914a5f9f85acf0c5b15d55f33c16e63e649c843582ef3c1691636ad40",
+              "bytes": 49152,
+              "symbol": "ch_teen_eat_06"
+            },
+            {
+              "source": "preview/assets/frames/eat/eat_07.png",
+              "png_sha256": "15d1737a3634b41046dc0987b2e27efc92783590896ca7198bdb9ef63d955a29",
+              "rgba_sha256": "a725755566ee839b0ceba8282eb2e74b2f2335548206d27aafee6b822e6c8e8b",
+              "rgb565a8_sha256": "029fdccd2214da7fe7efdebc5b11e1759cebb4106a3412823b84042148759c2f",
+              "bytes": 49152,
+              "symbol": "ch_teen_eat_07"
+            }
+          ]
+        },
+        "sleep": {
+          "count": 4,
+          "fps": 1,
+          "loop": true,
+          "foot_y": [
+            0.882812,
+            0.882812,
+            0.882812,
+            0.882812
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/sleep/sleep_00.png",
+              "png_sha256": "7c666946ca82f1119cc3425f3743573398a9fc7c4d7682208fe3730b579ff22c",
+              "rgba_sha256": "33a5b369ea73bb97784af4a4c23b6fe838f37fdc26b86b668d472a55b521894f",
+              "rgb565a8_sha256": "33a008d772d7c82e592c2023036105a1c71a59b073e4245d564c5af66f96ba34",
+              "bytes": 49152,
+              "symbol": "ch_teen_sleep_00"
+            },
+            {
+              "source": "preview/assets/frames/sleep/sleep_01.png",
+              "png_sha256": "509549b531c8e85f7337af4684603e3114a68190dbcb0366a07845bf63696c8b",
+              "rgba_sha256": "c94d1591be868d8f7b8bfb7a3c8a70f85efa081a8d318f9fe2f713b888eac770",
+              "rgb565a8_sha256": "cb837dcb70d605c492a6ecdaa6c8de13816ae1848929ac1ff5d2fb04a3dd54a2",
+              "bytes": 49152,
+              "symbol": "ch_teen_sleep_01"
+            },
+            {
+              "source": "preview/assets/frames/sleep/sleep_02.png",
+              "png_sha256": "baa552549a0e9cac682571cb76c1c493912f8f7d6ac38738663979ec20c29996",
+              "rgba_sha256": "2872ceb7e3e8c1e61b726b0b4eec0a13dd59d3f81700bcd827663f47f166704f",
+              "rgb565a8_sha256": "7479f266a80c25b27b17f1941c5e42ccae1d85fe61bb63fe06f2369a6d7d9874",
+              "bytes": 49152,
+              "symbol": "ch_teen_sleep_02"
+            },
+            {
+              "source": "preview/assets/frames/sleep/sleep_03.png",
+              "png_sha256": "fa98bf8ff243f70680d58d61884c4ce8f835f66e434845f57f2c304bd36e55a8",
+              "rgba_sha256": "ed0501f6626c5baa52645bd36e5eb57ff1bba18a02e44128667bac45e98d8103",
+              "rgb565a8_sha256": "20f566be0f5a208759da304438f041d8b5433c882430fd7a60785b423caac8de",
+              "bytes": 49152,
+              "symbol": "ch_teen_sleep_03"
+            }
+          ]
+        },
+        "walk": {
+          "count": 8,
+          "fps": 10,
+          "loop": true,
+          "foot_y": [
+            0.867188,
+            0.867188,
+            0.867188,
+            0.867188,
+            0.765625,
+            0.773438,
+            0.765625,
+            0.765625
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/walk/walk_00.png",
+              "png_sha256": "b6134b8406ae3b3969dbb053694f534b8129845b5266bf176638619887d35317",
+              "rgba_sha256": "9595b44213eaea7a99555c233a0bf98bf5272bdb98f098640459c3e66a7c0575",
+              "rgb565a8_sha256": "cecbacf7911fa1c2851c40f36a6cc5a637c5c4fe1c4220f9362663b870e5ead1",
+              "bytes": 49152,
+              "symbol": "ch_teen_walk_00"
+            },
+            {
+              "source": "preview/assets/frames/walk/walk_01.png",
+              "png_sha256": "ac9051ea270386bb3720c139e695def26c0088b6a65b9e160619dc5f54f67aef",
+              "rgba_sha256": "e6b5b5f474b6db6ce061852e50bd6efb8c633ee15c6291c954fa034b0f699b46",
+              "rgb565a8_sha256": "d964ee7be4364e18277f5eafe971bd7b8251d0dea384b59d9ed783561ec4f387",
+              "bytes": 49152,
+              "symbol": "ch_teen_walk_01"
+            },
+            {
+              "source": "preview/assets/frames/walk/walk_02.png",
+              "png_sha256": "7dfb6d93bcf87314497b3ed752698e4e3027b0619e865a2c4d0e0bf29dbb8cf3",
+              "rgba_sha256": "d033d6f31e01fcb11401284b13865e1ce6a0fd200d87fa7ec5b2d0dca2ce5678",
+              "rgb565a8_sha256": "427c1dc73d531936101e4958a5ff1626e413cc4ca691cfc779bc6e8ca88ed434",
+              "bytes": 49152,
+              "symbol": "ch_teen_walk_02"
+            },
+            {
+              "source": "preview/assets/frames/walk/walk_03.png",
+              "png_sha256": "5134b3b0365b033276ad216fbf70d88eb0c051729173b94e464f871dcd689ecb",
+              "rgba_sha256": "a30cd081a0df76c55674abd4d4b5a2e4edc6561cf89dcec73afa89619323b7df",
+              "rgb565a8_sha256": "9409526f2b1b4fc6a0dfa878dfc5350e7914426229c6303b928dd7d38f0f531f",
+              "bytes": 49152,
+              "symbol": "ch_teen_walk_03"
+            },
+            {
+              "source": "preview/assets/frames/walk/walk_04.png",
+              "png_sha256": "b79e28e67a7d5769a564f5180af5b10a8792be67e152534ad2027c832c5e87e3",
+              "rgba_sha256": "fcb2230c200d239c0387ae2f1faebbb9e69b830cb6b4b924760871934e4cf444",
+              "rgb565a8_sha256": "a32f9892c5711bce92eaf6113ac965c6f7faae1f53d9db001c9bb4287d7dacfb",
+              "bytes": 49152,
+              "symbol": "ch_teen_walk_04"
+            },
+            {
+              "source": "preview/assets/frames/walk/walk_05.png",
+              "png_sha256": "153de233bcece63a937aa34877f75bb45989d6925ec36946a0068f25b24c9189",
+              "rgba_sha256": "e4e4d73ce51b3e8d24f3d04481194b14ca1ca98d804f35eaf658893084b7c398",
+              "rgb565a8_sha256": "ab0b483ac04db15b8010948d7af8170221c0af95626459bbaca5b848cf2b1d6f",
+              "bytes": 49152,
+              "symbol": "ch_teen_walk_05"
+            },
+            {
+              "source": "preview/assets/frames/walk/walk_06.png",
+              "png_sha256": "3bac5368ca8b906ba8f200ee66f6ceea5162d4d862ca09235eab4b09da036b87",
+              "rgba_sha256": "cb53c9e28d8b9fd153350b8e5856af3bbd5ca95d4c5e6c97f47c78eb68632fc0",
+              "rgb565a8_sha256": "ac2045ed3f546a782fc9d4557854990753f0e3ae13464e7be5a179deb4cfec2e",
+              "bytes": 49152,
+              "symbol": "ch_teen_walk_06"
+            },
+            {
+              "source": "preview/assets/frames/walk/walk_07.png",
+              "png_sha256": "c245ae79fdd80df6783f1560a1ad5d7e96742a1b105a486ef3d446e3433d1f0e",
+              "rgba_sha256": "7318e9916f0ffd6e85c55f4907feb2113d7094c8e6f8d59d6cfe818dc0637cce",
+              "rgb565a8_sha256": "5c6fda6121ade13bc2aa5ba114299cda5f70eab7cb8b2966a27ae233e20a0ecb",
+              "bytes": 49152,
+              "symbol": "ch_teen_walk_07"
+            }
+          ]
+        },
+        "blink": {
+          "count": 4,
+          "fps": 10,
+          "loop": false,
+          "foot_y": [
+            0.898438,
+            0.898438,
+            0.789062,
+            0.789062
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/blink/blink_00.png",
+              "png_sha256": "0205a01bbe5b3e5b92a29dbf123fa6beecc017ba269454f55bfdb29ded899a0b",
+              "rgba_sha256": "bb2624ed801c2280089bbee2db2e99216c1080b3eb86fbf172e407a9df09f23c",
+              "rgb565a8_sha256": "c8ec4aea7d4cc29995818d975962fed537eafc51579d93ebfec81e93c338a0fa",
+              "bytes": 49152,
+              "symbol": "ch_teen_blink_00"
+            },
+            {
+              "source": "preview/assets/frames/blink/blink_01.png",
+              "png_sha256": "9607881b8f029a0c325f840f1ab35b2fedb2d7dc43714a678b00eff9e61727ae",
+              "rgba_sha256": "a25d7640b9564cfd6ca7178f4d570f8a13e6975ea645ca1b065126250dc9e234",
+              "rgb565a8_sha256": "bdc22d4f759f3dc089563eb7b647292f9074f22374f30205414e94d0fecb64c4",
+              "bytes": 49152,
+              "symbol": "ch_teen_blink_01"
+            },
+            {
+              "source": "preview/assets/frames/blink/blink_02.png",
+              "png_sha256": "aabac1b5f8d631e07512889f6a5dea29c0187452da30c9ac56c3f141ee6b50ef",
+              "rgba_sha256": "85f85acd4d8cf92927adb1a1412ad4f2121ad7bb8bc5d493b48e8bfc28d1cec6",
+              "rgb565a8_sha256": "9b1ad28d73690b6cc2ff586a343cb02506377484928fd08666bb4b869fea05d1",
+              "bytes": 49152,
+              "symbol": "ch_teen_blink_02"
+            },
+            {
+              "source": "preview/assets/frames/blink/blink_03.png",
+              "png_sha256": "1a70fa13125e9b2633b8e4654df239f423e4949c45584b084bf7127df9a9689d",
+              "rgba_sha256": "a69dcddd592c4db97a026a4bf07ecb1e43e4588b855b9eb4f220f4c5e326877e",
+              "rgb565a8_sha256": "4e852b69fae89b44fbc2da797ce6f6b54d128983236d981374f0a1bf7a867e51",
+              "bytes": 49152,
+              "symbol": "ch_teen_blink_03"
+            }
+          ]
+        },
+        "stretch": {
+          "count": 6,
+          "fps": 6,
+          "loop": false,
+          "foot_y": [
+            0.851562,
+            0.851562,
+            0.851562,
+            0.820312,
+            0.8125,
+            0.820312
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/stretch/stretch_00.png",
+              "png_sha256": "f44554bf9b834408828283c2d9c1cfed54c17ffa8e96bd9d73ab6f0a5e95d08e",
+              "rgba_sha256": "429afc5123bfaeaeb61775fb356a72735168d34bab8d9a44cdfed4e2ccdf0c2e",
+              "rgb565a8_sha256": "12071638d96f9ca9504f8c37902dbe6bfcb239aeafba42f454f23cd0a14771fd",
+              "bytes": 49152,
+              "symbol": "ch_teen_stretch_00"
+            },
+            {
+              "source": "preview/assets/frames/stretch/stretch_01.png",
+              "png_sha256": "1d1fca9c748057b5af7fbdf7d4ee66a08363c0eedb9068255ea302f369c6173c",
+              "rgba_sha256": "b734a4b1d07ddab2b42e6309d4571bb877813a969033e7f55c39c1a5a84d10b2",
+              "rgb565a8_sha256": "31aff0ca6d95e8f5a64439f201f7fc37f2e6ae35b835dc82310bd1b86e90e721",
+              "bytes": 49152,
+              "symbol": "ch_teen_stretch_01"
+            },
+            {
+              "source": "preview/assets/frames/stretch/stretch_02.png",
+              "png_sha256": "6eb172dc2e9001575c295b3876079e7bd6b59f4ca2ed4f620ea49b138d46bf03",
+              "rgba_sha256": "0286aafdea4fae4c9a55e96bf75843354f388c2fc4f050d26f878d4a9becaca3",
+              "rgb565a8_sha256": "8f5346fad40ca35e294e99084823338b874e4d34741cb6b9edb18ec0b936de85",
+              "bytes": 49152,
+              "symbol": "ch_teen_stretch_02"
+            },
+            {
+              "source": "preview/assets/frames/stretch/stretch_03.png",
+              "png_sha256": "3f76aad74325087a8d1cf26347d7109f4e4b72725922112412ab80e5af9d12d5",
+              "rgba_sha256": "7c27f60ffdd6b796eb6410219afc0440684d0ea7424ba5f48671df09ea5422ac",
+              "rgb565a8_sha256": "24bc2fac952dd60ba5c98c85447a9136ed63a6a1a2c32cd9a00bf3569f6932b2",
+              "bytes": 49152,
+              "symbol": "ch_teen_stretch_03"
+            },
+            {
+              "source": "preview/assets/frames/stretch/stretch_04.png",
+              "png_sha256": "3675780144c7c8f68445ba8202b6d4211020e618491abd63142278cf5bc292d5",
+              "rgba_sha256": "f97a145a1e0e1443cbc01961d166799607e29c93f1a4c20426bd4ac125c0133d",
+              "rgb565a8_sha256": "56a72fd5417216d09771cbf746426dd75fc41fe2b953963a696bab5f60b4864e",
+              "bytes": 49152,
+              "symbol": "ch_teen_stretch_04"
+            },
+            {
+              "source": "preview/assets/frames/stretch/stretch_05.png",
+              "png_sha256": "2b411345433e434a1e8b4f607ef65a7ce141e0eb2c8da2ab72d2a7964ed8cdac",
+              "rgba_sha256": "56ac3873225e036ba2f43fdb3479562c4c1fa959d1e14da16080b2f35716dbd9",
+              "rgb565a8_sha256": "c275fcbecfa644e7c7247697a15276b4183c75ac3a13bcb775e040fac5ac500a",
+              "bytes": 49152,
+              "symbol": "ch_teen_stretch_05"
+            }
+          ]
+        },
+        "wave": {
+          "count": 6,
+          "fps": 8,
+          "loop": false,
+          "foot_y": [
+            0.875,
+            0.875,
+            0.875,
+            0.757812,
+            0.757812,
+            0.757812
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/wave/wave_00.png",
+              "png_sha256": "6772af526ba11aa7f02a40d837a33d07bdf369fbec960cbbf0809c0e15d0ac54",
+              "rgba_sha256": "cd6a33397fe27ed814a8910f2b223c344c7d4698c4c2f8de77337f87e37331d9",
+              "rgb565a8_sha256": "33eda09a7482ae95433ea79ccde404d9482b97956eb0619a62b48f23449c0757",
+              "bytes": 49152,
+              "symbol": "ch_teen_wave_00"
+            },
+            {
+              "source": "preview/assets/frames/wave/wave_01.png",
+              "png_sha256": "d0251d1d1e11c0f529b1d513956d9fc13d0bd3800b817a612c447d1ea4558632",
+              "rgba_sha256": "2a25b935d22a962b909ccd8ec7e9062a62cf1035c3f6ccc9a0931e679f0ea3c4",
+              "rgb565a8_sha256": "7c3fa8e1de5f9ea43eed4b7b74b95025de10d769d9e8e4af1ba176654c6e226b",
+              "bytes": 49152,
+              "symbol": "ch_teen_wave_01"
+            },
+            {
+              "source": "preview/assets/frames/wave/wave_02.png",
+              "png_sha256": "76eca4fbd466ee7a8dbb5b1972ae1973c8af9c076be3a79cf87e1129a9c7a08d",
+              "rgba_sha256": "4471f3eeac885b54468d4668efbc7117aa56ca2860280ad8f957f5eaae797288",
+              "rgb565a8_sha256": "c32e5fcdee7b6150815aeb38dbd67ed43889ec3f11af5172ba5f461ac0bf1ca5",
+              "bytes": 49152,
+              "symbol": "ch_teen_wave_02"
+            },
+            {
+              "source": "preview/assets/frames/wave/wave_03.png",
+              "png_sha256": "82101eebf31d9b2db0a7d60783b3c37f650d2b039d49bea4090d8e721480b276",
+              "rgba_sha256": "ede809ba77804514e5318f750538c762ce287e70ab5a93849d051c72c727d8b8",
+              "rgb565a8_sha256": "71c5ab3e894c3d1de15a322d1f7a0230a2d16b083c1faa613c41da585790de8e",
+              "bytes": 49152,
+              "symbol": "ch_teen_wave_03"
+            },
+            {
+              "source": "preview/assets/frames/wave/wave_04.png",
+              "png_sha256": "5d738b07c74e8c894eb1d36b62f20ac898c9d8408bc1fa0699ec897423d2aa49",
+              "rgba_sha256": "f5022e7c378b43915b042822672ec568dbf72e0a881a3af892b60feb903b20ae",
+              "rgb565a8_sha256": "9917ea5be6478041cd9b874cb66a1c96bdae042e853ad2e16cb6157ce8699527",
+              "bytes": 49152,
+              "symbol": "ch_teen_wave_04"
+            },
+            {
+              "source": "preview/assets/frames/wave/wave_05.png",
+              "png_sha256": "25ac99586e768908f7a316a2f4ba680b7cb40c0f1bf373843354f5b07d29b5a8",
+              "rgba_sha256": "19e2028e974125f9f005a88e45bfc6db5f4167e5fb9c893dbb70fd4826c2b271",
+              "rgb565a8_sha256": "402e9bd5bf3f762538ca199890892cd42035c7e5c17aad3085192970a2c09680",
+              "bytes": 49152,
+              "symbol": "ch_teen_wave_05"
+            }
+          ]
+        },
+        "dizzy": {
+          "count": 6,
+          "fps": 6,
+          "loop": true,
+          "foot_y": [
+            0.84375,
+            0.859375,
+            0.851562,
+            0.804688,
+            0.789062,
+            0.804688
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/dizzy/dizzy_00.png",
+              "png_sha256": "05d458f3baaa183dfff81dfdc3547aff875ec88146de9765ae0573a61bf98c8b",
+              "rgba_sha256": "678f9bd368803af39e60df0830a42fcd05345565d50a6602a475bdde54212b86",
+              "rgb565a8_sha256": "e85c63db451afaea56d3dee0adac6bf5a098c89ec5d0ac1df24254faf375bb96",
+              "bytes": 49152,
+              "symbol": "ch_teen_dizzy_00"
+            },
+            {
+              "source": "preview/assets/frames/dizzy/dizzy_01.png",
+              "png_sha256": "f1dd3da5b528506c09d96a58821a2d7eccad494d21eb2afd083807d14d6b8e59",
+              "rgba_sha256": "e9d10795ffa6afdca90f0f0c0e438c3ddc1a6f4c0e43e4fc7060c3fb1ed107e2",
+              "rgb565a8_sha256": "45a678b2ff64b5f47a3872deb5c8a8730c88c96483816f87c3376721fd9c9cda",
+              "bytes": 49152,
+              "symbol": "ch_teen_dizzy_01"
+            },
+            {
+              "source": "preview/assets/frames/dizzy/dizzy_02.png",
+              "png_sha256": "f5cc9054eff13aeb372c8d4a3297a67bb7708a436823ec455503092ed2838c22",
+              "rgba_sha256": "21e2d8f493c639d85d548913477849ab6a1e30b5fc07b7474e75aaf591aa246e",
+              "rgb565a8_sha256": "9d43632e658866ba482d84488908f3fe7bf3fef9754bd7ef87de4ef8ac40e5a4",
+              "bytes": 49152,
+              "symbol": "ch_teen_dizzy_02"
+            },
+            {
+              "source": "preview/assets/frames/dizzy/dizzy_03.png",
+              "png_sha256": "3af577841c0354decb6b52fc710bc0f8944d8ed43a0e759fbafeddb11a4a9dc5",
+              "rgba_sha256": "45c28a963b7b2beee5f92ade5027d5ca3a54eefa1c972800aa1d439e099a906f",
+              "rgb565a8_sha256": "2df800af99e2727cba5b627b0483a0ba59a453c9818b5d8aee7901d1625cb9d3",
+              "bytes": 49152,
+              "symbol": "ch_teen_dizzy_03"
+            },
+            {
+              "source": "preview/assets/frames/dizzy/dizzy_04.png",
+              "png_sha256": "d520a6435cd6ab6890f755eaf628e60e322f4ed2193d5fb688c283526bdbfcb9",
+              "rgba_sha256": "034644dea20da1b1a129f65623ff862e05c617c0dd12c62aaaa73daef811431a",
+              "rgb565a8_sha256": "40257b7299172886dc6ae827f72e3574925128134ec349615868f5f133dce31b",
+              "bytes": 49152,
+              "symbol": "ch_teen_dizzy_04"
+            },
+            {
+              "source": "preview/assets/frames/dizzy/dizzy_05.png",
+              "png_sha256": "adbd935dc39b5d384ef77ad9baafd76408c699c9973a50ac056edd11aa1c9b6f",
+              "rgba_sha256": "ad3eb95f67a998d1ec31022f828c1160679dc7bf0a5a049cd4582472aee0b085",
+              "rgb565a8_sha256": "9e1052c76e2ba0986ac43e0cf234a2d0bcd746c59b9cba148b2265ad2a61685c",
+              "bytes": 49152,
+              "symbol": "ch_teen_dizzy_05"
+            }
+          ]
+        },
+        "angry": {
+          "count": 6,
+          "fps": 6,
+          "loop": true,
+          "foot_y": [
+            0.859375,
+            0.875,
+            0.882812,
+            0.804688,
+            0.828125,
+            0.8125
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/angry/angry_00.png",
+              "png_sha256": "30b86385f10deadc8d3a4fbb5dd5f095c8d019008e59746f4df73299c2596a1b",
+              "rgba_sha256": "90b6975f3a9657877a02f969e30f5ba254b8af54f70698d4e5d3bf5495e102cf",
+              "rgb565a8_sha256": "c7bba391bd57e7686cf0ccdeb3f26c38f299f10386efd4a24c3ddfb2cc991397",
+              "bytes": 49152,
+              "symbol": "ch_teen_angry_00"
+            },
+            {
+              "source": "preview/assets/frames/angry/angry_01.png",
+              "png_sha256": "1e447ceec5d285fb2ba1f956380029749754d4c67feaa0a53a2e33a9c9eaa35d",
+              "rgba_sha256": "2395efb6ec142149e27abb5d9392b69eb03deabc5f97d453cb1de5aa40ffa332",
+              "rgb565a8_sha256": "9a36f34b145acdf86ed240da8324683e147cffc579b9ce19e51b8efc92252254",
+              "bytes": 49152,
+              "symbol": "ch_teen_angry_01"
+            },
+            {
+              "source": "preview/assets/frames/angry/angry_02.png",
+              "png_sha256": "7f75a60bebcec3e5fe21747569c25ef5688095a8ef2db4415c0a3c1614b79751",
+              "rgba_sha256": "75eb1d097e07b2b07a068eb1d17d647d8114178b72dd5836f91d1a8f8185b677",
+              "rgb565a8_sha256": "8b801644bd230d45e5b183a6b27ae55473811077e690c186e673063a6f22c0f8",
+              "bytes": 49152,
+              "symbol": "ch_teen_angry_02"
+            },
+            {
+              "source": "preview/assets/frames/angry/angry_03.png",
+              "png_sha256": "feca9a72c7abba857a31b622a678ff9b41c36432fe278512eda2e67730bfa37a",
+              "rgba_sha256": "8222bd3bfa28c9e121d5141cb8d3f7f77c93e2ae84e7a65fce98c4a34f0aa7ef",
+              "rgb565a8_sha256": "ed8b5cd059e6a35e078b227da29d2d370ba936329f974bdf77f0c2591ed961fc",
+              "bytes": 49152,
+              "symbol": "ch_teen_angry_03"
+            },
+            {
+              "source": "preview/assets/frames/angry/angry_04.png",
+              "png_sha256": "5fd4938a4c77301435198eb5d992d492d7937aa2a38be026038549589c022a8d",
+              "rgba_sha256": "981ec9a29953d7e55775e439e8d8bc9f7474178769562eca3cbe9863049d956e",
+              "rgb565a8_sha256": "a5f15c245a7768cbffd1043b2a7b70f38b560179756349b5c8c8d9dbd26c28b3",
+              "bytes": 49152,
+              "symbol": "ch_teen_angry_04"
+            },
+            {
+              "source": "preview/assets/frames/angry/angry_05.png",
+              "png_sha256": "3fe294b18968f21f5dfcca0044d6bacae056237c1395c0ecb435309ac9a4ab53",
+              "rgba_sha256": "edc3cbf24e0de74fbd00dd6c5f7d4320914206d865796b6d1ec32e2a882735aa",
+              "rgb565a8_sha256": "1cd88e9b775b5564dcccc386ff32d025abede6c5ddb0d77aac21dc0a227d5d32",
+              "bytes": 49152,
+              "symbol": "ch_teen_angry_05"
+            }
+          ]
+        },
+        "sick": {
+          "count": 4,
+          "fps": 2,
+          "loop": true,
+          "foot_y": [
+            0.867188,
+            0.867188,
+            0.78125,
+            0.78125
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "main/assets/sick-redesign/teen/frames/sick/sick_00.png",
+              "png_sha256": "1b32fa9d5afee8819c9325db6c40f551a2bd234050201d107c32e11e55cc3c55",
+              "rgba_sha256": "97466d65e496e1f8ee624a026cf04a286ae97714c0e627eef7506a4b24502fb7",
+              "rgb565a8_sha256": "d0d04bab6cfcbb4a60904d5a691c39d0407b87b36a777d3eff9991639f374e0c",
+              "bytes": 49152,
+              "symbol": "ch_teen_sick_00"
+            },
+            {
+              "source": "main/assets/sick-redesign/teen/frames/sick/sick_01.png",
+              "png_sha256": "3802d4a2fdb2d923af2362541173ada7d12ddbc6320258f9420bbc24381268ee",
+              "rgba_sha256": "170e2669c51b99180a0770ecf47f8a127bf3180b2561433493ef2fa6e6b1b960",
+              "rgb565a8_sha256": "5c93bec4a6a7a31e7f74502375687a61dd62fad603b1f7e1a77af8b7bcf9972c",
+              "bytes": 49152,
+              "symbol": "ch_teen_sick_01"
+            },
+            {
+              "source": "main/assets/sick-redesign/teen/frames/sick/sick_02.png",
+              "png_sha256": "5750195122b44675932e42d5d8912054a3a136da3c7abf2163b4c3122d263f11",
+              "rgba_sha256": "26ffd5189afa51f8e699d170a5220cdd7a625aa16f5c6dd9155aedb67c38e7a0",
+              "rgb565a8_sha256": "716056e2edf19b8a571a56c61b270a744767eaf06174471f4a13d3abbf48fcf2",
+              "bytes": 49152,
+              "symbol": "ch_teen_sick_02"
+            },
+            {
+              "source": "main/assets/sick-redesign/teen/frames/sick/sick_03.png",
+              "png_sha256": "4134bc8efdc5dec3f5872a11062116360dec27b9bfda57da6c44b054459a20ec",
+              "rgba_sha256": "8987d1099ee45e1d81b1276fbca81435104b86730acd25acd2817dcd96a831bc",
+              "rgb565a8_sha256": "80e089a699430d7421b64508d846c26553040b20edeb92a0762d02e95489ae67",
+              "bytes": 49152,
+              "symbol": "ch_teen_sick_03"
+            }
+          ],
+          "board_override": {
+            "source_manifest": "main/assets/sick-redesign/teen/frames/manifest.json",
+            "source_manifest_sha256": "759827e53d89fdbd9a7ae81bebee2c70f0f415abc4ad35101e4a9722024ab658",
+            "source_sheet": "main/assets/sick-redesign/teen/source/sick-sheet.png",
+            "source_sheet_sha256": "0ac961856315e1a61b559376eb8fe2bbf37ca9e06bfb36992d0afb40fd651e1b",
+            "generation_record": "main/assets/sick-redesign/teen/source/generation.json",
+            "generation_record_sha256": "a3741335b5b19e46a892419f4efa734b52eab7ff8d8f8f8e3936dbe0c5a475ab",
+            "reference": {
+              "file": "preview/assets/chameleon.png",
+              "sha256": "30de7bd60f2d4371b8b7f3bcf2b29cd212b7dafbf9cdc98609472c7dfe2f57c9"
+            },
+            "converter": {
+              "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+              "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+              "upstream_version": "2.0.0",
+              "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+              "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+              "license": "MIT",
+              "files_unmodified": [
+                "core.py",
+                "LICENSE"
+              ],
+              "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+              "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+              "used_api": [
+                "make_pixel_art_animation",
+                "split_sprite_sheet",
+                "compose_sprite_sheet",
+                "remove_bg_by_color"
+              ],
+              "unused_components": [
+                "GUI",
+                "rembg",
+                "background-removal AI models",
+                "automatic updates",
+                "sklearn palette clustering"
+              ],
+              "api": "make_pixel_art_animation"
+            },
+            "replaces_action_only": "sick",
+            "extra_frames_packed": 0
+          }
+        },
+        "bath": {
+          "count": 6,
+          "fps": 8,
+          "loop": false,
+          "foot_y": [
+            0.875,
+            0.867188,
+            0.859375,
+            0.8125,
+            0.804688,
+            0.804688
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/bath/bath_00.png",
+              "png_sha256": "7765bf0aafb2fb0d9e7ac41f74714de89ec1d8fdbadfeb19eca00cfe93c6afc4",
+              "rgba_sha256": "9325a359c1ff578b43bb4c53b3477f8ae1054f15cbbf095a0620e6464eadd3e4",
+              "rgb565a8_sha256": "ee943078d3cb64df22e6cd798016fdd61655275bf144f92ad0ebc638ec661ecd",
+              "bytes": 49152,
+              "symbol": "ch_teen_bath_00"
+            },
+            {
+              "source": "preview/assets/frames/bath/bath_01.png",
+              "png_sha256": "f1ab116729cdb43f4169540ed051d5adf366b6022d81e9099416d75adf1829dc",
+              "rgba_sha256": "49522d4bf466a4bdeb23e6a25414ed3381789da8484739f97fcc19212079811c",
+              "rgb565a8_sha256": "05d8b8ed758312b570b997625075492fe1a89cf785511aa54b423ca2e654314b",
+              "bytes": 49152,
+              "symbol": "ch_teen_bath_01"
+            },
+            {
+              "source": "preview/assets/frames/bath/bath_02.png",
+              "png_sha256": "0d1f70c728a69b2cf38735963257b24fb306c58ddf2e3ad5333d1431580974fa",
+              "rgba_sha256": "d76f541604ca954339ea7e99153498b59297d7bbe1ab40254863a5c7919330fa",
+              "rgb565a8_sha256": "f76305222cd6d84f0b21cd91545bc6452e32a1220b76ccf73e6ec738da0754a7",
+              "bytes": 49152,
+              "symbol": "ch_teen_bath_02"
+            },
+            {
+              "source": "preview/assets/frames/bath/bath_03.png",
+              "png_sha256": "cfa2110a2dc9acfd25097c647f51af3eba27ee08a73ae06fba31918d4462a339",
+              "rgba_sha256": "4e41c6cfed909b1845adcf16c27cc5cd28e87f18121a2917755c43fb692ef693",
+              "rgb565a8_sha256": "4d4c59efe4ac1d76a474a0da547130b020d8d898d87c807c2efb25e2a2f5f0fa",
+              "bytes": 49152,
+              "symbol": "ch_teen_bath_03"
+            },
+            {
+              "source": "preview/assets/frames/bath/bath_04.png",
+              "png_sha256": "73e9bc454ff581177cddaa79a903c58bc07e7135683398cc2deea8a9a56758bc",
+              "rgba_sha256": "083e7b86affbd7a437eb089b9f589f2a29b6a08cc02c8f70c6683fa5779b28ec",
+              "rgb565a8_sha256": "5c6131dcd4ef18305543c557146d39596ce5365b8b42b559fb3ec7973ad2bee3",
+              "bytes": 49152,
+              "symbol": "ch_teen_bath_04"
+            },
+            {
+              "source": "preview/assets/frames/bath/bath_05.png",
+              "png_sha256": "b158e66be378a4331824530e6401c4fbbcc99c3e06ed8390267b713b82ea28e4",
+              "rgba_sha256": "98f73305e5c2fcbc6fe92c3790a58e22ad0fe6ee5800592e9270c948271b3b9d",
+              "rgb565a8_sha256": "ea8d8dd2c4b6e19d7e33b05f4d56d9eacfddaddfcdb74560cdd4f8db9f917da5",
+              "bytes": 49152,
+              "symbol": "ch_teen_bath_05"
+            }
+          ]
+        },
+        "pet": {
+          "count": 6,
+          "fps": 8,
+          "loop": false,
+          "foot_y": [
+            0.921875,
+            0.921875,
+            0.921875,
+            0.804688,
+            0.804688,
+            0.8125
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/pet/pet_00.png",
+              "png_sha256": "3c31812ff3f47f200510d79ceddcd0c2f853eb7811101d550a7cfa7320d78f30",
+              "rgba_sha256": "ab0ad1904c8be631433475179b44bf2ae109db2c4b302610f7fd6a5a4e77f16b",
+              "rgb565a8_sha256": "f9b2a61bcef6ca58606392f64d3dc78de86677db22b477fc709de7a74a1c3d0f",
+              "bytes": 49152,
+              "symbol": "ch_teen_pet_00",
+              "board_rgba_sha256": "2432a3208f76d18d7b0328d6aa60418addda942159c95f9dfb14948d9c732bc7",
+              "effect_extraction": {
+                "effect": "teen-pet-floating-heart-extraction",
+                "source_rgba_sha256": "ab0ad1904c8be631433475179b44bf2ae109db2c4b302610f7fd6a5a4e77f16b",
+                "board_rgba_sha256": "2432a3208f76d18d7b0328d6aa60418addda942159c95f9dfb14948d9c732bc7",
+                "removed_pixels": 61,
+                "removed_bounds": [
+                  98,
+                  41,
+                  113,
+                  56
+                ],
+                "body_pixels": 4624,
+                "body_component_unchanged": true,
+                "source_files_unchanged": true
+              }
+            },
+            {
+              "source": "preview/assets/frames/pet/pet_01.png",
+              "png_sha256": "a62dd7d6b1cbeeedcac23d420f9c05b391cb723c3d80f50209b4ebbec0498672",
+              "rgba_sha256": "6365191463b40eb0eaf7fef10723bf7b1ca6ce2ed759b4f413eb525947abcd2a",
+              "rgb565a8_sha256": "ccac3bba9bd545f819f6c1a8e32b091dfdcae26cef18d421f8a73c7c819c58de",
+              "bytes": 49152,
+              "symbol": "ch_teen_pet_01",
+              "board_rgba_sha256": "5f72e76defbee0249d65f5f7415dcd3e1c336cd9851e2ddaba32efee37c3d878",
+              "effect_extraction": {
+                "effect": "teen-pet-floating-heart-extraction",
+                "source_rgba_sha256": "6365191463b40eb0eaf7fef10723bf7b1ca6ce2ed759b4f413eb525947abcd2a",
+                "board_rgba_sha256": "5f72e76defbee0249d65f5f7415dcd3e1c336cd9851e2ddaba32efee37c3d878",
+                "removed_pixels": 67,
+                "removed_bounds": [
+                  101,
+                  54,
+                  112,
+                  63
+                ],
+                "body_pixels": 4504,
+                "body_component_unchanged": true,
+                "source_files_unchanged": true
+              }
+            },
+            {
+              "source": "preview/assets/frames/pet/pet_02.png",
+              "png_sha256": "f4e2bfb59acf48cf9ec7fa3031453c0d015d5d75b7cafe513ba9ffdacabf88db",
+              "rgba_sha256": "78a8548b5f482833e4ed77c321b00ec040efaa4ab41167e09d2ce1206f0a8baa",
+              "rgb565a8_sha256": "ddca71b31c43bc0c085354e3833b5718dc8a2ffcf22031d3a59a72d9a045e30f",
+              "bytes": 49152,
+              "symbol": "ch_teen_pet_02",
+              "board_rgba_sha256": "654b1873ee8a18b127e69871ed4c3ab64e08f6f7438c49551819de6d1efa5b44",
+              "effect_extraction": {
+                "effect": "teen-pet-floating-heart-extraction",
+                "source_rgba_sha256": "78a8548b5f482833e4ed77c321b00ec040efaa4ab41167e09d2ce1206f0a8baa",
+                "board_rgba_sha256": "654b1873ee8a18b127e69871ed4c3ab64e08f6f7438c49551819de6d1efa5b44",
+                "removed_pixels": 86,
+                "removed_bounds": [
+                  92,
+                  35,
+                  108,
+                  49
+                ],
+                "body_pixels": 4411,
+                "body_component_unchanged": true,
+                "source_files_unchanged": true
+              }
+            },
+            {
+              "source": "preview/assets/frames/pet/pet_03.png",
+              "png_sha256": "ee0d8b8bbf2892e5ccf8238a25cc6a5c5f0de7727895d47d5ee5bb5283e8c07c",
+              "rgba_sha256": "1813e2b73aa3a764b66ecb82b756d564dad836129660c645e1012097cfe80b57",
+              "rgb565a8_sha256": "e55704a081a014cf3c22fb4297c0b30f99f3fe4e322c8e6229ea9576fdb2e7fc",
+              "bytes": 49152,
+              "symbol": "ch_teen_pet_03",
+              "board_rgba_sha256": "0e7185548c627e7e063033c2576360ab51ca975516d814ce150743958b1c192c",
+              "effect_extraction": {
+                "effect": "teen-pet-floating-heart-extraction",
+                "source_rgba_sha256": "1813e2b73aa3a764b66ecb82b756d564dad836129660c645e1012097cfe80b57",
+                "board_rgba_sha256": "0e7185548c627e7e063033c2576360ab51ca975516d814ce150743958b1c192c",
+                "removed_pixels": 99,
+                "removed_bounds": [
+                  92,
+                  43,
+                  114,
+                  59
+                ],
+                "body_pixels": 4096,
+                "body_component_unchanged": true,
+                "source_files_unchanged": true
+              }
+            },
+            {
+              "source": "preview/assets/frames/pet/pet_04.png",
+              "png_sha256": "951baf3bda3ca439a65e521a3e0d8a5c62479b7ff1d229be2c1629e329b2d06d",
+              "rgba_sha256": "f2f1178e2fbe7e8f1781c93a0aa201bc176a03869ed399fa9f29f730071b8f73",
+              "rgb565a8_sha256": "a6c5820d061f41d38550cdc0afb7bbbea19cdfab8425568070f8fbdb14926bb3",
+              "bytes": 49152,
+              "symbol": "ch_teen_pet_04",
+              "board_rgba_sha256": "42f515ba09b8ac272834383f09d19be8c6c0fd256282d7316e29b4980a1a41da",
+              "effect_extraction": {
+                "effect": "teen-pet-floating-heart-extraction",
+                "source_rgba_sha256": "f2f1178e2fbe7e8f1781c93a0aa201bc176a03869ed399fa9f29f730071b8f73",
+                "board_rgba_sha256": "42f515ba09b8ac272834383f09d19be8c6c0fd256282d7316e29b4980a1a41da",
+                "removed_pixels": 84,
+                "removed_bounds": [
+                  102,
+                  37,
+                  114,
+                  47
+                ],
+                "body_pixels": 3883,
+                "body_component_unchanged": true,
+                "source_files_unchanged": true
+              }
+            },
+            {
+              "source": "preview/assets/frames/pet/pet_05.png",
+              "png_sha256": "15339a390f4561f7a820bb4eb957f1fe90b065d5050c6509816e0fc92b8d7043",
+              "rgba_sha256": "6810a68ff3560fa0a6bfbc6e5db04982ffe10d4bc6b284943c435b1b20146d24",
+              "rgb565a8_sha256": "84ca4f70f9b94aaa33492a58ed6f5d8495a0391ac93a281e34947b47febda2d0",
+              "bytes": 49152,
+              "symbol": "ch_teen_pet_05",
+              "board_rgba_sha256": "547fb7f40cbbd731280b3ee49cadbff6a15dabeadcc31ff1bac9e8d862c3d181",
+              "effect_extraction": {
+                "effect": "teen-pet-floating-heart-extraction",
+                "source_rgba_sha256": "6810a68ff3560fa0a6bfbc6e5db04982ffe10d4bc6b284943c435b1b20146d24",
+                "board_rgba_sha256": "547fb7f40cbbd731280b3ee49cadbff6a15dabeadcc31ff1bac9e8d862c3d181",
+                "removed_pixels": 86,
+                "removed_bounds": [
+                  97,
+                  39,
+                  112,
+                  57
+                ],
+                "body_pixels": 3795,
+                "body_component_unchanged": true,
+                "source_files_unchanged": true
+              }
+            }
+          ]
+        },
+        "shelter": {
+          "count": 6,
+          "fps": 4,
+          "loop": true,
+          "foot_y": [
+            0.921875,
+            0.921875,
+            0.929688,
+            0.835938,
+            0.828125,
+            0.835938
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/frames/shelter/shelter_00.png",
+              "png_sha256": "062e933a7eb9b2c97ae827151e9380749f89407d03785aa21881d186e5628d5f",
+              "rgba_sha256": "886d60a89f7f128db522d2a6f7626cfc3a55ac91fe21ffbfd5b03d9d5652b573",
+              "rgb565a8_sha256": "35ce9f5b4d5e6ad59925e741acccfdc4035cd950331a35af6790f29c6cb28b37",
+              "bytes": 49152,
+              "symbol": "ch_teen_shelter_00"
+            },
+            {
+              "source": "preview/assets/frames/shelter/shelter_01.png",
+              "png_sha256": "229dda4de17c0fe838aba7e2d8291307f2f772aa1bf005912c945a230934884c",
+              "rgba_sha256": "b2f0ebd384e6582ba36af66034b25b5af1978957caf5f225b04875c06f2d6d7c",
+              "rgb565a8_sha256": "9a894f46598bfc8ca9948d38d27ddbc3076c5742910e87778d3da66df3ebf2cb",
+              "bytes": 49152,
+              "symbol": "ch_teen_shelter_01"
+            },
+            {
+              "source": "preview/assets/frames/shelter/shelter_02.png",
+              "png_sha256": "14e81706215d7055d15c2b6e81907a2ab7e5d3d6cec798a6a810ba968c96d04c",
+              "rgba_sha256": "a7cb9c55c3859ed410876b5dd70d97af1dbc070eb8a5fb4c7bab51207ead9d4e",
+              "rgb565a8_sha256": "2531b90e6a9b7d00c2894b2505f163b8dde29d2a69a3c437010ebcf02b851448",
+              "bytes": 49152,
+              "symbol": "ch_teen_shelter_02"
+            },
+            {
+              "source": "preview/assets/frames/shelter/shelter_03.png",
+              "png_sha256": "eb7d87398cca9d8ba63ea7cec9361322f3b0af1693566101fbf1b3a6584684b0",
+              "rgba_sha256": "2fcedaae9fbf5415f27ee655da1788c89b1f5c77db0e8172055bb24fc523815c",
+              "rgb565a8_sha256": "f5f95478af187b68a7fdf08b4c259552ce608ec77d6277ab4247b4dd23cb1d55",
+              "bytes": 49152,
+              "symbol": "ch_teen_shelter_03"
+            },
+            {
+              "source": "preview/assets/frames/shelter/shelter_04.png",
+              "png_sha256": "96846408420f6023bdc65585000778cbb4ed3f95d59db5b37f6c088a9448aff5",
+              "rgba_sha256": "da663a5ca4f5af31f5e231ebe91addac5cbc9e177b77927479fe6b85f9b27054",
+              "rgb565a8_sha256": "c435a55dcb3e39c93c8c5f45e91ddb40e262e7213ac128cd1f63265095fdd930",
+              "bytes": 49152,
+              "symbol": "ch_teen_shelter_04"
+            },
+            {
+              "source": "preview/assets/frames/shelter/shelter_05.png",
+              "png_sha256": "763dc1a2312247777a9bae6a95c2532441a9e1576db525b072da2939198aa467",
+              "rgba_sha256": "7117ba61b5b40f172473129526b263371a65d19cd4bdecd93713349797a1f598",
+              "rgb565a8_sha256": "e180db4604f86fd77045f164a54e69a2c7129a2d63cdf81cbd964a191116e917",
+              "bytes": 49152,
+              "symbol": "ch_teen_shelter_05"
+            }
+          ]
+        }
+      },
+      "sprite_bytes": 4030464,
+      "frame_count": 82
+    },
+    "adult": {
+      "stage": "adult",
+      "label": "成年",
+      "render_scale": 1.06,
+      "pet_size": 265,
+      "widget_size": 196,
+      "reference": {
+        "file": "preview/assets/growth-concepts/adult-v1.png",
+        "sha256": "1b5f497f8086235b13b9f3064e6a73836dc71f4f246c9af52f78df83e99dd9e3"
+      },
+      "source_manifest": "preview/assets/growth/adult/frames/manifest.json",
+      "source_manifest_sha256": "9bf30380162c55ce921dd9eb179294f2179cbf5c60215c24406cee81e6205bd8",
+      "converter": {
+        "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+        "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+        "upstream_version": "2.0.0",
+        "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+        "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+        "license": "MIT",
+        "files_unmodified": [
+          "core.py",
+          "LICENSE"
+        ],
+        "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+        "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+        "used_api": [
+          "make_pixel_art_animation",
+          "split_sprite_sheet",
+          "compose_sprite_sheet",
+          "remove_bg_by_color"
+        ],
+        "unused_components": [
+          "GUI",
+          "rembg",
+          "background-removal AI models",
+          "automatic updates",
+          "sklearn palette clustering"
+        ],
+        "api": "make_pixel_art_animation"
+      },
+      "actions": {
+        "idle": {
+          "count": 6,
+          "fps": 5,
+          "loop": true,
+          "foot_y": [
+            0.84375,
+            0.84375,
+            0.84375,
+            0.828125,
+            0.828125,
+            0.828125
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/adult/frames/idle/idle_00.png",
+              "png_sha256": "3063bbd7008fd2b8a39d5b86fadf336df457ad3e54fe7e5729d16f83ff86317f",
+              "rgba_sha256": "6e3899c310cb95ec5b96b612d8229e5015cc71c5f3858ee14050e16639c75c82",
+              "rgb565a8_sha256": "7e1edba15d8e6f2a8a0d18fc6e0ac8392b212de4b1b8d615cf01c32540fcd27a",
+              "bytes": 49152,
+              "symbol": "ch_adult_idle_00"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/idle/idle_01.png",
+              "png_sha256": "6dc5bcb182e16039a7a743d82fb5bc9585350fc3f7449662970f05c864e001f9",
+              "rgba_sha256": "faa820266a2db4ce27c28e7edd511be03d5f67501172b0cb4cd52de4f2f87431",
+              "rgb565a8_sha256": "ee6d0316b0597972be65bbca696203a4ab47a733aa9be1ff6e1bb95ea46e4f72",
+              "bytes": 49152,
+              "symbol": "ch_adult_idle_01"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/idle/idle_02.png",
+              "png_sha256": "7174c894d599539b7fa19575ae41b7bf13db1eedb9e0272ceba8018c72876db0",
+              "rgba_sha256": "3a637bb47928c9eabce3ba1e267ce4b7a602dfdfae12a21c71b896f2ce97bad7",
+              "rgb565a8_sha256": "dd8e061cb8cfe02145036ee9d56d69da3309566598c1112cff7a95cb96d3f379",
+              "bytes": 49152,
+              "symbol": "ch_adult_idle_02"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/idle/idle_03.png",
+              "png_sha256": "a41f86e5af267c1c525d7e42d2d38ba364e4be217931ceb13eb8a6d9f8041147",
+              "rgba_sha256": "f6d8ed008631fe2f9ce99924498d62cf895e46ad8dcf64b0e74f8289c62dff8e",
+              "rgb565a8_sha256": "678d7e3deec0dca6f072cfbb5b147bf9a9095e50099c78d8dadade5ce9f16702",
+              "bytes": 49152,
+              "symbol": "ch_adult_idle_03"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/idle/idle_04.png",
+              "png_sha256": "38853afdb38515be8f2a30f49c6799d211c4a8f6384ffbf5270894d381315970",
+              "rgba_sha256": "278dbe91f9deb2edb2ace4e80418c5b638f5cd66309e5e269accd40e249e00da",
+              "rgb565a8_sha256": "921da64b74856832e6a9b9ffcf0bb60f581a4678f3ac81cda0f447a7bfe49c3f",
+              "bytes": 49152,
+              "symbol": "ch_adult_idle_04"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/idle/idle_05.png",
+              "png_sha256": "238288e0cba4ef0031722454f19a7378fec0fb09b78e6f8fc5785ab486d66c9b",
+              "rgba_sha256": "39a0ee446cb1176d269d0f81991776d0833307ec5d3032d01d5af5af67604ef4",
+              "rgb565a8_sha256": "9621f822bc0fedd7c6277613e5f3402ed0b3c02f49934079d01b6897dfab58b3",
+              "bytes": 49152,
+              "symbol": "ch_adult_idle_05"
+            }
+          ]
+        },
+        "happy": {
+          "count": 6,
+          "fps": 10,
+          "loop": false,
+          "foot_y": [
+            0.90625,
+            0.898438,
+            0.90625,
+            0.84375,
+            0.84375,
+            0.84375
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/adult/frames/happy/happy_00.png",
+              "png_sha256": "0b9ab630e868e0b93b7f3c04618448c8072f63113a5f983d3feff511d9f6b8e9",
+              "rgba_sha256": "a506e072afe29915001930ef8b3a68c1376baf329ee6210e1417872bceb9d2a5",
+              "rgb565a8_sha256": "975902273f750fdcd755e83dee3a29702f0a9f89f236d8fc01066e4377c02816",
+              "bytes": 49152,
+              "symbol": "ch_adult_happy_00"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/happy/happy_01.png",
+              "png_sha256": "572a21c9c73af448e5a70d93f9c42419daaa1e98e09776eaedf2810b802f66d8",
+              "rgba_sha256": "d099b4e08df0335e123f5ad84365077fa2bc64b516f33f6e9eca0ad509535c5e",
+              "rgb565a8_sha256": "a554ae83c1428448def41660de60b68a5937173f840c59ed679c6e76defe6fda",
+              "bytes": 49152,
+              "symbol": "ch_adult_happy_01"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/happy/happy_02.png",
+              "png_sha256": "92ddf16a8a5de1b0329edf933835c80000d0a6354e2cf36e00739c89797f9ee1",
+              "rgba_sha256": "bc148e42ae189f5ce946c18e9af5e9950b7e954deb1f5447f6c6723c3e5be68d",
+              "rgb565a8_sha256": "545dd87eda197ba4fd68db46027d28fe307e9ced15945a9a76a94594650e3417",
+              "bytes": 49152,
+              "symbol": "ch_adult_happy_02"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/happy/happy_03.png",
+              "png_sha256": "36818446a03903a5bda2a022477257a2f0d61327cb5599a470ceaa94da4f8051",
+              "rgba_sha256": "ddf3427754fe2b9af1b6cb8d994afb423809370e289515d1e891ebd2d7739d09",
+              "rgb565a8_sha256": "b22d214cb35c1ed55f6078c12ad97b2a9fdabfc551f094f8f6b68364fae42d20",
+              "bytes": 49152,
+              "symbol": "ch_adult_happy_03"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/happy/happy_04.png",
+              "png_sha256": "ecaae90c3e0ed9df5b64a33bb9a03e0841650745ff27a77b1604d9b6830eeb25",
+              "rgba_sha256": "501b6d6b59bf3b95f2d3fe8fcc96809ec146c60aa41db65a025dff40bae57cb4",
+              "rgb565a8_sha256": "8fe87847336e10366b62ff1cfc9d04bf25d0d2cca1c5b042164edac7183022c1",
+              "bytes": 49152,
+              "symbol": "ch_adult_happy_04"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/happy/happy_05.png",
+              "png_sha256": "b202e0434879848cf57b9e6f63af07a14bd157374777bd85652576b62dbf8b9c",
+              "rgba_sha256": "6d7aa1facc419beab9448e236c5552a6bf5e3e43750ae17ca0e7d85715f561a8",
+              "rgb565a8_sha256": "1ee5f641ffac6b992f181b9bc32b6f9ade98e53d5297bc784b024e139cab3085",
+              "bytes": 49152,
+              "symbol": "ch_adult_happy_05"
+            }
+          ]
+        },
+        "eat": {
+          "count": 8,
+          "fps": 6,
+          "loop": false,
+          "foot_y": [
+            0.867188,
+            0.867188,
+            0.867188,
+            0.867188,
+            0.867188,
+            0.867188,
+            0.867188,
+            0.867188
+          ],
+          "mouths": [
+            null,
+            null,
+            {
+              "x": 0.796875,
+              "y": 0.6015625
+            },
+            {
+              "x": 0.7890625,
+              "y": 0.5859375
+            },
+            {
+              "x": 0.8203125,
+              "y": 0.6015625
+            },
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/adult/frames/eat/eat_00.png",
+              "png_sha256": "4d33b69071628eb4817377c1cb7e870f3d567eb6d800d9750187088380e1b0ba",
+              "rgba_sha256": "5e212331198b937b8a9dbf395100e5f88c46dcd9612c26e2d1628419637b4aa1",
+              "rgb565a8_sha256": "074e1c924d3bf59d037adb6b6966fec81689c24f2bb8ce1070962290dc4bb4fb",
+              "bytes": 49152,
+              "symbol": "ch_adult_eat_00"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/eat/eat_01.png",
+              "png_sha256": "7b001d5493d33f6a59217eb0eb2574adfd55c0e38dfa60f407428dd9b9b3d50c",
+              "rgba_sha256": "e5ae3b35f11cbc7b07db2bf0b441e5ae6351ee8f031e90d7b714439307111991",
+              "rgb565a8_sha256": "c60cd5df4b8b64bba66345d4392f9957655c90e5c21a889bf0fd342385fae574",
+              "bytes": 49152,
+              "symbol": "ch_adult_eat_01"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/eat/eat_02.png",
+              "png_sha256": "49934d3a4ae1ea43a4a0691786622d67fef0a0cd55b4f64e4b423ae9712c93aa",
+              "rgba_sha256": "00c524b3e01ac2d3d7293311d35463bce8a779b7d4c96c3c3e41d8ac192e200d",
+              "rgb565a8_sha256": "17ad9db541e8a89eaa46061163ec1e3eb52d3a3c7f1da0b10ac50f5a45215fb1",
+              "bytes": 49152,
+              "symbol": "ch_adult_eat_02"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/eat/eat_03.png",
+              "png_sha256": "99de00f9ec4d4e2431c5ae5d6de9323f911c5a4f83b6db6a1bccb455c519041f",
+              "rgba_sha256": "61e389b7d23ca306b002a49f75a3e7f1420c1076eec2f2df9328fac79aa04687",
+              "rgb565a8_sha256": "df119d8a723793786b692ca1b443be36fe83177ed0cfc5ab53e622146960e94a",
+              "bytes": 49152,
+              "symbol": "ch_adult_eat_03"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/eat/eat_04.png",
+              "png_sha256": "c99d9c553d37eb8173ee558fcc9ec6c4cae24fdd55a95813709e7695869a674b",
+              "rgba_sha256": "1285098a89da1feb2c114ace6b487c3a45607d727a9775f0c85f06c0e17a2961",
+              "rgb565a8_sha256": "51b0c9ef2c6655f2f3a2aa3fd1a97438e900c2d2f4233ad07d8c90c4608a71ea",
+              "bytes": 49152,
+              "symbol": "ch_adult_eat_04"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/eat/eat_05.png",
+              "png_sha256": "cef2f64f3262c63bd7dccd6a03414b7b285289b399c9f60ff3067ada17b39db8",
+              "rgba_sha256": "f04ab1ffe2c27a380794aacb588d049dd9039704c6b4bbd10bbabccacc5e0852",
+              "rgb565a8_sha256": "e21c4587a2136a0c353ecf65a28e9f5e5a5b5004c5a7f31e7cb7922b28ec9a94",
+              "bytes": 49152,
+              "symbol": "ch_adult_eat_05"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/eat/eat_06.png",
+              "png_sha256": "59fe73e6b399b7af2d5a5c29af38fa10b99a0af97e36d5b582de963d7b866387",
+              "rgba_sha256": "6aa7138ea7d94f78fca9d4d7c10c70e950ef38cee16fb518f67aab1d4e0ce2c8",
+              "rgb565a8_sha256": "a89b514acc9672b79c965bcb7d893850dbb1956126e2f876616d9f7f17828cda",
+              "bytes": 49152,
+              "symbol": "ch_adult_eat_06"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/eat/eat_07.png",
+              "png_sha256": "436a6f49a6710fcb0a561fc19989760a8a9f42184eecde7b4becd4e1aa1c27fb",
+              "rgba_sha256": "daf6f6897176f7dce72dd7e2358f07ec88e5510d2a567a9b44b7311730ed81a8",
+              "rgb565a8_sha256": "596223e8568a696db5ac5043f1f21e0b35aa71467793332c60c7ecb47be30f19",
+              "bytes": 49152,
+              "symbol": "ch_adult_eat_07"
+            }
+          ]
+        },
+        "sleep": {
+          "count": 4,
+          "fps": 1,
+          "loop": true,
+          "foot_y": [
+            0.914062,
+            0.914062,
+            0.914062,
+            0.914062
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/adult/frames/sleep/sleep_00.png",
+              "png_sha256": "54a2db383710da5d06ca96c1976ca6f044b47e25fb776628462ad8472ecaabb7",
+              "rgba_sha256": "bdac725d3791f2f0e7a5e3c4fc851c6a70f65dbd9a2dae5be969fe987430f9cd",
+              "rgb565a8_sha256": "3fa73567da84d575e8158459dbebd592de2b317d6e162cd391534615b7b17481",
+              "bytes": 49152,
+              "symbol": "ch_adult_sleep_00"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/sleep/sleep_01.png",
+              "png_sha256": "2ca290a1e2f00a2f3847f02444562648f3b9a3f1aeecc525005e83d6d321d125",
+              "rgba_sha256": "a8e45db8a1c7d0bf6381e16080d3a60d1cbcfbd14888f58eb3e9089ca5962b5b",
+              "rgb565a8_sha256": "de8d4d1290f15cdbc53ecccaddc5886fb709900c35724d02fa8ce9d4f39a9252",
+              "bytes": 49152,
+              "symbol": "ch_adult_sleep_01"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/sleep/sleep_02.png",
+              "png_sha256": "5b95db9f1c30abd2c779ed85cabd5b18b9957bb9cfb75685b8e7d8db2be959b5",
+              "rgba_sha256": "0bcb20072353985de1cf17f69f8491345cbb296986330ad079eb81937280c672",
+              "rgb565a8_sha256": "45c25fc0b2b260036e4601102d09ff080e8d93302b737f3390a36b832ce58679",
+              "bytes": 49152,
+              "symbol": "ch_adult_sleep_02"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/sleep/sleep_03.png",
+              "png_sha256": "0df29f21950d5c7b6155eb92c0e149af1f6abcd09773beb91fce5ebe0592d352",
+              "rgba_sha256": "3acce4dc7e5c62e304362be65af0aefaa5b72008e1c69773e013856903f2a3b3",
+              "rgb565a8_sha256": "bfc575c5d8f7bfb5bd3222dcee474ce52e13078fee6686fcd63f3479884776cd",
+              "bytes": 49152,
+              "symbol": "ch_adult_sleep_03"
+            }
+          ]
+        },
+        "walk": {
+          "count": 8,
+          "fps": 10,
+          "loop": true,
+          "foot_y": [
+            0.867188,
+            0.867188,
+            0.867188,
+            0.867188,
+            0.84375,
+            0.835938,
+            0.835938,
+            0.835938
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/adult/frames/walk/walk_00.png",
+              "png_sha256": "bfc2f3ab5602c3a14d9343f30a984652c83556105d289dbc08d510e25250e18d",
+              "rgba_sha256": "f2bc5750ecf97ee13f27082a9f4dc807d6c9be5e1f70f9a700ca630841cd8492",
+              "rgb565a8_sha256": "c7b72f51e90f1aa27679250625f72b0f489bbd5aff173672afc000cd0d92e435",
+              "bytes": 49152,
+              "symbol": "ch_adult_walk_00"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/walk/walk_01.png",
+              "png_sha256": "e7ab80888ee5acc067fcfa785a34aaa218d53524a7f12a212b212a2a871f1e8f",
+              "rgba_sha256": "c0e7ca0f1527f0ca3d6c2bf91e2cfc8565f7c367515a139cf48b000c91978ffe",
+              "rgb565a8_sha256": "a64d29c443239dc1f4acfdf7cfb3ebb3d8611adaa5fcf016dd5616e9bbde9efb",
+              "bytes": 49152,
+              "symbol": "ch_adult_walk_01"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/walk/walk_02.png",
+              "png_sha256": "aa69bae798f8b455043fa92240df65ab8038aa9ca47cd213488b99ea2dfdf9c7",
+              "rgba_sha256": "e382cf1e764368f1429b97e0085734503502ed517a6bceaee21f606aa046ef13",
+              "rgb565a8_sha256": "0365f9596e712c98da92be4330318ff01d8bfb4eb1d44a4908a034552969ed7d",
+              "bytes": 49152,
+              "symbol": "ch_adult_walk_02"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/walk/walk_03.png",
+              "png_sha256": "285a4a0e04b077aed28265aaeb94794711ee1cb917be7c6ab9ccd6379bb30618",
+              "rgba_sha256": "3e129676d33e0b9c53ad864990fa2df931b99ddf5f1f6c2b2767c80d55bd2e04",
+              "rgb565a8_sha256": "01a55f2eea5b7b11db87a9fb81f1b9b9af4a88d8a46b4a875aeafd2743a8bc23",
+              "bytes": 49152,
+              "symbol": "ch_adult_walk_03"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/walk/walk_04.png",
+              "png_sha256": "29b00be225feadf0f61b833447fb57e290da19657c33cf4b96993b794a2d7ab9",
+              "rgba_sha256": "9c77e673d6ddb45b2d0390007749a63043973aa2a6763f5fb76cf423e0e90cbb",
+              "rgb565a8_sha256": "913c8c8f2c146db08317d1aa4b83edec7b4a15a56d99d902a6e1a4331231bb8d",
+              "bytes": 49152,
+              "symbol": "ch_adult_walk_04"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/walk/walk_05.png",
+              "png_sha256": "a49232256c9f6f9e1ae206851a6a9e997d8fe36529258aaddbe00064ca8d70e7",
+              "rgba_sha256": "36423674e702896064d74027246a3a5836fb09fa0415e57def5965b16094c565",
+              "rgb565a8_sha256": "fb4e7cffff691afefb15778850a17c9d3704d5476a7f3d0a4827a1003ae8f283",
+              "bytes": 49152,
+              "symbol": "ch_adult_walk_05"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/walk/walk_06.png",
+              "png_sha256": "e543ff5fff607049a2254789761cddcedfe6b8df90fca2c989956b6d4c87d39f",
+              "rgba_sha256": "1bc826ec0e1c900fed96b0103d744b1586b8122bd2abab258fa3b332b4750c75",
+              "rgb565a8_sha256": "755a635ec8c4af31e301ad7de34a877a9c506bab6a502d20e1890d8a13e7475f",
+              "bytes": 49152,
+              "symbol": "ch_adult_walk_06"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/walk/walk_07.png",
+              "png_sha256": "8786aaf073bd6b7a89ca7c633cfbd31e51e5f931af5569d4659f03636deb57d8",
+              "rgba_sha256": "fa741ec9bd37a7c15e635c36c3417155789d3627fd67c3ca0c75ee7a174fec71",
+              "rgb565a8_sha256": "a50616caa95aba875ae237c1a29c188005cd5937b4328301f7f18c4b1c6ddcdb",
+              "bytes": 49152,
+              "symbol": "ch_adult_walk_07"
+            }
+          ]
+        },
+        "blink": {
+          "count": 4,
+          "fps": 10,
+          "loop": false,
+          "foot_y": [
+            0.867188,
+            0.867188,
+            0.8125,
+            0.8125
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/adult/frames/blink/blink_00.png",
+              "png_sha256": "9236cf894d7eb5806e5a5e364accb4d51b2b3ef0c09f82a1d47e04255ff0a55c",
+              "rgba_sha256": "f6e98b88071167d204a412ea3cc75c2d5dc3988aa85a2d9ab2ef3c0d39472b39",
+              "rgb565a8_sha256": "5cbc345477150d93c9bc1deb16f8becd4decae1ddda80f2aed0c8be5165a1c76",
+              "bytes": 49152,
+              "symbol": "ch_adult_blink_00"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/blink/blink_01.png",
+              "png_sha256": "f80f868c99f70fd84deb5a8d71d6e54e3ed7d79d0828da9d2e0cb60020761b9d",
+              "rgba_sha256": "c96e5a1a99b0078fafe37d0b814244cab5fbcf45a038ca3cef962b7e3931607c",
+              "rgb565a8_sha256": "fb9c1af4b813d905124e42aa82640a78581095d7e9e2e0a1fd05c285da40bfd7",
+              "bytes": 49152,
+              "symbol": "ch_adult_blink_01"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/blink/blink_02.png",
+              "png_sha256": "b3a729f2d97c77c94b419fc50719a156181690c0544dcb955a05efbe20508865",
+              "rgba_sha256": "e7281cb28c23729754d55c9f543181594d78f383392167154190075f66df4f01",
+              "rgb565a8_sha256": "5115df9e7317d5a09ecfe4b524298d15b39d6e8a06be7d09dc5c221adc825095",
+              "bytes": 49152,
+              "symbol": "ch_adult_blink_02"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/blink/blink_03.png",
+              "png_sha256": "20a82429eaccbce9a0b80a54fc83b253d7c760ee7be089e470ea153a5c559163",
+              "rgba_sha256": "c585419915a4443b37afb5ad354a025aca03b09d0a6218be1f76110f68493306",
+              "rgb565a8_sha256": "0aefc0e7b23fab7d54eaa6eae1142e8f97d291bdbedca5028ff18dddc008134d",
+              "bytes": 49152,
+              "symbol": "ch_adult_blink_03"
+            }
+          ]
+        },
+        "stretch": {
+          "count": 6,
+          "fps": 6,
+          "loop": false,
+          "foot_y": [
+            0.875,
+            0.890625,
+            0.875,
+            0.828125,
+            0.8125,
+            0.828125
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/adult/frames/stretch/stretch_00.png",
+              "png_sha256": "c876e1c03deff5b71a21d0e617a1b7a7baec7dee18859acfd9e49669377d8a1a",
+              "rgba_sha256": "06028b707c1eb5911d56b1b842db39b54d5dfcb14e34584cda511a24f715b346",
+              "rgb565a8_sha256": "8b29e7a3bec18f0767b1602fc4fd0bd83806f4d342e7c1466ff18254e607e5b3",
+              "bytes": 49152,
+              "symbol": "ch_adult_stretch_00"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/stretch/stretch_01.png",
+              "png_sha256": "1662b2ac8f1821f387219997b4b1f905ed0d086fe2249dd139a2323eade6c4d5",
+              "rgba_sha256": "d8b2c1d31e53f2239af4a9fb3ac7bbe618e09a1a48189cd6c3166269cb442d01",
+              "rgb565a8_sha256": "b9be818eeae5461c0cd61460abdd81804a70fe10286cfbfa3c1cf48c1d9cc0b5",
+              "bytes": 49152,
+              "symbol": "ch_adult_stretch_01"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/stretch/stretch_02.png",
+              "png_sha256": "b21240ffa4b6540dc0b49daae86b942b1356a14bd67f76a44f2a8cbf0b9df045",
+              "rgba_sha256": "256e4dbff768d1cee1e72e7e931a96d8d392471bf3f860196e5fb711df7440de",
+              "rgb565a8_sha256": "9d4c6581afa96e195b02853055dd544bd2ea4e8bf9672d6f3163f43816b54bae",
+              "bytes": 49152,
+              "symbol": "ch_adult_stretch_02"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/stretch/stretch_03.png",
+              "png_sha256": "4f057e14b861060229864e23328a0899645764071757211c243bb6a3501832e1",
+              "rgba_sha256": "e05828c5554bd8e3827023573d1e3569a014d1660ca13371772b26b437db5c04",
+              "rgb565a8_sha256": "6e2a916f67ec7f20d7f14f001c3e5f7335b4f104ab1c3c51e2b4da8b705e13b8",
+              "bytes": 49152,
+              "symbol": "ch_adult_stretch_03"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/stretch/stretch_04.png",
+              "png_sha256": "1e8a6b8e49fd6bb8dc4efc63dd95b44201e9b1bc03263bd9c451498d7eec754c",
+              "rgba_sha256": "2d94850a224ebebe5649ef0062b6bc44d58aec3f9222d467252ceb144302c77b",
+              "rgb565a8_sha256": "ff349b8988b7d51d59c463b870977e6f50810a693a6536f28833fdd566cc934c",
+              "bytes": 49152,
+              "symbol": "ch_adult_stretch_04"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/stretch/stretch_05.png",
+              "png_sha256": "6b8732b2d7d803aae879939a571e618a9aae7e9d11f8c33a84f78374b5e2bc4e",
+              "rgba_sha256": "8c3ea60de092797e62508e10fe37e9717a9451ecbf849c67b0ec3e906f89a281",
+              "rgb565a8_sha256": "7785dbff376b65e809468d96175dd621632ff30e54f47a0a36630a792d57b3c3",
+              "bytes": 49152,
+              "symbol": "ch_adult_stretch_05"
+            }
+          ]
+        },
+        "wave": {
+          "count": 6,
+          "fps": 8,
+          "loop": false,
+          "foot_y": [
+            0.90625,
+            0.898438,
+            0.898438,
+            0.8125,
+            0.820312,
+            0.820312
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/adult/frames/wave/wave_00.png",
+              "png_sha256": "bf301284d0d5d3149887eef48df7089bf7672f9e818f881bfee1008e76ba610d",
+              "rgba_sha256": "f2c59987adc5b28beb594730f97e8cbf15bc8ba420eeb8ff4ab878320a821ebf",
+              "rgb565a8_sha256": "41b4171e9656249827ae969bd3c8723df920290794286e3b21aaecb2c0c4ea98",
+              "bytes": 49152,
+              "symbol": "ch_adult_wave_00"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/wave/wave_01.png",
+              "png_sha256": "33fa60c7801269f41eb0b8c1e3ed50fb3d2a8edab6208d2e8ae232123cc084d4",
+              "rgba_sha256": "677213a0a894b75736b8c10f205eea52dba003abd95a399fc15cd589a5dc0b65",
+              "rgb565a8_sha256": "e3deff9bcce44a590fdef933543bc2a01ac684a4bc176eca4ae66653e1e5abb7",
+              "bytes": 49152,
+              "symbol": "ch_adult_wave_01"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/wave/wave_02.png",
+              "png_sha256": "0bed9bd00c6bd31f30569d6721e523b86e43fc9685acd78a76e8ab2d31548441",
+              "rgba_sha256": "ecf26fda52fa554cc96be21160289653fdd137063da4669421565b64bde3300c",
+              "rgb565a8_sha256": "ed64e630d2008dd81010713e0189e96efff1c302f5836cd0dd070614a17058f4",
+              "bytes": 49152,
+              "symbol": "ch_adult_wave_02"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/wave/wave_03.png",
+              "png_sha256": "aa6cbe32436ca4edb80a9c812da47106099174310ee94b437da1d47043373520",
+              "rgba_sha256": "bc4f673098e82413287e7d0bf02f04d2e9c1e028af8e48c3b3129902dc62eb91",
+              "rgb565a8_sha256": "8df23d62e26cc5b73b0ec75def690f8f3a5456e30eede2d0ecf52a50a6191310",
+              "bytes": 49152,
+              "symbol": "ch_adult_wave_03"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/wave/wave_04.png",
+              "png_sha256": "ff2c75a5cf95949e53066140d599dfc73d3fa6af832b8bf0234d85364a6c9e12",
+              "rgba_sha256": "5918b15c2cd4032a1eca8fe8d2d11e7f578cac736fbb61d08e71b732364a63df",
+              "rgb565a8_sha256": "c81f38d40064ba5974f85174081580c3a08bed79b54ab18e8abf14dacc6fbad2",
+              "bytes": 49152,
+              "symbol": "ch_adult_wave_04"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/wave/wave_05.png",
+              "png_sha256": "adb2fd275ec04f2495260b288e7edb3b178f2500dde216160ac7deda9d2b407e",
+              "rgba_sha256": "425475decbfb1004275e93858cf4d01254020122fb182b4eb6bebba93b489485",
+              "rgb565a8_sha256": "7fedac36bd7fb106d39eeebcf9a8b511d724eaa1ee6dcf16ca4646047c27fac1",
+              "bytes": 49152,
+              "symbol": "ch_adult_wave_05"
+            }
+          ]
+        },
+        "dizzy": {
+          "count": 6,
+          "fps": 6,
+          "loop": true,
+          "foot_y": [
+            0.90625,
+            0.898438,
+            0.898438,
+            0.8125,
+            0.820312,
+            0.820312
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/adult/frames/dizzy/dizzy_00.png",
+              "png_sha256": "ebb3325fe201fb19994196f69ee1cd52a7d160368db354ff28cf326d6cbd77df",
+              "rgba_sha256": "cc6c2d360b0f82a958de6e380d17c9fe8557cae4bc3407164be7ed6de5b3a657",
+              "rgb565a8_sha256": "d8602b9b04fecf9efe06400030ee9288e04e74b435552269b59599607ef0e49e",
+              "bytes": 49152,
+              "symbol": "ch_adult_dizzy_00"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/dizzy/dizzy_01.png",
+              "png_sha256": "a83e7e9b4b46088cf106697ff00376e4d781c41c719a6bf9cbb199210d2c9e0d",
+              "rgba_sha256": "13a4ffd362dede784ef3bfeb56cf0207bf28134bec4e10977928ebcc3fb17cbf",
+              "rgb565a8_sha256": "6fe2842a3fd947859863f089194187c1d70d678254d46c3483832789ae4b8011",
+              "bytes": 49152,
+              "symbol": "ch_adult_dizzy_01"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/dizzy/dizzy_02.png",
+              "png_sha256": "fa82d929a903c3c0da4ede7be4c0035efb482cd10b366c470f4c25f0195139c0",
+              "rgba_sha256": "11ae47382ee0053c34803ac1e7b8d9225be9832267246fbf379daea1f31a95b8",
+              "rgb565a8_sha256": "7d8047d85f9c734abd3dad7966ccfc20c3fd55d3d58daac9cadad1dae1cd7b73",
+              "bytes": 49152,
+              "symbol": "ch_adult_dizzy_02"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/dizzy/dizzy_03.png",
+              "png_sha256": "186c07bb1ecfdba752ff479f5c0d960134837fb4fe884c90165ffadddd77f17d",
+              "rgba_sha256": "52a7bc24b3e7b7a6c09d1f1ade5f8ebdc922addf9a8509e4387e95cd25a726c4",
+              "rgb565a8_sha256": "b4acbdb16450260f583acd08f060e462481a84258c46f694ff446e2525749b20",
+              "bytes": 49152,
+              "symbol": "ch_adult_dizzy_03"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/dizzy/dizzy_04.png",
+              "png_sha256": "6eeee439561f55ba3cb21c437d617f0a9352be1c67969f78948665992418fdbc",
+              "rgba_sha256": "26e7376e26ba401bb03e44b2fc3a8bed31b71ab3e077131dc825e9b08098cd30",
+              "rgb565a8_sha256": "6bf5fce50e9637a854bb8cc6018cc581799b21f8ec50be4d3bf9e842e62ae245",
+              "bytes": 49152,
+              "symbol": "ch_adult_dizzy_04"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/dizzy/dizzy_05.png",
+              "png_sha256": "8bc3c384b10119484eab014f3a22ba9b4bbd22865d8c4fcb029aca3f3c1a4e6a",
+              "rgba_sha256": "d3237f08ec3838c47651c354cea2786deb5538b2993292e630319a849bba663d",
+              "rgb565a8_sha256": "9dff5ca708d8f69bbeb21a356c8e484103669f8f4a9eaca37895d1e6386e7a39",
+              "bytes": 49152,
+              "symbol": "ch_adult_dizzy_05"
+            }
+          ]
+        },
+        "angry": {
+          "count": 6,
+          "fps": 6,
+          "loop": true,
+          "foot_y": [
+            0.898438,
+            0.898438,
+            0.90625,
+            0.84375,
+            0.84375,
+            0.851562
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/adult/frames/angry/angry_00.png",
+              "png_sha256": "b678a3c2f93acc6fd44ea26d421284222b4d705668382ccfc193bab6917d8fa0",
+              "rgba_sha256": "004be93bbb2536d4838347c14131d0a3c43172903f900bcf2dd815192a0af66f",
+              "rgb565a8_sha256": "49ced75c9d625d91964d025a0d11d5212293592869f9c40eb4df9790a130d20f",
+              "bytes": 49152,
+              "symbol": "ch_adult_angry_00"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/angry/angry_01.png",
+              "png_sha256": "b38d17742f9e2f1e3a5fdacc146affa0319ab202efa99d94f6585c87220ea010",
+              "rgba_sha256": "51412ae4e71603683b6f5cb29f0ed182a20bf4dbb038ce92e64226c080f7eb62",
+              "rgb565a8_sha256": "b3eb815602dd07655b78c96888aec990d1be7959c9ae9d4898079f567ea5997f",
+              "bytes": 49152,
+              "symbol": "ch_adult_angry_01"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/angry/angry_02.png",
+              "png_sha256": "94a9309fc8814b97c20c0ee2f8165804ae929a85ba8fe14b08d1753e04a54eac",
+              "rgba_sha256": "066e9d2eb5f9dae3742bfc9bfdabdc29f8280a7467846ccf03a10b45639c1e9b",
+              "rgb565a8_sha256": "69eb61353b55a92d4a72c22f1528749399e829ef473422fee43ab4dbe352deb9",
+              "bytes": 49152,
+              "symbol": "ch_adult_angry_02"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/angry/angry_03.png",
+              "png_sha256": "bbe3acbe2c1de608a6d65eea90ad93896a04b45ffaf63ebf5e6fd806156d01b3",
+              "rgba_sha256": "e0d99a63632ec5a363c4c5d5fdfc0c318e83550d4af46ee93366ead24dc45b68",
+              "rgb565a8_sha256": "6a7f9527a8f4aa7aac5deb562983b21eb0492708003b0fd8845e410a49a6da74",
+              "bytes": 49152,
+              "symbol": "ch_adult_angry_03"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/angry/angry_04.png",
+              "png_sha256": "a688023a7cf1eda1002abeedc5955b834da1645dd52c60cc9b7a568fe362a5f4",
+              "rgba_sha256": "4707be5f39f84bae66eb6e0e80545eafc02ad1312e1761ffe5bb8f3d92302534",
+              "rgb565a8_sha256": "18645d23e5c984de60bdfdad9b770596b7bbbf260a8809899e800f1a0cc71a2a",
+              "bytes": 49152,
+              "symbol": "ch_adult_angry_04"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/angry/angry_05.png",
+              "png_sha256": "5b3b83074cc4e8ad69e6eee710aba1b0aa765137a8ddfe381af9d127528b35f4",
+              "rgba_sha256": "a9e487c8478e8a782995aafb7bd4157408d08c4343392e24023c119f44476fd1",
+              "rgb565a8_sha256": "d868ceb04b69106f66b33dfd68d2bd08def0e19b2dc84460fcbf8fc6d905565c",
+              "bytes": 49152,
+              "symbol": "ch_adult_angry_05"
+            }
+          ]
+        },
+        "sick": {
+          "count": 4,
+          "fps": 2,
+          "loop": true,
+          "foot_y": [
+            0.929688,
+            0.9375,
+            0.835938,
+            0.835938
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "main/assets/sick-redesign/adult/frames/sick/sick_00.png",
+              "png_sha256": "5a3c934ce26647c650d4dcc03da3a2d655a7a40cfd660babf7cb64e40767e775",
+              "rgba_sha256": "2a38a75b452189379613b2b89e77162263cc077ee9e8b77b52e531e527237f50",
+              "rgb565a8_sha256": "b364914957e4a18e63f796ccd34fb7de20a994bfe4627ed8abb1e63f56825fa8",
+              "bytes": 49152,
+              "symbol": "ch_adult_sick_00"
+            },
+            {
+              "source": "main/assets/sick-redesign/adult/frames/sick/sick_01.png",
+              "png_sha256": "eabed920b778df00c06b2aba2b6b5a0b9b2c710982178e1d1a2bce0a3afc9047",
+              "rgba_sha256": "33b39a95828609eb57e66bf86192d8d3dc940a320d0af60afbdcabb63dea2931",
+              "rgb565a8_sha256": "41a3dde8210dda5fd6e7c32b39fdb1b5abb94e2bf24251a026903503550f4a05",
+              "bytes": 49152,
+              "symbol": "ch_adult_sick_01"
+            },
+            {
+              "source": "main/assets/sick-redesign/adult/frames/sick/sick_02.png",
+              "png_sha256": "41e8c06d818f49370e9e22ceaac40bed6260d1e13f2cfde2cf24980640b0d719",
+              "rgba_sha256": "316e522f156b1378f2655d2d31a3fa6cb57fa88119913a96796efd00e66d11a4",
+              "rgb565a8_sha256": "1d435dbd74a6d1fc980c371d01303fc0a40e0b8bac95ef4de665091fea6d9f88",
+              "bytes": 49152,
+              "symbol": "ch_adult_sick_02"
+            },
+            {
+              "source": "main/assets/sick-redesign/adult/frames/sick/sick_03.png",
+              "png_sha256": "33a4175dcaa6b1a8a185d97d069ece86852977f1fcc9d30db242e07867d06793",
+              "rgba_sha256": "4580397ff07dff80742c5f5542cb22e763cfdf7aac7673925c89852228fcc8a9",
+              "rgb565a8_sha256": "2226ec1b03ddb5c97a3c83b2ba38835e0273f19361cf8e0c21eb7446246ac076",
+              "bytes": 49152,
+              "symbol": "ch_adult_sick_03"
+            }
+          ],
+          "board_override": {
+            "source_manifest": "main/assets/sick-redesign/adult/frames/manifest.json",
+            "source_manifest_sha256": "83d85c437bfbf58658a4bec506bcf7d17f264626cff7a6f6714708aa624eba05",
+            "source_sheet": "main/assets/sick-redesign/adult/source/sick-sheet.png",
+            "source_sheet_sha256": "22185ba2f5d1c39fee988f14c253dfa45e3b65a647a31514245913a9b4aa1e06",
+            "generation_record": "main/assets/sick-redesign/adult/source/generation.json",
+            "generation_record_sha256": "06b3f80cf2c30a34ece014cc7897f932e4337fc271f5c34deaf088271c198739",
+            "reference": {
+              "file": "preview/assets/growth-concepts/adult-v1.png",
+              "sha256": "1b5f497f8086235b13b9f3064e6a73836dc71f4f246c9af52f78df83e99dd9e3"
+            },
+            "converter": {
+              "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+              "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+              "upstream_version": "2.0.0",
+              "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+              "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+              "license": "MIT",
+              "files_unmodified": [
+                "core.py",
+                "LICENSE"
+              ],
+              "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+              "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+              "used_api": [
+                "make_pixel_art_animation",
+                "split_sprite_sheet",
+                "compose_sprite_sheet",
+                "remove_bg_by_color"
+              ],
+              "unused_components": [
+                "GUI",
+                "rembg",
+                "background-removal AI models",
+                "automatic updates",
+                "sklearn palette clustering"
+              ],
+              "api": "make_pixel_art_animation"
+            },
+            "replaces_action_only": "sick",
+            "extra_frames_packed": 0
+          }
+        },
+        "bath": {
+          "count": 6,
+          "fps": 8,
+          "loop": false,
+          "foot_y": [
+            0.898438,
+            0.898438,
+            0.898438,
+            0.851562,
+            0.851562,
+            0.851562
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/adult/frames/bath/bath_00.png",
+              "png_sha256": "43ce3cf1ea7ede0144ca484a3cff5c72ac233b3f5bffafe71020ee5f1071f6a0",
+              "rgba_sha256": "1cbe00d935d56988e5ee9995839aedfe969eca32d40fa2c80516f69052a2a986",
+              "rgb565a8_sha256": "9e1957e0580497baf3d48a7c1fd2115879e1016758711846d53018623f05a897",
+              "bytes": 49152,
+              "symbol": "ch_adult_bath_00"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/bath/bath_01.png",
+              "png_sha256": "88a3dff18690a16726a774cdd68773db94d7dae197830060bffbf8ff1e35b898",
+              "rgba_sha256": "2c6f6e24a866267465df0cfb17171ad5759397156e63fc9e4530f7c114ca9f22",
+              "rgb565a8_sha256": "26a945951c52209fe42ec983a63e3314e9f54e7665c8f47a8a269ca3e7e30ce7",
+              "bytes": 49152,
+              "symbol": "ch_adult_bath_01"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/bath/bath_02.png",
+              "png_sha256": "503197c4221d7b334fc9c3d979c313a1182ea820a4e6badb0b902ab16bff7b35",
+              "rgba_sha256": "7c091604bd10f33c8fdd53c9c4bf0db2924f742edbebfbd637de8395e535bd87",
+              "rgb565a8_sha256": "6c20ace4960251f592ec7fc0c156dbf9adba56d16f39078c41ff0d46824c45d3",
+              "bytes": 49152,
+              "symbol": "ch_adult_bath_02"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/bath/bath_03.png",
+              "png_sha256": "3e0188038a1062306c0226591f65952dcc50d73a5db1a49e250fe4322eccb6c7",
+              "rgba_sha256": "8ac49194a0bdfc58c150bb48e58ac083826a69518c453e44c409a69b20c66ec6",
+              "rgb565a8_sha256": "5b3ae03f71d09803144c08f4a8db19144bef7375d1e410e40b63367db6e881fb",
+              "bytes": 49152,
+              "symbol": "ch_adult_bath_03"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/bath/bath_04.png",
+              "png_sha256": "8eb6a0ac40fbae4dec8beccbce06ad234507137a920018dfe23adf086d1b7e3f",
+              "rgba_sha256": "f488a0f4de906acb3271c14c53b2677cbfd89c563d1f2a48cf88134a9f12af0c",
+              "rgb565a8_sha256": "694fde31727f46c336ba0b68828360af6c2de12bf60dea63a722e1828e0b147e",
+              "bytes": 49152,
+              "symbol": "ch_adult_bath_04"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/bath/bath_05.png",
+              "png_sha256": "d538e0b711075e493b86d2d83ba4136ff964a50a77ae75ff53c679d542b4408b",
+              "rgba_sha256": "855327d4fbd3a0fc8f66a18a4a000850b23cd48bf0b0001523148eff10d641cd",
+              "rgb565a8_sha256": "6524462403555f6c1fa72edc353bf7f26bd9a29656edfd57afb4d80d38eadb8e",
+              "bytes": 49152,
+              "symbol": "ch_adult_bath_05"
+            }
+          ]
+        },
+        "pet": {
+          "count": 6,
+          "fps": 8,
+          "loop": false,
+          "foot_y": [
+            0.867188,
+            0.867188,
+            0.851562,
+            0.820312,
+            0.820312,
+            0.820312
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "preview/assets/growth/adult/frames/pet/pet_00.png",
+              "png_sha256": "aa6b798a05e53dc81066da5614452045155ec9f697c651246053a2d1a316f73c",
+              "rgba_sha256": "fc14b881759292d5973c8c55d4cd0658d3b280f89f8c7de5556f017d744d2e09",
+              "rgb565a8_sha256": "f08f26394e9a96c535c5090f9c4411aad3cf8942d98ed36333b1bda601d9ae5c",
+              "bytes": 49152,
+              "symbol": "ch_adult_pet_00"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/pet/pet_01.png",
+              "png_sha256": "b986c7a7a53554e5ab50f41599c80b92f9ef7bac71563599a0c1b3bb430c7726",
+              "rgba_sha256": "acb75898378551de2603dc70f72bf4d29e35f6acf1f5faecc9dc88d2317c8b2e",
+              "rgb565a8_sha256": "de3613bcdf01204cc5f92afab0cbe5a648849f35ad1f0a22884351c9660cc58c",
+              "bytes": 49152,
+              "symbol": "ch_adult_pet_01"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/pet/pet_02.png",
+              "png_sha256": "4595a4cf943bbab8d56bf89f63fdc89bd17f6c9b9047c5112e0b0a2be5332a03",
+              "rgba_sha256": "623a25b835e69c3662aeffcd63911f82535f0748a2b036fa36352fb16f4d46d7",
+              "rgb565a8_sha256": "7d02e83d1f920311209cadcad2861823696b790508d8de89965c7fd734dab9e5",
+              "bytes": 49152,
+              "symbol": "ch_adult_pet_02"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/pet/pet_03.png",
+              "png_sha256": "50365633cde1f23d1f85e9ab5447eb1634c4b2d0957b52e0245d196e160fb57a",
+              "rgba_sha256": "fa024498cafb49eebaee9e60e38068ed4200f829a65a072b5d0868510502ff7c",
+              "rgb565a8_sha256": "8a72155874409ccaaf3e16c2cd37c3b7aa14a0f3815cf9f5d32b0bfa7f5aaec1",
+              "bytes": 49152,
+              "symbol": "ch_adult_pet_03"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/pet/pet_04.png",
+              "png_sha256": "5ba62b4e1a7705830a34a9e0b8637e951e2c60de072e517c70c7e2cd42a4c899",
+              "rgba_sha256": "8ba89d3804c52921777775c2cec764ba01af3b82e04886029225296d6f71546d",
+              "rgb565a8_sha256": "eade5ef15972def5e3d2a743a9b5374ed4b55746767374f42612c72d43d53593",
+              "bytes": 49152,
+              "symbol": "ch_adult_pet_04"
+            },
+            {
+              "source": "preview/assets/growth/adult/frames/pet/pet_05.png",
+              "png_sha256": "f0d7b4a6404fe61dca669c5dd29b091ccb4f219ae3350826398f781039ea82df",
+              "rgba_sha256": "4eb6841b041f570fea42d54d3b63f0686ebe11b4087b6633b92d825dfc72076a",
+              "rgb565a8_sha256": "c4c1694aad42db55b0f42157bee986719fcde17ca1df85ab6d4047962384f9bc",
+              "bytes": 49152,
+              "symbol": "ch_adult_pet_05"
+            }
+          ]
+        },
+        "shelter": {
+          "count": 6,
+          "fps": 4,
+          "loop": true,
+          "foot_y": [
+            0.914062,
+            0.914062,
+            0.914062,
+            0.84375,
+            0.851562,
+            0.851562
+          ],
+          "mouths": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "frames": [
+            {
+              "source": "main/assets/shelter-redesign/adult/frames/shelter/shelter_00.png",
+              "png_sha256": "c8e317f17c4c6d628d6b7cd9d8681ff7c9198bbad36cbc7dba7bd39eb41c330f",
+              "rgba_sha256": "965780930fa8164479edb475a81bdf494f0b222e9cd4ff89fcba8b7f98a61c36",
+              "rgb565a8_sha256": "c8c62afd6f469a24f68261635f42e92b8f53e7bc69dcdc98a938c8f580cf8ebc",
+              "bytes": 49152,
+              "symbol": "ch_adult_shelter_00"
+            },
+            {
+              "source": "main/assets/shelter-redesign/adult/frames/shelter/shelter_01.png",
+              "png_sha256": "2a8b5a3f77df7952e3caf621372c0a91628478974e0748dcaa0f46962a70d6cd",
+              "rgba_sha256": "b26fba57f4a096a2583bfdc67cc72bae5e0223824d1761403499ab2513206992",
+              "rgb565a8_sha256": "a07d6383148f32339eee1928ddce6e41086fa5cfac1908cd942f36aaf2629f28",
+              "bytes": 49152,
+              "symbol": "ch_adult_shelter_01"
+            },
+            {
+              "source": "main/assets/shelter-redesign/adult/frames/shelter/shelter_02.png",
+              "png_sha256": "6c4657c8eb4476baa42deb237f331a6efa702cf2942284bc54e31216abb4a215",
+              "rgba_sha256": "ba6651e138f077d8246b2dffae1b63622a4aa655aaf4fe4f08cc322cffd7040d",
+              "rgb565a8_sha256": "bc167948293aee71ba4dae6e5876da857bcb20ca3e1190a7d78f3d1da6d10c03",
+              "bytes": 49152,
+              "symbol": "ch_adult_shelter_02"
+            },
+            {
+              "source": "main/assets/shelter-redesign/adult/frames/shelter/shelter_03.png",
+              "png_sha256": "26b92b89f2c7d886b5af72b678e1ce2aa7a6e59fb5d210fb9d91d9fb70bdbd1e",
+              "rgba_sha256": "e0a56d6aeee2d85faca7e22e3bbd245aee84faccc9c015591a550740bd2b5b06",
+              "rgb565a8_sha256": "9bdf7a1b70c869375fe7d86938a2b1941294b6aabd38955d7a432d9f2e80ec32",
+              "bytes": 49152,
+              "symbol": "ch_adult_shelter_03"
+            },
+            {
+              "source": "main/assets/shelter-redesign/adult/frames/shelter/shelter_04.png",
+              "png_sha256": "8e528f568621960458a32874c5384ed1c7fb0877a8445d5208909b2afa439142",
+              "rgba_sha256": "2929c6130f6764527b687a56d352c566b81aa2467507c4557d95e414bbcb65bc",
+              "rgb565a8_sha256": "4304879e9aafb91d0f38e5ea100e2f8708a91514d64c6516ab4771c5feda5cf8",
+              "bytes": 49152,
+              "symbol": "ch_adult_shelter_04"
+            },
+            {
+              "source": "main/assets/shelter-redesign/adult/frames/shelter/shelter_05.png",
+              "png_sha256": "d07ca731d44af228ca9f575816ce9de8d1c75cb154d1787aa9f740411e4c10cb",
+              "rgba_sha256": "87ad21685ba939af14f61dac2a5807585ca80414cc227f487116246a634bc496",
+              "rgb565a8_sha256": "0765b178cd93bbe107cfca1fe974fbe8d7b411eb076fee18cee0fbcde3d0443a",
+              "bytes": 49152,
+              "symbol": "ch_adult_shelter_05"
+            }
+          ],
+          "board_override": {
+            "source_manifest": "main/assets/shelter-redesign/adult/frames/manifest.json",
+            "source_manifest_sha256": "a7ade0cd766f8be9bab4cd346dfb3cddcd69b57a6613663400539734ccaeaad2",
+            "source_sheet": "main/assets/shelter-redesign/adult/source/shelter-sheet.png",
+            "source_sheet_sha256": "0f6039e303b39a404bdd9d6de6f227f006de52d8e8f95b22697cf74d8eacfe6a",
+            "generation_record": "main/assets/shelter-redesign/adult/source/generation.json",
+            "generation_record_sha256": "6bf2199e3cabe77060794ee520034c1436cd4626a8d844432983e8765ea356f8",
+            "reference": {
+              "file": "preview/assets/growth-concepts/adult-v1.png",
+              "sha256": "1b5f497f8086235b13b9f3064e6a73836dc71f4f246c9af52f78df83e99dd9e3"
+            },
+            "converter": {
+              "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+              "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+              "upstream_version": "2.0.0",
+              "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+              "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+              "license": "MIT",
+              "files_unmodified": [
+                "core.py",
+                "LICENSE"
+              ],
+              "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+              "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+              "used_api": [
+                "make_pixel_art_animation",
+                "split_sprite_sheet",
+                "compose_sprite_sheet",
+                "remove_bg_by_color"
+              ],
+              "unused_components": [
+                "GUI",
+                "rembg",
+                "background-removal AI models",
+                "automatic updates",
+                "sklearn palette clustering"
+              ],
+              "api": "make_pixel_art_animation"
+            },
+            "replaces_action_only": "shelter",
+            "extra_frames_packed": 0,
+            "source_pose_audit": {
+              "raw_rgba_sha256": [
+                "a6e8aa6886a97a3a2f08a083f3bad01087f533bf51a7937c335c90f18032d8f8",
+                "de44e3b12b57c3f7783cd64485778d2375cb8a1ef0fa1330af8975c3bc176ea6",
+                "df78bda13f7ad2a3040a4c28b578de446b096729436db7549666c3f98c517f08",
+                "58241d849e1d578986da245895ce4a050f3156a034884171d5418212a6ecb18e",
+                "f355d2af4ddf39b8359773683674f1605995fa5c3dfa9c4cd8713e4d5fbd7448",
+                "9bc01605b9d12a20ce8d160f5a4a11f6540e0e6becaf6238596111a0d1867285"
+              ],
+              "aligned_rgba_sha256": [
+                "965780930fa8164479edb475a81bdf494f0b222e9cd4ff89fcba8b7f98a61c36",
+                "b26fba57f4a096a2583bfdc67cc72bae5e0223824d1761403499ab2513206992",
+                "ba6651e138f077d8246b2dffae1b63622a4aa655aaf4fe4f08cc322cffd7040d",
+                "e0a56d6aeee2d85faca7e22e3bbd245aee84faccc9c015591a550740bd2b5b06",
+                "2929c6130f6764527b687a56d352c566b81aa2467507c4557d95e414bbcb65bc",
+                "87ad21685ba939af14f61dac2a5807585ca80414cc227f487116246a634bc496"
+              ],
+              "output_rgba_sha256": [
+                "965780930fa8164479edb475a81bdf494f0b222e9cd4ff89fcba8b7f98a61c36",
+                "b26fba57f4a096a2583bfdc67cc72bae5e0223824d1761403499ab2513206992",
+                "ba6651e138f077d8246b2dffae1b63622a4aa655aaf4fe4f08cc322cffd7040d",
+                "e0a56d6aeee2d85faca7e22e3bbd245aee84faccc9c015591a550740bd2b5b06",
+                "2929c6130f6764527b687a56d352c566b81aa2467507c4557d95e414bbcb65bc",
+                "87ad21685ba939af14f61dac2a5807585ca80414cc227f487116246a634bc496"
+              ],
+              "source_grid": {
+                "cols": 3,
+                "rows": 2
+              },
+              "count": 6,
+              "stretched": false,
+              "per_frame_scaling": false,
+              "native_grid": {
+                "enabled": true,
+                "native_grid_size": 128,
+                "source_cell_size": 512,
+                "source_to_native_factor": 4,
+                "fixed_source_coordinates": true,
+                "color_apis": [
+                  "_quantize_to_palette_lab",
+                  "_majority_downscale"
+                ],
+                "alpha_threshold": 127,
+                "alpha_resampling": "NEAREST",
+                "converter_input": [
+                  128,
+                  128
+                ],
+                "converter_output": [
+                  128,
+                  128
+                ],
+                "converter_ratio": 1.0,
+                "lanczos": false,
+                "bilateral": false,
+                "dither": false,
+                "outline": false,
+                "fixed_palette": true,
+                "raw_rgba_sha256": [
+                  "a6e8aa6886a97a3a2f08a083f3bad01087f533bf51a7937c335c90f18032d8f8",
+                  "de44e3b12b57c3f7783cd64485778d2375cb8a1ef0fa1330af8975c3bc176ea6",
+                  "df78bda13f7ad2a3040a4c28b578de446b096729436db7549666c3f98c517f08",
+                  "58241d849e1d578986da245895ce4a050f3156a034884171d5418212a6ecb18e",
+                  "f355d2af4ddf39b8359773683674f1605995fa5c3dfa9c4cd8713e4d5fbd7448",
+                  "9bc01605b9d12a20ce8d160f5a4a11f6540e0e6becaf6238596111a0d1867285"
+                ],
+                "aligned_rgba_sha256": [
+                  "965780930fa8164479edb475a81bdf494f0b222e9cd4ff89fcba8b7f98a61c36",
+                  "b26fba57f4a096a2583bfdc67cc72bae5e0223824d1761403499ab2513206992",
+                  "ba6651e138f077d8246b2dffae1b63622a4aa655aaf4fe4f08cc322cffd7040d",
+                  "e0a56d6aeee2d85faca7e22e3bbd245aee84faccc9c015591a550740bd2b5b06",
+                  "2929c6130f6764527b687a56d352c566b81aa2467507c4557d95e414bbcb65bc",
+                  "87ad21685ba939af14f61dac2a5807585ca80414cc227f487116246a634bc496"
+                ],
+                "output_rgba_sha256": [
+                  "965780930fa8164479edb475a81bdf494f0b222e9cd4ff89fcba8b7f98a61c36",
+                  "b26fba57f4a096a2583bfdc67cc72bae5e0223824d1761403499ab2513206992",
+                  "ba6651e138f077d8246b2dffae1b63622a4aa655aaf4fe4f08cc322cffd7040d",
+                  "e0a56d6aeee2d85faca7e22e3bbd245aee84faccc9c015591a550740bd2b5b06",
+                  "2929c6130f6764527b687a56d352c566b81aa2467507c4557d95e414bbcb65bc",
+                  "87ad21685ba939af14f61dac2a5807585ca80414cc227f487116246a634bc496"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "sprite_bytes": 4030464,
+      "frame_count": 82
+    }
+  },
+  "profile": "main/chameleon_asset_profile.json",
+  "profile_sha256": "a27ed82ad5f81fd93ca265947be5562ab538965f78894c76f85b9c81d33c0506",
+  "inactive_actions": [
+    "grip"
+  ],
+  "format": "LVGL9 RGB565A8 little-endian color plane then binary alpha plane",
+  "width": 128,
+  "height": 128,
+  "stride": 256,
+  "backgrounds": [
+    {
+      "id": "forest",
+      "source": "preview/assets/forest.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "pixel_grid_size": 128,
+      "render_dimensions": [
+        466,
+        466
+      ],
+      "png_sha256": "1d6e87519462f5c716bc1d8fdb56cdd2c93bec2a432c192e88a4d1d7d015eee6",
+      "rgb565_sha256": "01569d6f5773427ce52687ad564c09557cde9b4c0ebb27f5f8fc77e90234e1dc",
+      "bytes": 434312,
+      "symbol": "ch_background_0"
+    },
+    {
+      "id": "clearing",
+      "source": "preview/assets/clearing.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "pixel_grid_size": 128,
+      "render_dimensions": [
+        466,
+        466
+      ],
+      "png_sha256": "b92558c79feb322e4d1d87d9dc971867773aff11237142e5e7c60d015062ad51",
+      "rgb565_sha256": "8b5cea546df3f7e8c97552939476af8652c0bbe488ad461f0339d0708b195884",
+      "bytes": 434312,
+      "symbol": "ch_background_1"
+    },
+    {
+      "id": "night",
+      "source": "preview/assets/night.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "pixel_grid_size": 128,
+      "render_dimensions": [
+        466,
+        466
+      ],
+      "png_sha256": "2712d22a096a2c57a9abff67ca2c59219f8b05554480b4f3b05b7a00240471a5",
+      "rgb565_sha256": "b4a8b781b491d971e5ccf168d426caf3caf2582431b1cc5eb89eeedfb842a622",
+      "bytes": 434312,
+      "symbol": "ch_background_2"
+    },
+    {
+      "id": "meadow",
+      "source": "preview/assets/meadow.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "pixel_grid_size": 128,
+      "render_dimensions": [
+        466,
+        466
+      ],
+      "png_sha256": "0c6831a299487d97dcfff2b335c7614f19ed2fe888394aeac5b10e3010fde12a",
+      "rgb565_sha256": "e31cbc2765e43024e3132dd02346bd7cd16087a950c3f7bac283b3ba8d7d218d",
+      "bytes": 434312,
+      "symbol": "ch_background_3"
+    },
+    {
+      "id": "meadow-night",
+      "source": "preview/assets/meadow-night.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "pixel_grid_size": 128,
+      "render_dimensions": [
+        466,
+        466
+      ],
+      "png_sha256": "4a568d700d19e2c12f22cd7430e0668672a320b5d2116767b7b65a0bb3dde0fd",
+      "rgb565_sha256": "7acd233933faffa6bd1f56c674fc33cbd1f7b45dae49ecf270078ac80c08895b",
+      "bytes": 434312,
+      "symbol": "ch_background_4"
+    }
+  ],
+  "items": [
+    {
+      "id": "poop",
+      "source": "main/assets/poop.png",
+      "source_manifest": "main/assets/items_manifest.json",
+      "source_manifest_sha256": "3cdedd0f10c5c693604f315a565c20904ca20924986128047480f54e546ebd16",
+      "converter": {
+        "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+        "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+        "upstream_version": "2.0.0",
+        "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+        "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+        "license": "MIT",
+        "files_unmodified": [
+          "core.py",
+          "LICENSE"
+        ],
+        "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+        "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+        "used_api": [
+          "make_pixel_art_animation",
+          "split_sprite_sheet",
+          "compose_sprite_sheet",
+          "remove_bg_by_color"
+        ],
+        "unused_components": [
+          "GUI",
+          "rembg",
+          "background-removal AI models",
+          "automatic updates",
+          "sklearn palette clustering"
+        ],
+        "api": "make_pixel_art"
+      },
+      "dimensions": [
+        32,
+        32
+      ],
+      "png_sha256": "a4b892c9cf4973fc08c9d5b99bdf7fbadd04f5c1039316c2ce5eaf190d6fd07a",
+      "rgba_sha256": "42b0da86bfeca7dda33c2c17959f98c5de3a6f428ec128d42a679b15cff1a77d",
+      "rgb565a8_sha256": "f14ce87ae6a3ae5d9918201e3a3f3aa75dcf36877bd292797e84bdd7c70c5d90",
+      "bytes": 3072,
+      "symbol": "ch_item_poop"
+    }
+  ],
+  "sprite_bytes": 12091392,
+  "background_bytes": 2171560,
+  "item_bytes": 3072,
+  "resource_bytes": 14266024,
+  "literal_terminator_bytes": 252,
+  "array_storage_bytes": 14266276,
+  "frame_count": 246,
+  "font": {
+    "name": "chameleon_font_18",
+    "size_px": 18,
+    "bpp": 4,
+    "converter": "lv_font_conv 1.5.3",
+    "symbols": "°·×—…‹›℃←→、。一三上下不与个中临为主举么乐也买乱了二于云互五些享京亮亲仅今仍从他以们件任份仿伏休伙会传伴伸位低住体何余作你使供侧便保修候值倾做停健偶像儿元充先光入六关其具典养兼内册再冬净准减几出击分切初删到制刷前剩力功加务动助励劳勿包化北匹十升午单卫印卷原去又友双发取受变口只叫可台右叶号吃同名后向否吧听启吸呆呢呼命和咔品响哪唤商啦喂喜嘴器嚓四回困固国图圆圈在地场址坊坏型城堆境增声壳处备复夏外多夜够大天太失头奖好始子字存季它守安完定宝实宠家容密察寻导小少尘尚就尾局屏展属州工左已币市带帮常幕干平年并幼广庆序库应店度康延开式张弱当录形彩影彼待很得微徽心忆忙快念态怎恢息悉情想感愿慢懒戏成我或战截所手才打扣找把抓抚护抬拍拖招拟择拿持挂按挑挥捉捕损换据排接提摄摆摇摸操支收改放效散数整文料斜断新方无日旦早时明昏星春昨是昵昼显晃晒晕晚晨景晴晶暂暴更最月有朋服望期未本机材束条来松板林果枝枫查标树栖校样格桌档梦检森植模次欢止正此步殊段每气水求汕池没治沿法泡洁洗活测浴海消深清温游湿源满演澡火灯灰点热然照熄熟爪爽片版物特状独玩环现珠球理瓣生用由电画界留疗疲病白皂的盖目直相盹看真眠眨眩眼着睡知短码确碌示礼祝离秋种秒称稍空立章童端符第等简算粉精系素紧累约级纪线组终经结给络统继绪续缓编网置美者而耍耗联肚背能脏脑脚腰腹自至舌舒航良色节花芽苍草药获莹菇菜萤营落蓝藏蘑虚虫虹蛋蝇螂蟀蟋蟑行补表袋被装要覆见观览觉触言计认让记设识试该详语请读调谢败购贴赚走赶起超趣足距跟路跳身躲软轻载较输边过近返还这进连追退选逐速遇道避都配醒采里重量金鉴钟铃键长门闭间闹阳阴阵阶除陪随隔集雨雪零雷雾需露静非靠面音页项顺顾预领风飞食餐饥饭饰饱饼饿首香验高黄黑龙！％（），：；？",
+    "symbol_count": 818,
+    "bitmap_bytes": 109967,
+    "source_sha256": "cdc0cfca3eec17adf7828184c265e2c5a72b38eab01a8ce8260cf2857b0421a9"
+  }
+}

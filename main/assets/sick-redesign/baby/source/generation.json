@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "stage": "baby",
+  "generator": "built-in image_gen",
+  "use_case": "precise-object-edit",
+  "reference": {
+    "file": "preview/assets/growth-concepts/baby-v2.png",
+    "sha256": "de6e159e9a46302e5a8b9a1d5c3cbb5c4c6f35cfa1ea0fe7e9182cb116c76104"
+  },
+  "prompt": {
+    "file": "main/assets/sick-redesign/baby/source/prompt.txt",
+    "sha256": "0f380944602e4ab67975cc8b84fa242c73eb1c3aeecf25e994f07ca2a13da9ce"
+  },
+  "source": {
+    "file": "main/assets/sick-redesign/baby/source/sick-sheet.png",
+    "sha256": "aacfc4283183df71e1d7572f90847cda464ef423a4d2888b1eaaba6fc002030c"
+  },
+  "spec": {
+    "file": "main/assets/sick-redesign/baby/source/spec.json",
+    "sha256": "c4ae3ac468c9835a6129b43f2a25bc86cc70c0e3843dfac78f7bada71091baaa"
+  },
+  "independently_drawn_poses": 4,
+  "grid": [
+    2,
+    2
+  ],
+  "changes": [
+    "smaller single rounded inflated ice pouch",
+    "narrow tied neck and small knot",
+    "round compact white highlight instead of horizontal band",
+    "existing baby body, tail, eye expressions and four-cell layout retained visually"
+  ],
+  "pose_manufacture": false,
+  "revision": "baby round bulging ice pouch with narrow tied neck, matching converted teen and adult sprites",
+  "edit_target": {
+    "file": "main/assets/sick-redesign/baby/source/sick-sheet.png",
+    "git_revision": "93ee649",
+    "sha256": "4e79285bddd81c4de64dbf156ea3b0dd95a4ee42f12fb1998f247222c545a79e"
+  },
+  "style_references": [
+    {
+      "file": "main/assets/sick-redesign/adult/frames/sick/sick_00.png",
+      "sha256": "5a3c934ce26647c650d4dcc03da3a2d655a7a40cfd660babf7cb64e40767e775",
+      "role": "ice-pouch-design-only"
+    },
+    {
+      "file": "main/assets/sick-redesign/teen/frames/sick/sick_00.png",
+      "sha256": "1b32fa9d5afee8819c9325db6c40f551a2bd234050201d107c32e11e55cc3c55",
+      "role": "ice-pouch-design-only"
+    },
+    {
+      "file": "main/assets/sick-redesign/adult/source/sick-sheet.png",
+      "sha256": "22185ba2f5d1c39fee988f14c253dfa45e3b65a647a31514245913a9b4aa1e06",
+      "role": "ice-pouch-design-only"
+    }
+  ],
+  "generation_history": [
+    {
+      "git_revision": "93ee649",
+      "record": {
+        "revision": "baby ice bag matches teen and adult rounded tied-neck pouch",
+        "edit_target": {
+          "file": "main/assets/sick-redesign/baby/source/sick-sheet.png",
+          "git_revision": "4d9a43b",
+          "sha256": "b8e2e1855d729012c81fedcf42d6f4ce197b124b6820ff46f8e0a28334e19988"
+        },
+        "source": {
+          "file": "main/assets/sick-redesign/baby/source/sick-sheet.png",
+          "sha256": "aacfc4283183df71e1d7572f90847cda464ef423a4d2888b1eaaba6fc002030c"
+        },
+        "prompt": {
+          "file": "main/assets/sick-redesign/baby/source/prompt.txt",
+          "sha256": "0f380944602e4ab67975cc8b84fa242c73eb1c3aeecf25e994f07ca2a13da9ce"
+        },
+        "style_references": [
+          {
+            "file": "main/assets/sick-redesign/teen/source/sick-sheet.png",
+            "sha256": "0ac961856315e1a61b559376eb8fe2bbf37ca9e06bfb36992d0afb40fd651e1b",
+            "role": "ice-pouch-design-only"
+          },
+          {
+            "file": "main/assets/sick-redesign/adult/source/sick-sheet.png",
+            "sha256": "22185ba2f5d1c39fee988f14c253dfa45e3b65a647a31514245913a9b4aa1e06",
+            "role": "ice-pouch-design-only"
+          }
+        ]
+      }
+    }
+  ],
+  "input_order": [
+    "edit_target",
+    "style_references[0]",
+    "style_references[1]",
+    "style_references[2]",
+    "reference"
+  ]
+}

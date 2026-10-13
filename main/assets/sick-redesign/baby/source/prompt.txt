@@ -1,0 +1,21 @@
+Use case: precise-object-edit
+Asset type: four-frame BABY sick chameleon pixel-art sprite sheet, exact existing 2x2 layout.
+Primary request: SURGICAL EDIT OF ONLY THE FOUR ICE BAGS IN IMAGE 1. The existing baby's broad, flat white-blue bag reads as a hat brim or cloth, and must be replaced by a clearly recognizable ROUND ICE BAG like the actual adult and teen pixel sprites in Images 2 and 3.
+Input roles:
+Image 1: edit target, the existing BABY four-frame sheet. Retain its exact four body drawings, poses, half-closed eyelids / blink, coiled tails, size, pixel texture and cell coordinates.
+Image 2: actual converted ADULT sick_00 128px frame, direct shape reference for the ICE BAG ONLY. Copy this pouch's rounded balloon-like lower body, chunky blue outline, single white highlight and smaller tied neck; do not use its adult body.
+Image 3: actual converted TEEN sick_00 128px frame, direct reference for the clear narrow tied neck and folded knot of its ICE BAG ONLY; do not use its teen body.
+Image 4: adult high-resolution 2x2 source sheet, inspect the ice bag more clearly to match the adult's round bottom and pale-blue shading.
+Image 5: original approved BABY identity, preserve its short low crest, huge golden eye, rounded body and coiled tail.
+
+ICE BAG DESIGN, the main correction:
+Draw ONE SMALL, CHUBBY, ROUND BLUE ICE SACK for each baby pose. Rounded convex bag belly, curved semicircular bottom, visibly bulging curved sides; a noticeably NARROW PINCHED NECK at the top joins a small irregular tied bow / folded cloth knot. Match the ADULT pouch's shape and blue palette directly. Its bottom should look like a small inflated pouch, not like a flat band of cloth.
+At the final intended 128x128 sprite scale: pouch maximum width around 14-18 logical pixels, round main belly about 12-14 pixels tall, visibly narrow neck 2-3 pixels wide, tied top about 4-5 pixels wide. Overall width must be narrower than the current broad baby bag and no wider than the adult reference's bag. Make the knot small, not a large separate second object.
+Pale cyan bag body, medium cyan shadow along the lower-left curve, crisp dark navy outline. Put a COMPACT ROUND WHITE HIGHLIGHT on one side of the swollen belly; the white highlight must NOT stretch into a long horizontal stripe and must NOT flatten the silhouette.
+Position ONE bag resting on the SIDE / UPPER-RIGHT SLOPE of the baby head crest, angled slightly with that slope like the adult reference. Keep it to the side of the crown, rather than stretched horizontally across the front brow. Its lower curved edge must stay ABOVE the golden eye without hiding any eyelid, pupil or the big eye's upper contour. The green crest must remain identifiable. The neck and knot rise from the round bag naturally, without a bottle-cap shape or a long handle.
+Apply the same single-bag design coherently to all four EXISTING head poses; keep the half-open eyes in cells 1,2,4 and sleepy blink in cell 3 unchanged.
+
+Strict invariants:
+No changes outside the old ice-bag area and the immediate replacement footprint. Preserve each existing baby body, head outline except direct bag contact, golden eye, eyelid and expression, mouth, low crest, lime/forest-green highlights and shadows, cream belly, all four limbs and planted feet, back bumps, continuous spiral tail, exact pose scale, exact original cell placement and transparent gutters. Do not translate, resize, rotate, stretch, recreate or redraw the baby bodies. Do not copy the adult/teen character or add adult teal stripes. Keep exact current square sheet dimensions and 2x2 frame order.
+Transparent background remains transparent. Preserve crisp square pixel clusters and thick character outlines. No ground, shadows, frame labels, text, grid, hearts, tongue, insects or food.
+Avoid especially: flat compress cloth, folded towel, rectangle, headband, hat, brim, beret, long horizontal strip, ice bottle, teardrop-only vertical bag, double bag, giant bow, pupil covered by bag, old bag left under new bag. This edit must visibly read at 128px as the SAME rounded tied ICE POUCH as the adult reference.

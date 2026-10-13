@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "default_stage": "teen",
+  "stages": [
+    {
+      "id": "baby",
+      "label": "幼年",
+      "reference": "growth-concepts/baby-v2.png",
+      "manifest": "growth/baby/frames/manifest.json",
+      "render_scale": 0.84
+    },
+    {
+      "id": "teen",
+      "label": "少年",
+      "reference": "chameleon.png",
+      "manifest": "frames/manifest.json",
+      "render_scale": 1
+    },
+    {
+      "id": "adult",
+      "label": "成年",
+      "reference": "growth-concepts/adult-v1.png",
+      "manifest": "growth/adult/frames/manifest.json",
+      "render_scale": 1.06
+    }
+  ]
+}

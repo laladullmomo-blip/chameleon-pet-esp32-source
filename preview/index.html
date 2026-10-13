@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#edf0df">
+  <title>卷卷的小日子 · 变色龙电脑测试版</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23749651'/%3E%3Ctext x='6' y='23' font-size='22' fill='%23fffbe6'%3E卷%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#device" class="skip-link">跳到宠物界面</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="卷卷的小日子首页"><span class="brand-mark">卷</span><span>卷卷的小日子<small>A LITTLE LIFE, IN YOUR POCKET</small></span></a>
+    <span class="edition"><i></i> 电脑体验版 · 本地存档</span>
+  </header>
+  <main class="studio">
+    <section class="intro" aria-labelledby="title">
+      <span class="eyebrow">CHAMELEON DAYS / 01</span>
+      <h1 id="title">一片小森林，<br>一位新朋友。</h1>
+      <p class="intro-copy">陪卷卷散步、洗澡、睡个好觉。<br>还有它最拿手的——<strong>伸舌捕食。</strong></p>
+      <div class="today-card"><span class="card-eyebrow">TODAY WITH JUANJUAN</span><p id="daily-note">今天的阳光很好，去草地找点小零食吧。</p><span class="leaf-doodle">✦</span></div>
+      <div class="scene-picker" aria-label="生活场景"><div class="section-line"><h2>换个地方生活</h2><span>5 个森林场景</span></div><div id="scene-list"></div></div>
+      <p class="local-note">这是先在电脑上体验的软件版本。<br>确认画面和玩法后，再更新开发板。</p>
+    </section>
+    <section class="device-column" aria-label="圆屏宠物测试界面">
+      <div class="device-shell" id="device" tabindex="-1">
+        <div class="device-screen" id="screen">
+          <canvas id="pet-canvas" width="466" height="466" aria-label="变色龙生活场景与动画"></canvas>
+          <div id="screen-ui"></div>
+          <div id="screen-toast" role="status" aria-live="polite"></div>
+          <div id="sleep-cover" hidden><span>轻触唤醒</span></div>
+        </div>
+        <button class="case-button pwr-button" data-device-key="PWR" title="PWR 电源键：熄屏 / 唤醒" aria-label="PWR电源键，熄屏或唤醒"><span>PWR</span></button>
+        <button class="case-button boot-button" data-device-key="BOOT" title="BOOT 菜单键：进入菜单 / 返回首页" aria-label="BOOT菜单键，进入菜单或返回首页"><span>BOOT</span></button>
+      </div>
+      <div class="device-caption"><span id="current-mode">森林草地 · 日常生活</span><span>466 × 466 圆屏</span></div>
+      <section class="growth-journal" aria-labelledby="growth-journal-title">
+        <div class="section-line"><h2 id="growth-journal-title">成长日记</h2><span id="growth-current-label">幼年</span></div>
+        <div class="growth-stages"><span data-growth-stage="baby">幼年</span><i>→</i><span data-growth-stage="teen">少年</span><i>→</i><span data-growth-stage="adult">成年</span></div>
+        <progress id="growth-progress" max="100" value="0" aria-label="当前成长阶段进度"></progress>
+        <p id="growth-summary" role="status">好好吃饭、休息，慢慢长大。</p>
+        <small>良好照顾累计 7 天进入少年，14 天进入成年。需要照顾时暂停成长。</small>
+        <button data-page="growth">查看成长详情</button>
+      </section>
+      <section class="growth-preview" aria-labelledby="growth-preview-title">
+        <div class="section-line"><h2 id="growth-preview-title">临时外形预览</h2><span id="growth-stage-label" role="status">跟随成长</span></div>
+        <div id="stage-list" class="stage-list" role="group" aria-label="选择宠物形态">
+          <button data-stage="baby" aria-pressed="false" disabled>幼年</button><button data-stage="teen" aria-pressed="false" disabled>少年</button><button data-stage="adult" aria-pressed="false" disabled>成年</button>
+        </div>
+        <button id="stage-follow" class="stage-follow" disabled>返回当前成长形态</button>
+        <p>此处只临时看看外形，不改变成长进度、状态或库存。正常画面跟随真实成长，刷新后也会保留成长进度。</p>
+      </section>
+      <p class="device-key-note">PWR：熄屏 / 唤醒 · BOOT：菜单 / 首页</p>
+      <nav class="quick-actions" aria-label="常用操作">
+        <button data-command="feed">喂食</button><button data-command="pet">摸摸</button><button data-command="sleep">睡觉</button><button data-page="menu">主菜单</button>
+      </nav>
+    </section>
+    <aside class="experience-panel" aria-label="测试工具">
+      <div class="section-line"><h2>陪它玩一会儿</h2><span class="mini-label">14 种动作</span></div>
+      <p class="panel-description">先看看动作，再试试圆屏里的菜单。</p>
+      <div id="motion-list" class="motion-grid"></div>
+      <div class="motion-extra"><button data-motion="idle">发呆呼吸</button><button data-command="feed">伸舌捕食</button><button data-motion="shelter">避雨</button></div>
+      <div class="care-experience"><button id="experience-hungry">体验饥饿照顾</button><button id="experience-sick">体验生病治疗</button></div>
+      <div class="growth-experience"><button id="experience-growth">体验完整成长</button><button id="experience-grow-next" hidden>体验下一阶段</button></div>
+      <p class="growth-experience-note">成长体验单独进行：幼年 → 少年 → 成年，原宠物与相册不会被覆盖。</p>
+      <div id="experience-notice" hidden><span>照顾体验中 · 原存档已保留</span><button id="experience-exit">退出体验</button></div>
+      <div class="panel-divider"></div>
+      <section class="forest-life" aria-label="森林生活">
+        <div class="section-line"><h2>森林生活</h2><span id="environment-label">跟随本地时间</span></div>
+        <p id="life-note" role="status">卷卷正在观察小森林。</p>
+        <div class="life-switches"><label><input id="auto-life" type="checkbox" checked>自主生活</label><label><input id="auto-world" type="checkbox" checked>昼夜天气</label></div>
+        <details class="environment-preview"><summary>体验不同昼夜与天气</summary>
+          <label>时段<select id="phase-preview"><option value="actual">跟随本地时间</option value="dawn">体验清晨</option><option value="day">体验白天</option><option value="dusk">体验黄昏</option><option value="night">体验黑夜</option></select></label>
+          <label>天气<select id="weather-preview"><option value="actual">跟随城市天气</option><option value="clear">体验晴天</option><option value="cloudy">体验阴天</option><option value="rain">体验下雨</option><option value="storm">体验雷雨</option><option value="fog">体验雾天</option><option value="snow">体验下雪</option></select></label>
+          <p>体验选项只改变场景，不修改真实时钟或天气。自动作息仍按电脑时间。</p><button id="environment-reset">回到实时生活</button>
+        </details>
+      </section>
+      <div class="panel-divider"></div>
+      <div class="section-line"><h2>桌面小组件</h2></div>
+      <div class="mode-buttons"><button data-page="clock">时钟</button><button data-page="weather">天气</button><button data-page="charging">充电画面</button></div>
+      <details class="test-settings"><summary>预览数据与测试工具</summary>
+        <label>天气城市<input id="weather-city" value="汕头" maxlength="12"></label>
+        <button id="weather-refresh">刷新天气</button>
+        <p id="weather-status" role="status">正在获取天气…</p>
+        <p class="weather-attribution">天气模型：<a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> · 城市：<a href="https://www.geonames.org/" target="_blank" rel="noopener">GeoNames</a></p>
+        <label>电脑体验电量 <output id="battery-value">85%</output><input id="battery-level" type="range" min="0" max="100" value="85"></label>
+        <label class="check-label"><input id="battery-charging" type="checkbox" checked>正在充电</label>
+        <div class="tool-buttons"><button id="advance-time">快进 10 分钟</button><button id="export-save">导出存档</button><button id="import-save">导入存档</button><button id="reset-save" class="danger-text">重新开始</button></div>
+        <input id="import-file" type="file" accept="application/json,.json" hidden>
+        <p>城市天气联网获取，每15分钟缓存一次；无网络会显示获取失败。电量和摇晃为电脑预览，相机保存宠物场景截图。开发板传感器和续航待实机验收。</p>
+      </details>
+      <div class="save-indicator" id="save-indicator" role="status"><i></i> 已在这台电脑保存</div>
+    </aside>
+  </main>
+  <footer><span>小小的陪伴，也有大大的日常。</span><span>幼年 → 少年 → 成年 · 7 天 / 14 天成长</span></footer>
+  <dialog id="confirm-dialog"><form method="dialog"><h2>重新开始一段小日子？</h2><p>会清除当前宠物状态、物品和相册。你可以先导出存档。</p><div><button value="cancel">保留现在</button><button value="confirm" class="danger-button">重新开始</button></div></form></dialog>
+  <script type="module" src="app.mjs"></script>
+</body>
+</html>

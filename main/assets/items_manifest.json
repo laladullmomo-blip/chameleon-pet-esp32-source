@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "id": "poop",
+  "source_spec": "main/assets/source/poop.json",
+  "source_spec_sha256": "07ce5600489ae13930ccda1fd2edef75ce5f73d36d2e3e6f491f82af2536d2a8",
+  "source": "main/assets/source/poop-generated.png",
+  "source_sha256": "ae6c46873525acac9bab84daafab327b336e6c24032cadfa7997b1a2c776e309",
+  "converter": {
+    "repository": "https://github.com/ahmetolcum/PixelArtConverter",
+    "commit": "e6fac947bfdebec3b5e12a7856f95997a934ac07",
+    "upstream_version": "2.0.0",
+    "core_sha256": "dc79a615a838f314124cba674fefb2fb79ef4c4dfa5bc4d9b3604eb823001bc1",
+    "license_sha256": "dc379d7d1178e90301b2541997c0d782cc833d633c5a23784c6e8e0d4896e53d",
+    "license": "MIT",
+    "files_unmodified": [
+      "core.py",
+      "LICENSE"
+    ],
+    "core_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/core.py",
+    "license_source_url": "https://raw.githubusercontent.com/ahmetolcum/PixelArtConverter/e6fac947bfdebec3b5e12a7856f95997a934ac07/LICENSE",
+    "used_api": [
+      "make_pixel_art_animation",
+      "split_sprite_sheet",
+      "compose_sprite_sheet",
+      "remove_bg_by_color"
+    ],
+    "unused_components": [
+      "GUI",
+      "rembg",
+      "background-removal AI models",
+      "automatic updates",
+      "sklearn palette clustering"
+    ],
+    "api": "make_pixel_art"
+  },
+  "processing": {
+    "width": 32,
+    "height": 32,
+    "silhouette_width": 25,
+    "baseline": 28,
+    "alpha_threshold": 127,
+    "colors": 6,
+    "dither": false,
+    "outline": false,
+    "remove_bg": false,
+    "brightness": 0,
+    "contrast": 0,
+    "saturation": 0,
+    "palette": [
+      [
+        35,
+        19,
+        13
+      ],
+      [
+        64,
+        34,
+        20
+      ],
+      [
+        96,
+        52,
+        27
+      ],
+      [
+        130,
+        77,
+        39
+      ],
+      [
+        170,
+        114,
+        62
+      ],
+      [
+        209,
+        157,
+        94
+      ]
+    ]
+  },
+  "registration": {
+    "source_bounds": [
+      335,
+      291,
+      1084,
+      911
+    ],
+    "square_canvas": 959,
+    "placement": [
+      105,
+      219
+    ],
+    "stretched": false
+  },
+  "output": "main/assets/poop.png",
+  "png_sha256": "a4b892c9cf4973fc08c9d5b99bdf7fbadd04f5c1039316c2ce5eaf190d6fd07a"
+}

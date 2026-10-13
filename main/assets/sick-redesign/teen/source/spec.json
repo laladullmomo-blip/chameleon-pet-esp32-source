@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "size": 128,
+  "palette_colors": 32,
+  "canvas_padding": 1.2,
+  "reference": "../../../../../preview/assets/chameleon.png",
+  "actions": [
+    {
+      "id": "sick",
+      "file": "sick-sheet.png",
+      "cols": 2,
+      "rows": 2,
+      "count": 4,
+      "fps": 2,
+      "loop": true,
+      "background": "transparent"
+    }
+  ]
+}
